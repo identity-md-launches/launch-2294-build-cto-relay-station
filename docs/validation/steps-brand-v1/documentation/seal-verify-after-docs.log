@@ -1,0 +1,5 @@
+$ python3 frontend/scripts/seal-steps.py verify   (delivered working tree, after all documentation edits)
+PASS: exact captured runtime/test/assets/export bytes unchanged; protected predecessor bytes match
+exit=0
+$ git status --short -- . ":!README.md" ":!docs"   (non-documentation changes)
+exit=0

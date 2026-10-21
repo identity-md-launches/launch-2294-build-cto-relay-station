@@ -1,0 +1,8 @@
+$ node frontend/scripts/static-preview.mjs (committed export, no install)
+Production export preview ready at http://127.0.0.1:4175/preview/
+GET /preview/ -> 200 2054B
+GET /preview/og.png -> 200 18537B
+GET /preview/favicon.svg -> 200 374B
+GET /preview/favicon-32.png -> 200 495B
+GET /preview/apple-touch-icon.png -> 200 2842B
+title: STEPS · Build on every step

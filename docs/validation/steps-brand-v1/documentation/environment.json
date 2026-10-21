@@ -1,0 +1,9 @@
+{
+  "node": "v24.21.0",
+  "npm": "11.19.0",
+  "forge": "forge Version: 1.8.3",
+  "anvil": "anvil Version: 1.8.3",
+  "python": "Python 3.12.3",
+  "freshCloneHead": "392465f36df54a359177241d237a018604bcda8b",
+  "note": "Fresh git clone of the delivery HEAD into a scratch directory; npm registry reachable for npm ci. No browser, Anvil journey or live network test was run in this pass."
+}

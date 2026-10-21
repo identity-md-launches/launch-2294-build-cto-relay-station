@@ -1,30 +1,34 @@
 {
   "algorithm": "SHA-256",
-  "scope": "Current delivered Markdown documentation, independent of runtime/test/assets/export and raw evidence manifests",
+  "scope": "Every Markdown document in README.md, DESIGN.md, brand/**, frontend/** (excluding node_modules) and docs/**, regenerated after the final documentation edit. Independent of runtime/test/assets/export manifests and of evidence-sha256.json. Excludes itself; no document quotes this file hash.",
   "files": {
     "DESIGN.md": {
       "bytes": 10496,
       "sha256": "de1acb366783afea596dbbdcc831a41acc1c8d050d648879a552a5a11fa9d9f9"
     },
     "README.md": {
-      "bytes": 6412,
-      "sha256": "daa7e523d5877635e88ab93a136b6a3eece73557ad9409cc9c790296b9a2d476"
+      "bytes": 18310,
+      "sha256": "928aa95726f3f5ee5270c65528b2ea4bc4498c62f6448e40ab8bc44db7432411"
     },
     "brand/README.md": {
       "bytes": 6214,
       "sha256": "4ab50ae250f4ff0deb6c72de2291ee298ad63c30c51c4986d53b0f200401e61f"
     },
     "docs/ACCEPTANCE.md": {
-      "bytes": 2733,
-      "sha256": "720e4bb8e55505c3401d076ca6e883d96f6ab993df06458e7fba0ee9fc9304f3"
+      "bytes": 3775,
+      "sha256": "a4187a7f079db3e46d80472fe7333fde2b9c4363e3cf5dbd7152dfa71a347865"
     },
     "docs/AGENT-GUIDE.md": {
-      "bytes": 6664,
-      "sha256": "0373d0f249cb3ae7774a462c894090177c70a73e0641e6542d46d6735907e654"
+      "bytes": 6822,
+      "sha256": "053fae9d0de08e90627846de3df7d424e1bb7cc0f0fd0ddd45676eee8019a944"
+    },
+    "docs/BRAND.md": {
+      "bytes": 10293,
+      "sha256": "8e5ec5619ba8b9182a4753f43eb35cce5d0159ac98eb8560634a13f7e4d09b0d"
     },
     "docs/BUILD.md": {
-      "bytes": 15671,
-      "sha256": "1ded0f117c07e82f16797077b4aa77e50682706e15cde11c27a1f1f80877533e"
+      "bytes": 15810,
+      "sha256": "58222cbc1a6d24710e78e26364e7fb7b5c0150b665f24f260eb1af4c3dfe82f3"
     },
     "docs/CLI.md": {
       "bytes": 22308,
@@ -39,12 +43,12 @@
       "sha256": "9fd1ea86f0e8f25e8ed5816c88ed87ede92276151b789583e98915417d90ae6f"
     },
     "docs/FRONTEND.md": {
-      "bytes": 5624,
-      "sha256": "0032bd6ed63b373bfa56f4ccd6f05dcc457d45e86dee875453bd2d7de77a80fb"
+      "bytes": 5454,
+      "sha256": "71115877959b56f18546a35c76b6439ffbbd78435c8150b0f8c58f3fa05d5a06"
     },
     "docs/HANDOFF.md": {
-      "bytes": 4252,
-      "sha256": "deff6122a90e154acbd7e225ebd95b78e7f580ed0c7549f565f0be36de0247e4"
+      "bytes": 4642,
+      "sha256": "d7dfa9e349699454065595ad8e5bda9fbb319097a2a5e3ac4b5e5695ba820779"
     },
     "docs/LIMITS.md": {
       "bytes": 6339,
@@ -55,20 +59,20 @@
       "sha256": "72536075b2e50fbc60b4fac4343c33eccec55590a71a9d02bcbc7af18037606a"
     },
     "docs/OPERATIONS.md": {
-      "bytes": 10707,
-      "sha256": "d5819d36e73db3c137b7c8fe332eb4dfb12e135d80e2470f3425b80533c01642"
+      "bytes": 10537,
+      "sha256": "715b909e21796b34f3a60a62f81912db492cbbcd0f5ff4b9d3b2e3c9075e0aaa"
     },
     "docs/PLATFORM-AUTHORING.md": {
       "bytes": 5316,
       "sha256": "fe5b79f3ed137184c2f748232c7e48bf7328dda65db0e16d7d059dbcc4d592ba"
     },
     "docs/PROTOCOL-OVERVIEW.md": {
-      "bytes": 26176,
-      "sha256": "d88a4820b37b8e81a795949d61865a04528bd76a6f5b1f94b12e79345d26ae6f"
+      "bytes": 26247,
+      "sha256": "3a81b364d8d459d670fcc52798b9a79e3673cce97a9f929495b70e472b1fd785"
     },
     "docs/REVIEW.md": {
-      "bytes": 8241,
-      "sha256": "be8fb4425ad3bff702b91561e3b55354315cf454a7eddf4c85d4accad57d8d40"
+      "bytes": 8330,
+      "sha256": "715df40f8daf9ed272e019dff6760bfab9a1dba700473f6d2a1d727cfc0b7a4f"
     },
     "docs/SDK-BROWSER.md": {
       "bytes": 4973,
@@ -87,8 +91,8 @@
       "sha256": "2d47c3c5f81eb3f5533756e4acd9a71804d72b04427270956445555cd550954b"
     },
     "docs/validation/README.md": {
-      "bytes": 503,
-      "sha256": "b2608a8c84387e5ddce6cbb443aceb9ad514db843bdebf4b8e1f40f960b0b0bd"
+      "bytes": 829,
+      "sha256": "2b4923bb751a256ce65636d6b01ad670eadafc64befd6afa0564bab2a70fb7dc"
     },
     "docs/validation/historical/README.md": {
       "bytes": 2016,
@@ -233,6 +237,10 @@
     "docs/validation/steps-brand-v1/design-review.md": {
       "bytes": 6482,
       "sha256": "5fbd6ee19ef481980875dc4d9ba9a8aea4cc7995dc26775f04e0d26762339cf5"
+    },
+    "docs/validation/steps-brand-v1/documentation/README.md": {
+      "bytes": 5235,
+      "sha256": "6c2e0bd5e5eb6b55c9c905d3c9996c480f3f89323a04b2dec220afe8f79533ab"
     },
     "docs/validation/steps-brand-v1/local/chromium/files/child-continue/docs/child-notes.md": {
       "bytes": 28,

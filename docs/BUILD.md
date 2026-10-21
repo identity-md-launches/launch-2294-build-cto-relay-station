@@ -4,7 +4,7 @@ Run commands from the repository root. No public deployment, funded wallet, API 
 
 ## Prerequisites and dependencies
 
-Use Node.js ≥22 (the package engine), Foundry providing `forge` and `anvil`, and the native solc **0.8.26** compiler available to Foundry. Python 3 is optional for the independent image-fixture check. The documentation rerun used Node 24.21.0 and Forge 1.8.3; the delivered frontend acceptance used the environments recorded in [final evidence](https://github.com/identity-md-launches/launch-2294-build-cto-relay-station/blob/d29eedf8e7d6608ed109972c179b367ac07ce91f/docs/validation/platform-ux-v1/final/README.md). Tool versions for the documentation rerun are in [its environment record](https://github.com/identity-md-launches/launch-2294-build-cto-relay-station/blob/d29eedf8e7d6608ed109972c179b367ac07ce91f/docs/validation/platform-ux-v1/documentation/environment.json).
+Use Node.js ≥22 (the package engine), Foundry providing `forge` and `anvil`, and the native solc **0.8.26** compiler available to Foundry. Python 3 is optional for the independent image-fixture check. The STEPS documentation pass reran these checks from a fresh clone with Node 24.21.0 and Forge 1.8.3 ([its logs](validation/steps-brand-v1/documentation/README.md)). The final STEPS acceptance environment is recorded in [tool-versions.log](validation/steps-brand-v1/tool-versions.log).
 
 ```sh
 node --version
@@ -95,7 +95,7 @@ npm run test:e2e --prefix frontend
 
 The build writes root `dist/` (not `frontend/dist/`). `npm run preview --prefix frontend` serves port 4173. `node frontend/scripts/static-preview.mjs` serves the committed export at `http://127.0.0.1:4175/preview/` using Node alone. The relative base and hash routes need no rewrite or backend. A public/IPFS deployment was not attempted.
 
-The current STEPS results are in [final acceptance](validation/steps-brand-v1/README.md), with exact runtime, test, asset and export hashes. Historical results do not establish final acceptance. The retained earlier integration report covered **all `tests/e2e/*.spec.ts`**, including 24 original cases, 10 platform cases and one reduced-motion regression in each of five configured projects. Chromium viewports are 1440×900, 390×844 and 320×844; WebKit is 1440×900 and 390×844. That historical report records 175 passes, not the earlier 50-case subset. Its source/export hashes differ from this checkout; see the [current comparison](https://github.com/identity-md-launches/launch-2294-build-cto-relay-station/blob/d29eedf8e7d6608ed109972c179b367ac07ce91f/docs/validation/platform-ux-v1/documentation/current-tree-hashes.json). Use the current acceptance index for the fresh branded run and exact command outputs.
+The current STEPS results are in [final acceptance](validation/steps-brand-v1/README.md), with exact runtime, test, asset and export hashes. Historical results do not establish final acceptance. The retained earlier integration report covered **all `tests/e2e/*.spec.ts`**, including 24 original cases, 10 platform cases and one reduced-motion regression in each of five configured projects. Chromium viewports are 1440×900, 390×844 and 320×844; WebKit is 1440×900 and 390×844. That historical report records 175 passes, not the earlier 50-case subset. Its source/export hashes differ from this checkout; see the [historical comparison](https://github.com/identity-md-launches/launch-2294-build-cto-relay-station/blob/d29eedf8e7d6608ed109972c179b367ac07ce91f/docs/validation/platform-ux-v1/documentation/current-tree-hashes.json). Use the current acceptance index for the fresh branded run and exact command outputs.
 
 Run the full actual-contract runner sequentially after `forge build`:
 
@@ -121,7 +121,7 @@ They write evidence in the final validation directory; run in a disposable check
 
 ## Test environments and output handling
 
-Frontend versions are locked in `frontend/package-lock.json`: React 19.3.1, TypeScript 5.9.3, Vite 8.3.4, Vitest 5.0.5, Playwright 1.64.1. Core compiler settings remain solc 0.8.26/Cancun/viaIR/optimizer 200. Historical final tool observations and source hashes remain in [final evidence](https://github.com/identity-md-launches/launch-2294-build-cto-relay-station/blob/d29eedf8e7d6608ed109972c179b367ac07ce91f/docs/validation/platform-ux-v1/final/README.md); the documentation rerun's actual tool versions/results are [recorded separately](https://github.com/identity-md-launches/launch-2294-build-cto-relay-station/blob/d29eedf8e7d6608ed109972c179b367ac07ce91f/docs/validation/platform-ux-v1/documentation/README.md).
+Frontend versions are locked in `frontend/package-lock.json`: React 19.3.1, TypeScript 5.9.3, Vite 8.3.4, Vitest 5.0.5, Playwright 1.64.1. Core compiler settings remain solc 0.8.26/Cancun/viaIR/optimizer 200. Current tool versions are in [tool-versions.log](validation/steps-brand-v1/tool-versions.log). Historical PLATFORM-UX-V1 tool observations remain in its [final evidence](https://github.com/identity-md-launches/launch-2294-build-cto-relay-station/blob/d29eedf8e7d6608ed109972c179b367ac07ce91f/docs/validation/platform-ux-v1/final/README.md).
 
 Install Chromium/WebKit and their required host shared libraries before browser tests. `PLAYWRIGHT_BROWSERS_PATH` selects a preinstalled runtime location; `W1_CHROMIUM_EXECUTABLE` / `W1_WEBKIT_EXECUTABLE` select compatible launchers. On a supported host missing WebKit libraries, `bash frontend/scripts/prepare-webkit.sh /tmp/cto-relay-webkit` downloads/extracts temporary libraries and prints a launcher setting; it is not an offline or universal OS installer. Emulated WebKit is not native Safari certification.
 
@@ -131,12 +131,14 @@ Install Chromium/WebKit and their required host shared libraries before browser 
 W1_E2E_REPORT=../test/scratch/e2e-report.json npm run test:e2e --prefix frontend
 ```
 
-The default suite writes `docs/validation/platform-ux-v1/final/e2e.json`; do not overwrite retained acceptance evidence when comparing runs. Browser scripts need loopback networking and disposable ports, but no external RPC, private key or account. Checks must report original failures alongside later successful revisions. The structural checker `node frontend/scripts/check-integration.mjs` writes a report and checks bytes/configuration only; it is not behavioral or independent review.
+By default the suite writes its JSON report to `docs/validation/platform-ux-v1/final/e2e.json`, its per-test audits to `docs/validation/steps-brand-v1/browser/` (`W1_E2E_AUDIT`), and fixture downloads to `docs/validation/platform-ux-v1/final/fixtures/`. Do not overwrite retained acceptance evidence when comparing runs. Browser scripts need loopback networking and disposable ports, but no external RPC, private key or account. Checks must report original failures alongside later successful revisions. The structural checker `node frontend/scripts/check-integration.mjs` writes a report and checks bytes/configuration only; it is not behavioral or independent review.
 
-To compare protected core bytes and the delivered source/export against their recorded hashes without writing any runtime/configuration files:
+To compare the delivered runtime source, tests, brand assets and `dist/` export against the hashes captured after the final STEPS test run, and the 94 protected core/build files against the pinned predecessor `d29eedf8…`, without writing anything:
 
 ```sh
-python3 docs/validation/platform-ux-v1/documentation/verify.py
+python3 frontend/scripts/seal-steps.py verify
 ```
 
-This excludes intentionally updated README/docs from the old source manifest, prints all compared hashes and exits nonzero on mismatch. It does not certify behavior. The [current acceptance matrix](https://github.com/identity-md-launches/launch-2294-build-cto-relay-station/blob/d29eedf8e7d6608ed109972c179b367ac07ce91f/docs/validation/platform-ux-v1/documentation/README.md) separates historical local acceptance, documentation reruns and unperformed live gates.
+The command exits nonzero and names the changed files if any byte differs. It needs the predecessor commit in local Git history, which a normal clone includes. It does not certify behavior. Documentation is hashed separately in [docs-sha256.json](validation/steps-brand-v1/docs-sha256.json), so editing docs does not invalidate the runtime seal. Any runtime, test or asset edit does invalidate it and requires the affected tests to be rerun before `capture`.
+
+The earlier `docs/validation/platform-ux-v1/documentation/verify.py` audit is no longer in the tree. It can be recovered with the [historical index](validation/historical/README.md), but it checks the old pre-brand source and is historical. [Current acceptance](ACCEPTANCE.md) separates fixture, local-contract and live results.

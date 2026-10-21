@@ -1,0 +1,82 @@
+{
+  "algorithm": "SHA-256",
+  "scope": "Documentation-pass records in this folder; excludes itself.",
+  "files": {
+    "README.md": {
+      "bytes": 5235,
+      "sha256": "6c2e0bd5e5eb6b55c9c905d3c9996c480f3f89323a04b2dec220afe8f79533ab"
+    },
+    "build.log": {
+      "bytes": 510,
+      "sha256": "aaa605392f3f8581e92c523a81e8131c4a8384da36382c7264ca2d0cd8be7bfa"
+    },
+    "cli-help.log": {
+      "bytes": 1261,
+      "sha256": "f15fbaf1e2b51ff5c5b42db2be7e91178c4a49d2afbc06d08be90cdd21097fb7"
+    },
+    "environment.json": {
+      "bytes": 388,
+      "sha256": "10ab900cae8a6ad4bf7da19649fab52a39410252e73fa83f4797aac66cf336c1"
+    },
+    "fixtures.log": {
+      "bytes": 448,
+      "sha256": "9217dc67c05e968d339db88b0a5a20963b4cf463b63c553c15201e1a51aeb31d"
+    },
+    "forge-build.log": {
+      "bytes": 59517,
+      "sha256": "237dc17648f72b8db82aacfbe7f927f6487e25a1e26c73d2c857fc45b7eded6f"
+    },
+    "forge-fmt.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "forge-test.log": {
+      "bytes": 15177,
+      "sha256": "7e171fe5f13228fccbec526127ccba395c6af60b00834cf053a2df5ff6263212"
+    },
+    "git-status-after-build.log": {
+      "bytes": 7,
+      "sha256": "19eaf43821a7660ec323a87c8457bf74823beb296c39f5e01aa8a683aa50f061"
+    },
+    "historical-recovery.log": {
+      "bytes": 214,
+      "sha256": "43a6b7c028f978a57562b47f263450a6d7824ca248b000e8267180ab9549cb49"
+    },
+    "manifest-verification.json": {
+      "bytes": 1410,
+      "sha256": "86ca3ff22f51c1da5e1ea19f8065e9dae3743c506fbea9713e66a2c6e86cfaa6"
+    },
+    "release.log": {
+      "bytes": 994,
+      "sha256": "554dbce94999e0e80d489ab7e99a4b3eb86e0f6a2522cb3538fb52e19d2985e1"
+    },
+    "sdk-tests.log": {
+      "bytes": 3893,
+      "sha256": "bf77506321fa2ede2f7dcaa993bbe98a7b776432db34b5947c545dcf1abee73c"
+    },
+    "seal-verify-after-docs.log": {
+      "bytes": 298,
+      "sha256": "6908b02f389ea4ea02131116285ff3a01b139087129908e06989588ba5232a15"
+    },
+    "seal-verify-fresh-clone-after-rebuild.log": {
+      "bytes": 101,
+      "sha256": "73b8282a160041f3bb845f90638f4242d8c539317ac2508bd4bd87c13761da6f"
+    },
+    "size-after-docs.json": {
+      "bytes": 795,
+      "sha256": "afb0dd7d5c12da3838f8c9f8e3063f14fc0c316f96f886abd8fb7e53429b2b50"
+    },
+    "static-preview.log": {
+      "bytes": 361,
+      "sha256": "ed9669348035b6f38a76c17565d18c89556a344e49120046bc6a73dcc677f951"
+    },
+    "typecheck.log": {
+      "bytes": 73,
+      "sha256": "8566c5bd7867dbc0c26400c7ede8dc2facd0065c7e1935fa1666f43d06740dd5"
+    },
+    "unit.log": {
+      "bytes": 1218,
+      "sha256": "eb4b484807a9dd3608f155198876a36b3d6da1adc5ed6119519a49ff811c2f22"
+    }
+  }
+}

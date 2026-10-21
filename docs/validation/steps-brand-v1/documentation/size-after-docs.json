@@ -1,0 +1,12 @@
+{
+  "method": "Fresh Git repository containing every deliverable file from git ls-files --cached --others --exclude-standard, excluding .imd inputs and test/scratch. Single commit, git bundle create + git bundle verify. Same method as ../size-final.json. Measured after the final documentation edit; this file and sha256.json were then rewritten with the result, which changes the bundle by about 1 KB.",
+  "fileCount": 1402,
+  "rawBytes": 16918279,
+  "sourceSnapshotGitBundleBytes": 6819376,
+  "limit": 8388608,
+  "spareBytes": 1569232,
+  "status": "PASS",
+  "originalRepositoryHistory": "NOT_MEASURED",
+  "confirmingRemeasureBytes": 6820426,
+  "confirmingRemeasureNote": "Bundle size after writing this file and sha256.json, before this note was added; still about 1.57 MB below the limit."
+}

@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "scope": "Manifest files named in check-results.json are unchanged since the final test capture; seal-verify logs show the tree still matches them.",
+  "manifests": {
+    "dist-sha256.json": {
+      "recordedInCheckResults": "1efb827fc72958a4169ea65c3117f8dc09a8403308eba7da14fedb3d40ea8af8",
+      "actual": "1efb827fc72958a4169ea65c3117f8dc09a8403308eba7da14fedb3d40ea8af8",
+      "equal": true
+    },
+    "test-source-sha256.json": {
+      "recordedInCheckResults": "21ca6158cf461eee5c75027555cf2bf65fd1c3aecd7fceaf29a9025404e1e660",
+      "actual": "21ca6158cf461eee5c75027555cf2bf65fd1c3aecd7fceaf29a9025404e1e660",
+      "equal": true
+    },
+    "runtime-source-sha256.json": {
+      "recordedInCheckResults": "727a02adeedc4bf175c1d392b26ee622f5863a1ad7f2f49f7e1929a813217290",
+      "actual": "727a02adeedc4bf175c1d392b26ee622f5863a1ad7f2f49f7e1929a813217290",
+      "equal": true
+    },
+    "assets-sha256.json": {
+      "recordedInCheckResults": "9e3149efdd03376b2cb3131aaf5e39c37a931f496e64957a33537bffdc1e010f",
+      "actual": "9e3149efdd03376b2cb3131aaf5e39c37a931f496e64957a33537bffdc1e010f",
+      "equal": true
+    },
+    "protected-core-sha256.json": {
+      "recordedInCheckResults": "6e357bdbe5670f45f3c9ea95d270905f90a55104b914730d023dbb968c08b7f4",
+      "actual": "6e357bdbe5670f45f3c9ea95d270905f90a55104b914730d023dbb968c08b7f4",
+      "equal": true
+    }
+  }
+}
