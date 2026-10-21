@@ -21,7 +21,7 @@ export function ProjectList({ adapter, account }: { adapter: RelayAdapter; accou
         {creating && <CreateBranchForm key={`${account.address}:${account.chainId}`} adapter={adapter} account={account} onDone={() => setCreating(false)} />}
         {q.isPending && <p className="state-line">Reading projects…</p>}
         {q.isError && <p className="alert alert-error" role="alert">Read failed: {(q.error as Error).message} <button className="btn btn-link" onClick={() => q.refetch()}>Retry</button></p>}
-        {q.data && q.data.length === 0 && <p className="empty">No projects yet. Create a project with a fixed public goal.</p>}
+        {q.data && q.data.length === 0 && <p className="empty">No projects yet. Create one with a fixed public goal; each accepted round becomes a step others can continue or fork.</p>}
         {q.data && q.data.length > 0 && (
           <ul className="list">
             {q.data.map((b) => (

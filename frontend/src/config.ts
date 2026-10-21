@@ -2,8 +2,12 @@
 // A1 source is delivered; no verified product deployment is supplied (A1_INTEGRATION_PENDING).
 import { foundry, mainnet } from "viem/chains";
 
-export const SITE_NAME = "CTO Relay";
-export const SITE_DESCRIPTION = "Browse public projects, propose work, fund execution and continue from accepted checkpoints.";
+export const SITE_NAME = "STEPS";
+/** Expanded brand and official X account. The X link is display-only; the site never posts. */
+export const SITE_EXPANDED_NAME = "Stepstoke";
+export const SITE_X_URL = "https://x.com/stepstoke";
+export const SITE_SLOGAN = "Build on every step.";
+export const SITE_DESCRIPTION = "Build public projects through successive contributions: propose work, fund execution, inspect outputs, and continue or fork accepted results.";
 
 /** What W1 observed about A1 at build time. Updated by hand at each integration step. */
 export const A1_SOURCE = {

@@ -5,7 +5,7 @@ import { FixtureAdapter, type CallbackOutcome } from "../domain/fixtureAdapter";
 import { signingAccount, type DisplayAccount as Account, type Branch, type Checkpoint, type Proposal, type Sponsorship } from "../domain/types";
 import { CopyId, STATE_LABEL, short } from "./format";
 import { ProposeForm } from "./ProposeForm";
-import { loadRecovery, removeRecovery } from "./recovery";
+import { isLatestAttempt as latestAttempt, loadRecovery, removeRecovery } from "./recovery";
 import { useVerificationVersion, verificationOf } from "./verification";
 import { useActionScope } from "./actionScope";
 import { readWorkspaceSnapshot } from "./snapshot";

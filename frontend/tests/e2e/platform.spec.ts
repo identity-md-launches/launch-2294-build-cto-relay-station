@@ -19,7 +19,7 @@ async function workspace(page:any){await page.goto("./#/demo/b/fx-branch-1");awa
 async function openFunding(page:any){await workspace(page);await page.getByRole("button",{name:"Review funding",exact:true}).first().click();const sheet=page.getByRole("dialog",{name:"Fund a contribution"});await expect(sheet.getByRole("button",{name:"1. Approve exact amount"})).toBeEnabled();return sheet;}
 
 test("first screen identifies the product and main action; gateway metadata",async({page},info)=>{
-  await page.goto("./");await expect(page).toHaveTitle("CTO Relay · Open Workshop");const action=page.getByRole("link",{name:/Explore demo project/});await expect(action).toBeInViewport();await expect(page.locator('html')).toHaveAttribute("lang","en");for(const name of ["description","og:title","og:image"]){expect(await page.locator(`meta[${name.startsWith("og")?"property":"name"}="${name}"]`).getAttribute("content")).toBeTruthy();}
+  await page.goto("./");await expect(page).toHaveTitle("STEPS · Build on every step");const action=page.getByRole("link",{name:/Explore demo project/});await expect(action).toBeInViewport();await expect(page.locator('html')).toHaveAttribute("lang","en");for(const name of ["description","og:title","og:image"]){expect(await page.locator(`meta[${name.startsWith("og")?"property":"name"}="${name}"]`).getAttribute("content")).toBeTruthy();}
   await shot(page,info,"home");await action.click();await expect(page.getByRole("heading",{name:"Round 3 output"})).toBeVisible();
 });
 test("project list and separate gas-only project creation",async({page})=>{
