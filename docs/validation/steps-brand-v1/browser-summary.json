@@ -1,0 +1,66 @@
+{
+  "status": "PASS",
+  "stats": {
+    "startTime": "2026-10-21T17:50:23.128Z",
+    "duration": 312090.66099999996,
+    "expected": 182,
+    "skipped": 3,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "projects": {
+    "webkit-desktop": {
+      "passed": 37,
+      "skipped": 0,
+      "failed": 0,
+      "pageErrors": 0,
+      "consoleErrors": 0,
+      "httpErrors": 0,
+      "externalAttempts": 0,
+      "expectedSecurityDenials": 6
+    },
+    "webkit-mobile": {
+      "passed": 36,
+      "skipped": 1,
+      "failed": 0,
+      "pageErrors": 0,
+      "consoleErrors": 0,
+      "httpErrors": 0,
+      "externalAttempts": 0,
+      "expectedSecurityDenials": 6
+    },
+    "chromium-narrow": {
+      "passed": 36,
+      "skipped": 1,
+      "failed": 0,
+      "pageErrors": 0,
+      "consoleErrors": 0,
+      "httpErrors": 0,
+      "externalAttempts": 0,
+      "expectedSecurityDenials": 0
+    },
+    "chromium-desktop": {
+      "passed": 37,
+      "skipped": 0,
+      "failed": 0,
+      "pageErrors": 0,
+      "consoleErrors": 0,
+      "httpErrors": 0,
+      "externalAttempts": 0,
+      "expectedSecurityDenials": 0
+    },
+    "chromium-mobile": {
+      "passed": 36,
+      "skipped": 1,
+      "failed": 0,
+      "pageErrors": 0,
+      "consoleErrors": 0,
+      "httpErrors": 0,
+      "externalAttempts": 0,
+      "expectedSecurityDenials": 0
+    }
+  },
+  "assertions": "unchanged; existing three desktop-only skips retained; all configured projects run; final worker count1",
+  "auditFiles": 185,
+  "networkAuditNote": "Page/console/HTTP errors recorded for all 185 entries; explicit off-origin attempt lists apply to the 130 shared-harness entries. The 55 platform cases abort off-origin requests and record HTTP responses."
+}

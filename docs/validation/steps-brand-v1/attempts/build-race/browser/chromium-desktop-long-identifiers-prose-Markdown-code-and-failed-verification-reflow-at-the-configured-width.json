@@ -1,0 +1,37 @@
+{
+  "test": "long identifiers, prose, Markdown code and failed verification reflow at the configured width",
+  "engine": "chromium-desktop",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "status": "failed",
+  "horizontalOverflow": 0,
+  "pageErrors": [],
+  "externalAttempts": [],
+  "httpErrors": [
+    "404 http://127.0.0.1:4175/preview/assets/index-D8MLvmhR.js",
+    "404 http://127.0.0.1:4175/preview/assets/index-D6O89qsl.css"
+  ],
+  "unexpectedConsoleErrors": [
+    {
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    }
+  ],
+  "expectedSecurityBlocks": [],
+  "console": [
+    {
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    }
+  ]
+}

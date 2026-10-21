@@ -1,0 +1,49 @@
+{
+  "algorithm": "SHA-256",
+  "files": {
+    "dist/apple-touch-icon.png": {
+      "bytes": 2842,
+      "sha256": "a00d8ff12f6f41d59314b036258b868569c4bc630fe3a505429798a31074dd16"
+    },
+    "dist/assets/dist-CNoRpm2F.js": {
+      "bytes": 102692,
+      "sha256": "26134a6dfcbf7ca82fa46ae7967b9c171ec85045d7eefc548392e99fe47e50cb"
+    },
+    "dist/assets/index-CcxjIUpw.css": {
+      "bytes": 19105,
+      "sha256": "bcb20404f7d5d62ecc59c8ce4ad73027559f384d916892087c37c91bfbf8b48e"
+    },
+    "dist/assets/index-soaWz0Yd.js": {
+      "bytes": 709676,
+      "sha256": "7f2f06868542f010afa0b2a70f20f087c9961eac9d909173a45053fa43c4332e"
+    },
+    "dist/favicon-16.png": {
+      "bytes": 293,
+      "sha256": "8b41d111b8e0d5da2a4c6da8986c3d3d83699b915e5e1a9de3e870b0177a44a2"
+    },
+    "dist/favicon-32.png": {
+      "bytes": 495,
+      "sha256": "9cae5baf49272002f99f76088b4c89dca8ab5187b05d5188b100df0ab19e719e"
+    },
+    "dist/favicon.svg": {
+      "bytes": 374,
+      "sha256": "272911dfd664759ba5b4119bab027ee2b58de89f239f51fc57a67a052d65be3a"
+    },
+    "dist/index.html": {
+      "bytes": 2054,
+      "sha256": "9f2584004e66bde0f8469530fc25214961b73ae7dcc9b4aadd58a8e5b9cc517c"
+    },
+    "dist/local-config.json": {
+      "bytes": 3527,
+      "sha256": "260ac4a7231a260c303fb4b7a4259dc43b3085df5753175b133b42e314f262ec"
+    },
+    "dist/og.png": {
+      "bytes": 18537,
+      "sha256": "59d35760d7f491988d818a211520ed745d76e960f3f6983ff5bfb5829a5ec0df"
+    },
+    "dist/og.svg": {
+      "bytes": 48154,
+      "sha256": "c23e32977150299a1176831b2142fcd7ae7e042ea8c27e5a9ce4bfda68a515b0"
+    }
+  }
+}

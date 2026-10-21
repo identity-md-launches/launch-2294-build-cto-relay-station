@@ -1,0 +1,129 @@
+{
+  "algorithm": "SHA-256",
+  "files": {
+    "brand/README.md": {
+      "bytes": 6214,
+      "sha256": "4ab50ae250f4ff0deb6c72de2291ee298ad63c30c51c4986d53b0f200401e61f"
+    },
+    "brand/licenses/Liberation-Fonts-OFL.txt": {
+      "bytes": 5756,
+      "sha256": "f32df582a2aab128c07b2f7e36e7b928dc5f6bd82657b905c04f91459f9e5cf9"
+    },
+    "brand/png/apple-touch-icon.png": {
+      "bytes": 2842,
+      "sha256": "a00d8ff12f6f41d59314b036258b868569c4bc630fe3a505429798a31074dd16"
+    },
+    "brand/png/favicon-16.png": {
+      "bytes": 293,
+      "sha256": "8b41d111b8e0d5da2a4c6da8986c3d3d83699b915e5e1a9de3e870b0177a44a2"
+    },
+    "brand/png/favicon-32.png": {
+      "bytes": 495,
+      "sha256": "9cae5baf49272002f99f76088b4c89dca8ab5187b05d5188b100df0ab19e719e"
+    },
+    "brand/png/og.png": {
+      "bytes": 18537,
+      "sha256": "59d35760d7f491988d818a211520ed745d76e960f3f6983ff5bfb5829a5ec0df"
+    },
+    "brand/png/steps-avatar-512.png": {
+      "bytes": 2497,
+      "sha256": "cc9f32fbbf947558b4077de9e581c753685ff86b111031ec6121e8a8ce28b35c"
+    },
+    "brand/png/steps-lockup-604.png": {
+      "bytes": 2752,
+      "sha256": "5512c4894afe3e2035f82f8619f6c2d38259d6d430c0a939dac99bd113894c47"
+    },
+    "brand/source/font-provenance.json": {
+      "bytes": 435,
+      "sha256": "fe6ea9832c31f85534d888b952d9a71126b05f17a57326c83a0f641194a26df8"
+    },
+    "brand/source/text-outlines.json": {
+      "bytes": 47549,
+      "sha256": "3ace4f016d242cd718d8d715a6abbd5e3bd19be69eb9d02d0ca4a9e8e4d1a47a"
+    },
+    "brand/svg/steps-avatar.svg": {
+      "bytes": 376,
+      "sha256": "036b1145c12fb1c0efdad95f0b555acf4b5dec98fb4c06cd03c4aa31391f2dc9"
+    },
+    "brand/svg/steps-favicon.svg": {
+      "bytes": 374,
+      "sha256": "272911dfd664759ba5b4119bab027ee2b58de89f239f51fc57a67a052d65be3a"
+    },
+    "brand/svg/steps-lockup-mono.svg": {
+      "bytes": 722,
+      "sha256": "b25be895ec438c71e86035ff1d368175cb2091d7756ede0411be930851ca25f9"
+    },
+    "brand/svg/steps-lockup-reversed.svg": {
+      "bytes": 722,
+      "sha256": "15f87989ffeeffceb9ff5f7c9f7e01d134ba6b98dfd6cdb4ac40df2b492dd9a5"
+    },
+    "brand/svg/steps-lockup.svg": {
+      "bytes": 722,
+      "sha256": "a5aab54b4ccafa0efaaa6ae9b0e288dc219a94488815264ebe020c6d68cc2bee"
+    },
+    "brand/svg/steps-social.svg": {
+      "bytes": 48154,
+      "sha256": "c23e32977150299a1176831b2142fcd7ae7e042ea8c27e5a9ce4bfda68a515b0"
+    },
+    "brand/svg/steps-symbol-mono.svg": {
+      "bytes": 317,
+      "sha256": "52f293b69ffb45df5bce0f9a8856cfe02bc56f3cb65ed1e9c932739f8d3df379"
+    },
+    "brand/svg/steps-symbol-reversed.svg": {
+      "bytes": 313,
+      "sha256": "07b7dc46367cdbcfbe52d39fa965fc81bdefa66b6b9e26578797330b2c52486b"
+    },
+    "brand/svg/steps-symbol.svg": {
+      "bytes": 293,
+      "sha256": "0acda896663d08ed01a97e3f388fd9c5d86b2e5c778d7e5cf3fe2a39e9f440c5"
+    },
+    "brand/svg/steps-wordmark-reversed.svg": {
+      "bytes": 499,
+      "sha256": "cf955410c06bdfffa39388ad7ad3b218438ca6fe735167302614c6fb1173c0ca"
+    },
+    "brand/svg/steps-wordmark.svg": {
+      "bytes": 499,
+      "sha256": "96c7cd205e496bdec1ff0530ecac75244d0344d06b1a84b41fbdc9ea13470c96"
+    },
+    "brand/tools/build-brand.mjs": {
+      "bytes": 4145,
+      "sha256": "fed291bc140f6dd32d6f7cd23465745083c0528e853a3ac639a9dbc9b3e4eb24"
+    },
+    "brand/tools/outline-text.mjs": {
+      "bytes": 2294,
+      "sha256": "07937f256e975d9554b496f7803bd189ac70f1b7e416909c5acae3e0fa5e970f"
+    },
+    "brand/tools/rasterize.mjs": {
+      "bytes": 2729,
+      "sha256": "46398647f097d82d5ab21e018c4297ed7bb480d0f9b03723945574b57b7baaa1"
+    },
+    "frontend/public/apple-touch-icon.png": {
+      "bytes": 2842,
+      "sha256": "a00d8ff12f6f41d59314b036258b868569c4bc630fe3a505429798a31074dd16"
+    },
+    "frontend/public/favicon-16.png": {
+      "bytes": 293,
+      "sha256": "8b41d111b8e0d5da2a4c6da8986c3d3d83699b915e5e1a9de3e870b0177a44a2"
+    },
+    "frontend/public/favicon-32.png": {
+      "bytes": 495,
+      "sha256": "9cae5baf49272002f99f76088b4c89dca8ab5187b05d5188b100df0ab19e719e"
+    },
+    "frontend/public/favicon.svg": {
+      "bytes": 374,
+      "sha256": "272911dfd664759ba5b4119bab027ee2b58de89f239f51fc57a67a052d65be3a"
+    },
+    "frontend/public/local-config.json": {
+      "bytes": 3527,
+      "sha256": "260ac4a7231a260c303fb4b7a4259dc43b3085df5753175b133b42e314f262ec"
+    },
+    "frontend/public/og.png": {
+      "bytes": 18537,
+      "sha256": "59d35760d7f491988d818a211520ed745d76e960f3f6983ff5bfb5829a5ec0df"
+    },
+    "frontend/public/og.svg": {
+      "bytes": 48154,
+      "sha256": "c23e32977150299a1176831b2142fcd7ae7e042ea8c27e5a9ce4bfda68a515b0"
+    }
+  }
+}

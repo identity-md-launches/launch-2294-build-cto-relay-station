@@ -1,0 +1,200 @@
+{
+  "status": "PASS",
+  "productionDeployment": null,
+  "liveCompatibility": "NOT_RUN",
+  "productionReady": false,
+  "runs": [
+    {
+      "project": "chromium",
+      "classification": "ACTUAL_LOCAL_CONTRACT_WITH_MOCK_INTAKE",
+      "functionalResult": "PASS",
+      "browserRuntimeStatus": "PASS",
+      "scenarios": 16,
+      "pageErrors": 0,
+      "unexpectedConsoleErrors": 0,
+      "expectedResourceDiagnostics": 1,
+      "unexpectedRequests": 0,
+      "walletTransactions": 87,
+      "successfulReceiptsAudited": 85,
+      "sixFunctions": {
+        "createProject": 14,
+        "propose": 21,
+        "approve": 21,
+        "sponsor": 17,
+        "bind": 11,
+        "fork": 1,
+        "retry": 2
+      },
+      "targetedRecovery": {
+        "recoveryRows": [
+          {
+            "status": "REVERTED",
+            "hash": "0xcd1c8e8a3a9c85988819f72f6e89f9c18670d5b7e55a1550ff0f699ffc66676f",
+            "nonce": 47
+          },
+          {
+            "status": "REPLACED_OTHER",
+            "originalHash": "0xeec7d24db25910063c398c01a7cca688ab5823ea69743dcbcfcf0b65f5a1135a",
+            "replacementHash": "0x95f96ff7846391f343236d44e86bd362e6a17bdd00ecfc4a810b7e540a6d26b4",
+            "nonce": 48
+          }
+        ],
+        "purchasesBeforeConsent": 14,
+        "retainedHashes": [
+          "0x59617048a438b3a646bcd4f24e4d0673a8f36200b719289d96a7b701b7055ab2",
+          "0x4bd9ae341fc23389316a05a5d321ddf8cf7df9d33535a1092810ef0ed58d33b0",
+          "0x2c70c0a69c295c0dc6b5650c2d1e496cb7da7970aa441f41ed31d7e34a7a0309",
+          "0x6d20a80506f4cfdb21f0c5fc4439502090fbb01400519000463629b74f789209",
+          "0xcd1c8e8a3a9c85988819f72f6e89f9c18670d5b7e55a1550ff0f699ffc66676f",
+          "0xeec7d24db25910063c398c01a7cca688ab5823ea69743dcbcfcf0b65f5a1135a"
+        ]
+      },
+      "report": "local/chromium/browser-chain.json",
+      "calldataAudit": "local/chromium/trace-audit.json"
+    },
+    {
+      "project": "webkit",
+      "classification": "ACTUAL_LOCAL_CONTRACT_WITH_MOCK_INTAKE",
+      "functionalResult": "PASS",
+      "browserRuntimeStatus": "PASS",
+      "scenarios": 16,
+      "pageErrors": 0,
+      "unexpectedConsoleErrors": 0,
+      "expectedResourceDiagnostics": 1,
+      "unexpectedRequests": 0,
+      "walletTransactions": 87,
+      "successfulReceiptsAudited": 85,
+      "sixFunctions": {
+        "createProject": 14,
+        "propose": 21,
+        "approve": 21,
+        "sponsor": 17,
+        "bind": 11,
+        "fork": 1,
+        "retry": 2
+      },
+      "targetedRecovery": {
+        "recoveryRows": [
+          {
+            "status": "REVERTED",
+            "hash": "0xcd1c8e8a3a9c85988819f72f6e89f9c18670d5b7e55a1550ff0f699ffc66676f",
+            "nonce": 47
+          },
+          {
+            "status": "REPLACED_OTHER",
+            "originalHash": "0xeec7d24db25910063c398c01a7cca688ab5823ea69743dcbcfcf0b65f5a1135a",
+            "replacementHash": "0x95f96ff7846391f343236d44e86bd362e6a17bdd00ecfc4a810b7e540a6d26b4",
+            "nonce": 48
+          }
+        ],
+        "purchasesBeforeConsent": 14,
+        "retainedHashes": [
+          "0x59617048a438b3a646bcd4f24e4d0673a8f36200b719289d96a7b701b7055ab2",
+          "0x4bd9ae341fc23389316a05a5d321ddf8cf7df9d33535a1092810ef0ed58d33b0",
+          "0x2c70c0a69c295c0dc6b5650c2d1e496cb7da7970aa441f41ed31d7e34a7a0309",
+          "0x6d20a80506f4cfdb21f0c5fc4439502090fbb01400519000463629b74f789209",
+          "0xcd1c8e8a3a9c85988819f72f6e89f9c18670d5b7e55a1550ff0f699ffc66676f",
+          "0xeec7d24db25910063c398c01a7cca688ab5823ea69743dcbcfcf0b65f5a1135a"
+        ]
+      },
+      "report": "local/webkit/browser-chain.json",
+      "calldataAudit": "local/webkit/trace-audit.json"
+    },
+    {
+      "project": "chromium-mobile",
+      "classification": "ACTUAL_LOCAL_CONTRACT_WITH_MOCK_INTAKE",
+      "functionalResult": "PASS",
+      "browserRuntimeStatus": "PASS",
+      "scenarios": 16,
+      "pageErrors": 0,
+      "unexpectedConsoleErrors": 0,
+      "expectedResourceDiagnostics": 1,
+      "unexpectedRequests": 0,
+      "walletTransactions": 87,
+      "successfulReceiptsAudited": 85,
+      "sixFunctions": {
+        "createProject": 14,
+        "propose": 21,
+        "approve": 21,
+        "sponsor": 17,
+        "bind": 11,
+        "fork": 1,
+        "retry": 2
+      },
+      "targetedRecovery": {
+        "recoveryRows": [
+          {
+            "status": "REVERTED",
+            "hash": "0xcd1c8e8a3a9c85988819f72f6e89f9c18670d5b7e55a1550ff0f699ffc66676f",
+            "nonce": 47
+          },
+          {
+            "status": "REPLACED_OTHER",
+            "originalHash": "0xeec7d24db25910063c398c01a7cca688ab5823ea69743dcbcfcf0b65f5a1135a",
+            "replacementHash": "0x95f96ff7846391f343236d44e86bd362e6a17bdd00ecfc4a810b7e540a6d26b4",
+            "nonce": 48
+          }
+        ],
+        "purchasesBeforeConsent": 14,
+        "retainedHashes": [
+          "0x59617048a438b3a646bcd4f24e4d0673a8f36200b719289d96a7b701b7055ab2",
+          "0x4bd9ae341fc23389316a05a5d321ddf8cf7df9d33535a1092810ef0ed58d33b0",
+          "0x2c70c0a69c295c0dc6b5650c2d1e496cb7da7970aa441f41ed31d7e34a7a0309",
+          "0x6d20a80506f4cfdb21f0c5fc4439502090fbb01400519000463629b74f789209",
+          "0xcd1c8e8a3a9c85988819f72f6e89f9c18670d5b7e55a1550ff0f699ffc66676f",
+          "0xeec7d24db25910063c398c01a7cca688ab5823ea69743dcbcfcf0b65f5a1135a"
+        ]
+      },
+      "report": "local/chromium-mobile/browser-chain.json",
+      "calldataAudit": "local/chromium-mobile/trace-audit.json"
+    },
+    {
+      "project": "webkit-mobile",
+      "classification": "ACTUAL_LOCAL_CONTRACT_WITH_MOCK_INTAKE",
+      "functionalResult": "PASS",
+      "browserRuntimeStatus": "PASS",
+      "scenarios": 16,
+      "pageErrors": 0,
+      "unexpectedConsoleErrors": 0,
+      "expectedResourceDiagnostics": 1,
+      "unexpectedRequests": 0,
+      "walletTransactions": 87,
+      "successfulReceiptsAudited": 85,
+      "sixFunctions": {
+        "createProject": 14,
+        "propose": 21,
+        "approve": 21,
+        "sponsor": 17,
+        "bind": 11,
+        "fork": 1,
+        "retry": 2
+      },
+      "targetedRecovery": {
+        "recoveryRows": [
+          {
+            "status": "REVERTED",
+            "hash": "0xcd1c8e8a3a9c85988819f72f6e89f9c18670d5b7e55a1550ff0f699ffc66676f",
+            "nonce": 47
+          },
+          {
+            "status": "REPLACED_OTHER",
+            "originalHash": "0xeec7d24db25910063c398c01a7cca688ab5823ea69743dcbcfcf0b65f5a1135a",
+            "replacementHash": "0x95f96ff7846391f343236d44e86bd362e6a17bdd00ecfc4a810b7e540a6d26b4",
+            "nonce": 48
+          }
+        ],
+        "purchasesBeforeConsent": 14,
+        "retainedHashes": [
+          "0x59617048a438b3a646bcd4f24e4d0673a8f36200b719289d96a7b701b7055ab2",
+          "0x4bd9ae341fc23389316a05a5d321ddf8cf7df9d33535a1092810ef0ed58d33b0",
+          "0x2c70c0a69c295c0dc6b5650c2d1e496cb7da7970aa441f41ed31d7e34a7a0309",
+          "0x6d20a80506f4cfdb21f0c5fc4439502090fbb01400519000463629b74f789209",
+          "0xcd1c8e8a3a9c85988819f72f6e89f9c18670d5b7e55a1550ff0f699ffc66676f",
+          "0xeec7d24db25910063c398c01a7cca688ab5823ea69743dcbcfcf0b65f5a1135a"
+        ]
+      },
+      "report": "local/webkit-mobile/browser-chain.json",
+      "calldataAudit": "local/webkit-mobile/trace-audit.json"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+PASS Public config closed; local reads without wallet; EIP-6963 selected provider
+PASS Create / propose / explicit sponsor / bind / read Markdown, alternate funder update
+PASS HTML R1 -> PNG R2 -> HTML R3 continues R2, selected exact bytes and retained provenance
+PASS Fork non-head accepted R1 exactly; child opens then continues with separate sponsorship
+PASS Multiple current proposals, explicit older selection, missing callback, reload with corrupt/missing journal
+PASS Authenticated status1 explicit identical-body paid retry; corrected raw binding without repurchase; stale anchors
+PASS Exact allowance and fresh price/maxFee checks; double-click and signature rejection
+PASS Account/network changes invalidate prepared signing; no purchase
+PASS Purchase signature rejection and double-click send exactly one explicit paid attempt
+PASS Authenticated status2 and unknown failure freeze permanently
+PASS Pending original hash/nonce saved before wait; missing/corrupt journal uses pending nonce; replaced transaction reconciles without rebuy
+FAIL Same-call replacement recovers authenticated attempt; status1 retry uses chain truth despite original journal locator.click: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Review identical paid retry', exact: true })[22m
+[2m    - locator resolved to <button disabled class="btn btn-secondary">Review identical paid retry</button>[22m
+[2m  - attempting click action[22m
+[2m    2 × waiting for element to be visible, enabled and stable[22m
+[2m      - element is not enabled[22m
+[2m    - retrying click action[22m
+[2m    - waiting 20ms[22m
+[2m    2 × waiting for element to be visible, enabled and stable[22m
+[2m      - element is not enabled[22m
+[2m    - retrying click action[22m
+[2m      - waiting 100ms[22m
+[2m    58 × waiting for element to be visible, enabled and stable[22m
+[2m       - element is not enabled[22m
+[2m     - retrying click action[22m
+[2m       - waiting 500ms[22m
+

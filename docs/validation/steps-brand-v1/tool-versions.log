@@ -1,0 +1,11 @@
+v24.21.0
+Version 5.9.3
+vite/8.3.4 linux-x64 node-v24.21.0
+vitest/5.0.5 linux-x64 node-v24.21.0
+Version 1.64.1
+forge Version: 1.8.3
+Commit SHA: cae51ad458f6abb64852b7709eb784352429825d
+Build Timestamp: 2026-09-15T10:46:16.519267388Z (1789469176)
+Build Profile: dist
+solc, the solidity compiler commandline interface
+Version: 0.8.26+commit.8a97fa7a.Linux.g++

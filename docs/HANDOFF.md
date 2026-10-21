@@ -1,8 +1,8 @@
 # Current handoff and readiness
 
-CTO Relay now includes the English Open Workshop frontend, A1 browser SDK integration and committed relative static export. **Public deployment and live acceptance remain absent:** `productionDeployment:null`, `liveCompatibility:NOT_RUN`, `productionReady:false`.
+STEPS now includes the English Open Workshop frontend, A1 browser SDK integration and committed relative static export. **Public deployment and live acceptance remain absent:** `productionDeployment:null`, `liveCompatibility:NOT_RUN`, `productionReady:false`.
 
-The required A1 source is commit `878ba4ba1cf7c601656f3a25d17546a425ba1207`. The accepted platform work already applied to the starting checkout is preserved. This documentation pass makes no implementation, configuration, dependency, ABI or core changes. [Byte comparison](validation/platform-ux-v1/documentation/byte-audit.json) checks the pinned core and final source/export manifests. Do not confuse the current tree with the original A1-only delivery or the earlier Chinese W1 fixture interface.
+The requested predecessor is `d29eedf8e7d6608ed109972c179b367ac07ce91f`; the accepted starting checkout `acbc8bec5765d7434c6ee831a2c51d03fc6003b5` already includes the chosen STEPS direction. This delivery completes brand documentation/integration acceptance and targeted recovery regressions, and adds a one-pixel rail inset for WebKit's fractional scrollport clipping. Protected core sources/tests, ABIs, configuration, dependencies and build inputs remain byte-identical to the pinned predecessor; frontend package metadata changes only its description. See [protected hashes](validation/steps-brand-v1/protected-core-sha256.json).
 
 ## Delivered and remaining boundaries
 
@@ -15,7 +15,7 @@ The required A1 source is commit `878ba4ba1cf7c601656f3a25d17546a425ba1207`. The
 | Binding/files/history | Exact callback bytes, strict finite parser, immutable witness/provenance, bounded isolated previews/downloads | Oversized authenticated results can remain unbindable; external retention/Git/liveness unverified |
 | Review | Worker six-domain design and structural reviews; prior A1 review/repair records | Independent contributor review of the final frontend NOT_RUN; no external audit certification |
 
-Final evidence records 175 fixture-browser, 43 frontend unit, 125 Solidity and 39 SDK tests. [The current matrix](validation/platform-ux-v1/documentation/README.md) distinguishes these earlier results from documentation reruns. Earlier A1 repairs (mapping conflicts, bounded metadata-aware parser, reserved HTML path) and review records remain under [review-fixes](validation/review-fixes/README.md) and [REVIEW.md](REVIEW.md); they are historical evidence, not pending implementation instructions.
+Current branded-source counts and separate functional/runtime results are in [STEPS final acceptance](validation/steps-brand-v1/README.md): full unit/browser matrix, four complete two-account local-contract journeys, raw receipts and exact file checks. [Historical recovery](validation/historical/README.md) preserves prior logs, failures and artifacts with original paths and hashes; older passes are not final acceptance.
 
 ## Gates that remain
 

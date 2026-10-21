@@ -1,6 +1,6 @@
-# Protocol overview (previous README, preserved)
+# STEPS protocol overview
 
-This page is a historical previous-README record associated with commit `28fbb8a` and later integration prose. The body below is retained as historical data; its claims about a Chinese W1 interface, fonts, earlier test counts, runner defaults and pending integration are superseded. It is not a current operation/build guide. Use the [root README](../README.md), [current frontend README](frontend-README.md), [build guide](BUILD.md), [contract API](CONTRACTS.md) and [current requirement matrix](validation/platform-ux-v1/documentation/README.md). Historical relative links below were originally written for the repository root.
+This page is a historical previous-README record associated with commit `28fbb8a` and later integration prose. The body below is retained as historical data; its claims about a Chinese W1 interface, fonts, earlier test counts, runner defaults and pending integration are superseded. It is not a current operation/build guide. Use the [root README](../README.md), [current frontend README](frontend-README.md), [build guide](BUILD.md), [contract API](CONTRACTS.md) and [current requirement matrix](https://github.com/identity-md-launches/launch-2294-build-cto-relay-station/blob/d29eedf8e7d6608ed109972c179b367ac07ce91f/docs/validation/platform-ux-v1/documentation/README.md). Historical relative links below were originally written for the repository root.
 
 ---
 
@@ -10,9 +10,9 @@ The current deliverable adds the W1 Chinese browser UI and actual local-contract
 
 A public project has a fixed goal, immutable execution policy, an independent Intake payer, and a permanent history of accepted asset checkpoints. Anyone can propose work, explicitly fund a current proposal, bind its authenticated result, or fork an accepted historical checkpoint.
 
-This checkout is a local repair candidate built on the [original IMD A1 delivery at `9b0294e7ab19060bd00c489fbe032cf248528e0d`](https://github.com/identity-md-launches/launch-2294-build-cto-relay-station/tree/9b0294e7ab19060bd00c489fbe032cf248528e0d). The candidate uses policy `CTO-Relay-A1/2/fixed-profiles/unpublished` and changes contracts, SDK/CLI and tests to address the later asset-mapping, manifest-envelope and `dist/` findings. [Current repair evidence](validation/review-fixes/README.md) records results against this source; older validation logs describe the original delivery. This local candidate is not a new IMD delivery or a public deployment.
+This checkout is a local repair candidate built on the [original IMD A1 delivery at `9b0294e7ab19060bd00c489fbe032cf248528e0d`](https://github.com/identity-md-launches/launch-2294-build-cto-relay-station/tree/9b0294e7ab19060bd00c489fbe032cf248528e0d). The candidate uses policy `CTO-Relay-A1/2/fixed-profiles/unpublished` and changes contracts, SDK/CLI and tests to address the later asset-mapping, manifest-envelope and `dist/` findings. [Current repair evidence](https://github.com/identity-md-launches/launch-2294-build-cto-relay-station/blob/d29eedf8e7d6608ed109972c179b367ac07ce91f/docs/validation/review-fixes/README.md) records results against this source; older validation logs describe the original delivery. This local candidate is not a new IMD delivery or a public deployment.
 
-**Production readiness remains false.** Local deployments use mock Intake/IMD. Live profile compatibility, real IMD runtime consumption and public deployment remain `NOT_RUN`. Finite parser limits and missing callbacks can still stop purchases; the larger metadata-aware envelope does not guarantee every future IMD manifest is bindable. The [A1 handoff](HANDOFF.md) is historical; see [current acceptance and remaining findings](validation/integration/acceptance/README.md) for this integration.
+**Production readiness remains false.** Local deployments use mock Intake/IMD. Live profile compatibility, real IMD runtime consumption and public deployment remain `NOT_RUN`. Finite parser limits and missing callbacks can still stop purchases; the larger metadata-aware envelope does not guarantee every future IMD manifest is bindable. The [A1 handoff](HANDOFF.md) is historical; see [current acceptance and remaining findings](https://github.com/identity-md-launches/launch-2294-build-cto-relay-station/blob/d29eedf8e7d6608ed109972c179b367ac07ce91f/docs/validation/integration/acceptance/README.md) for this integration.
 
 ## Build and check offline
 
@@ -135,7 +135,7 @@ Proposals cannot reuse another current slot's name, use the same path, or make o
 
 HTML instructions require restoring the selected HTML, inline CSS/JS, exact selected image bytes as data URIs, no symlinks, and `dist` containing only `index.html`. Before payment the encoder rejects known image-size/aggregate excess and includes Base64/data-URI overhead in its conservative HTML input budget. The integration fixture demonstrates HTML → image → HTML: the third execution parent is job two, while inputs are HTML from job one and PNG from job two.
 
-See [current repair evidence](validation/review-fixes/README.md), [limits](LIMITS.md), [operating procedure](OPERATIONS.md) and [review record](REVIEW.md). Original [integrated evidence](validation/README.md), [contributor evidence](../evidence/README.md) and [documentation reproduction](validation/documentation-pass/README.md) remain unchanged historical records; their source hashes, counts and gas figures are not measurements of this candidate.
+See [current repair evidence](https://github.com/identity-md-launches/launch-2294-build-cto-relay-station/blob/d29eedf8e7d6608ed109972c179b367ac07ce91f/docs/validation/review-fixes/README.md), [limits](LIMITS.md), [operating procedure](OPERATIONS.md) and [review record](REVIEW.md). Original [integrated evidence](https://github.com/identity-md-launches/launch-2294-build-cto-relay-station/blob/d29eedf8e7d6608ed109972c179b367ac07ce91f/docs/validation/README.md), [contributor evidence](../evidence/README.md) and [documentation reproduction](https://github.com/identity-md-launches/launch-2294-build-cto-relay-station/blob/d29eedf8e7d6608ed109972c179b367ac07ce91f/docs/validation/documentation-pass/README.md) remain unchanged historical records; their source hashes, counts and gas figures are not measurements of this candidate.
 
 The [future IMD request/observer procedure](LIVE-VALIDATION.md) describes a separately authorized runtime test; that test has not run. W1's originally separate fixture interface is now integrated with the accepted A1 candidate as described below. Historical repair reports retain their original scope. Local tests, review, original IMD source delivery, real runtime execution and production readiness are separate evidence categories.
 
@@ -261,8 +261,8 @@ and `W1_WEBKIT_EXECUTABLE`. The pinned worker-only taste probe is not a clean-ch
 its raw results and representative screenshots are retained in the acceptance report.
 
 Actual results, matrix coverage, limitations, commands, screenshots, traces, input hashes and
-release hashes are in [the dedicated acceptance report](validation/integration/acceptance/README.md).
-The [prior integration report](validation/integration/frontend/README.md) is preserved as
+release hashes are in [the dedicated acceptance report](https://github.com/identity-md-launches/launch-2294-build-cto-relay-station/blob/d29eedf8e7d6608ed109972c179b367ac07ce91f/docs/validation/integration/acceptance/README.md).
+The [prior integration report](https://github.com/identity-md-launches/launch-2294-build-cto-relay-station/blob/d29eedf8e7d6608ed109972c179b367ac07ce91f/docs/validation/integration/frontend/README.md) is preserved as
 historical evidence, including its then-unavailable WebKit checks.
 Historical W1 evidence is referenced at its immutable commit instead of duplicated binaries.
 `productionDeployment:null`, `liveCompatibility:NOT_RUN`, `productionReady:false` remain in force.

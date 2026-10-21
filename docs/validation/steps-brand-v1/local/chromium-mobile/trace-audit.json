@@ -1,0 +1,503 @@
+{
+  "classification": "WORKER_POST_RUN_RAW_RECEIPT_AND_SDK_CALLDATA_AUDIT",
+  "engine": "chromium",
+  "group": "all",
+  "result": "PASS",
+  "operations": {
+    "createProject": 14,
+    "propose": 21,
+    "approve": 21,
+    "sponsor": 17,
+    "bind": 11,
+    "fork": 1,
+    "retry": 2
+  },
+  "accounts": [
+    "0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266",
+    "0x90f79bf6eb2c4f870365e785982e1f101e93b906"
+  ],
+  "requests": [
+    {
+      "transactionHash": "0x3fe5e3cc2c6052e66c023eb03cabef0dcf6c906921294bc19287437c9758bda8",
+      "payer": "0x6743E5c6E1B453372507E8dfD6CA53508721425B",
+      "action": "0x6a6f622e6f70656e406a6f622d31000000000000000000000000000000000000",
+      "amount": "500000000000000000",
+      "bodyHash": "0xd02b44a0a645d91e016d8b0b3cee3c0480ac32423a2e329e8b5f8f6c497db9c2",
+      "body": {
+        "objective": "Public project goal: Local Markdown project\nPreserve real files and historical origins.\nBranch direction: \nRequested change: Generate deterministic local files\nCreate a new asset without replacing another slot. Write a UTF-8 Markdown document, at most 65536 bytes. Read only the explicit inputs at .imd/reads/artifacts/<as>. No website or IPFS publishing.\nProduce exactly the declared named output. Do not delete or claim to have read unselected assets. No paid child jobs, autonomous spending, contract deployment or token launches.",
+        "github": true,
+        "ipfs": false,
+        "steps": [
+          {
+            "skill": "build-document",
+            "inputs": [],
+            "outputs": [
+              {
+                "name": "main",
+                "path": "docs/main.md",
+                "mediaType": "text/markdown"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "transactionHash": "0x0179153459cb580e4741e0ffd3969e07f0b6f74c8f0f47ea15c4c9704acf4105",
+      "payer": "0x6743E5c6E1B453372507E8dfD6CA53508721425B",
+      "action": "0x6a6f622e636f6e74696e7565406a6f622d310000000000000000000000000000",
+      "amount": "500000000000000000",
+      "bodyHash": "0x73ae3f81ca8745b2a2219d80548b6f92a4ba7864867dc2a76b921badba6654f1",
+      "body": {
+        "parentJobId": "markdown-create",
+        "objective": "Public project goal: Local Markdown project\nPreserve real files and historical origins.\nBranch direction: \nRequested change: Update local notes\nRestore the selected target from .imd/reads/artifacts/<as>; that authenticated file is the update baseline, even if the workspace is newer. Preserve existing content except the requested changes. Write a UTF-8 Markdown document, at most 65536 bytes. Read only the explicit inputs at .imd/reads/artifacts/<as>. No website or IPFS publishing.\nProduce exactly the declared named output. Do not delete or claim to have read unselected assets. No paid child jobs, autonomous spending, contract deployment or token launches.",
+        "github": true,
+        "ipfs": false,
+        "steps": [
+          {
+            "skill": "build-document",
+            "inputs": [
+              {
+                "name": "main",
+                "path": "docs/main.md",
+                "hash": "fe65d5239c52be4aacace4a20fe797d471e52b416b69a3355afb004a93aa0c1b",
+                "mediaType": "text/markdown",
+                "bytes": 29,
+                "submissionHash": "dde1b7de1052216583a58db160b4c5b96617321fb62eaed0cc4ec477334e5556",
+                "as": "asset-0"
+              }
+            ],
+            "outputs": [
+              {
+                "name": "main",
+                "path": "docs/main.md",
+                "mediaType": "text/markdown"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "transactionHash": "0x8c0826dfbe3634bbf251bf1ae6aa5a3ad09efe8fd54cd29fc786cfb0a2347d69",
+      "payer": "0xA14d9C7a916Db01cCA55ec21Be1F7665C326928F",
+      "action": "0x6a6f622e6f70656e406a6f622d31000000000000000000000000000000000000",
+      "amount": "500000000000000000",
+      "bodyHash": "0x6f57ad29f9d86edbc96a0384c901ef629b2f9d097e5c18a660b53742da658f93",
+      "body": {
+        "objective": "Public project goal: Local website project\nPreserve real files and historical origins.\nBranch direction: \nRequested change: R1 initial page\nCreate a new asset without replacing another slot. Write self-contained UTF-8 HTML. The named accepted HTML must be the exact dist/index.html bytes. dist must contain only index.html, no symlinks. Inline all CSS and JS. Inline selected images byte-for-byte as PNG/JPEG/WebP data URIs; do not transcode or fetch remote resources. Each image at most 262144 bytes, images total at most 524288 bytes, final HTML including Base64 overhead at most 2097152 bytes. Retain old markers on updates. No website or IPFS publishing.\nProduce exactly the declared named output. Do not delete or claim to have read unselected assets. No paid child jobs, autonomous spending, contract deployment or token launches.",
+        "github": true,
+        "ipfs": false,
+        "steps": [
+          {
+            "skill": "build-website",
+            "inputs": [],
+            "outputs": [
+              {
+                "name": "site",
+                "path": "dist/index.html",
+                "mediaType": "text/html"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "transactionHash": "0x169d168ea0a67d45b3b5d063711ca7e4ebff08105d7f669f24eb5540bdc17690",
+      "payer": "0xA14d9C7a916Db01cCA55ec21Be1F7665C326928F",
+      "action": "0x6a6f622e636f6e74696e7565406a6f622d310000000000000000000000000000",
+      "amount": "500000000000000000",
+      "bodyHash": "0x5c0dca58761d48bc8cbe64be3f3e6b54148624b85652acecb36e33cdf0fbe639",
+      "body": {
+        "parentJobId": "html-r1",
+        "objective": "Public project goal: Local website project\nPreserve real files and historical origins.\nBranch direction: \nRequested change: R2 PNG\nGenerate one PNG image from text, at most 262144 bytes. No reference images, editing, variations or remote fetches. No website or IPFS publishing. Return the actual PNG as the declared output.\nProduce exactly the declared named output. Do not delete or claim to have read unselected assets. No paid child jobs, autonomous spending, contract deployment or token launches.",
+        "github": true,
+        "ipfs": false,
+        "steps": [
+          {
+            "skill": "imagegen",
+            "inputs": [],
+            "outputs": [
+              {
+                "name": "cover",
+                "path": "images/cover.png",
+                "mediaType": "image/png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "transactionHash": "0x579a5cc67c1e5c78e60f065f2b6645dc3bffaa04282cf3374a029a485ffedd4c",
+      "payer": "0xA14d9C7a916Db01cCA55ec21Be1F7665C326928F",
+      "action": "0x6a6f622e636f6e74696e7565406a6f622d310000000000000000000000000000",
+      "amount": "500000000000000000",
+      "bodyHash": "0x9c716eb7748a7904b28fd9b9b917f9a2c4fb619c77c8ba180035a0ba4d489b73",
+      "body": {
+        "parentJobId": "png-r2",
+        "objective": "Public project goal: Local website project\nPreserve real files and historical origins.\nBranch direction: \nRequested change: R3 retains R1 markers and embeds exact R2 PNG\nRestore the selected target from .imd/reads/artifacts/<as>; that authenticated file is the update baseline, even if the workspace is newer. Preserve existing content except the requested changes. Write self-contained UTF-8 HTML. The named accepted HTML must be the exact dist/index.html bytes. dist must contain only index.html, no symlinks. Inline all CSS and JS. Inline selected images byte-for-byte as PNG/JPEG/WebP data URIs; do not transcode or fetch remote resources. Each image at most 262144 bytes, images total at most 524288 bytes, final HTML including Base64 overhead at most 2097152 bytes. Retain old markers on updates. No website or IPFS publishing.\nProduce exactly the declared named output. Do not delete or claim to have read unselected assets. No paid child jobs, autonomous spending, contract deployment or token launches.",
+        "github": true,
+        "ipfs": false,
+        "steps": [
+          {
+            "skill": "build-website",
+            "inputs": [
+              {
+                "name": "cover",
+                "path": "images/cover.png",
+                "hash": "6f35a9bb5217bc3a09f2e1547b5a95983c3ae6cfa8087ee3bf9cdc3542cb4e7e",
+                "mediaType": "image/png",
+                "bytes": 70,
+                "submissionHash": "7a6b2d638de944003edec61da71da288c6e3aa391c35a2ace7bfd4eddb850c9e",
+                "as": "asset-0"
+              },
+              {
+                "name": "site",
+                "path": "dist/index.html",
+                "hash": "0758192e6b0dd1b2b83ac38879981feea78b8f8c18c63f036a82b55062b24cf4",
+                "mediaType": "text/html",
+                "bytes": 63,
+                "submissionHash": "500dcd55d297c440993f3df9b56dc86c006dcd59f3dd13747b083a35dc100ebb",
+                "as": "asset-1"
+              }
+            ],
+            "outputs": [
+              {
+                "name": "site",
+                "path": "dist/index.html",
+                "mediaType": "text/html"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "transactionHash": "0x5e1c5836af98422253083a4237f1150bbe8e1f6bcde76035e03f7a948d420f4c",
+      "payer": "0x1c8d7d133c0c4AC780Fc1a4f71913FB6625F7De5",
+      "action": "0x6a6f622e6f70656e406a6f622d31000000000000000000000000000000000000",
+      "amount": "500000000000000000",
+      "bodyHash": "0xbee442158ce58a5716664662a5efe2dc339545549b8b03de61e247008dfd73bf",
+      "body": {
+        "objective": "Public project goal: Local website project\nPreserve real files and historical origins.\nBranch direction: Develop independently from historical HTML R1\nRequested change: Child first independent execution\nCreate a new asset without replacing another slot. Write a UTF-8 Markdown document, at most 65536 bytes. Read only the explicit inputs at .imd/reads/artifacts/<as>. No website or IPFS publishing.\nProduce exactly the declared named output. Do not delete or claim to have read unselected assets. No paid child jobs, autonomous spending, contract deployment or token launches.",
+        "github": true,
+        "ipfs": false,
+        "steps": [
+          {
+            "skill": "build-document",
+            "inputs": [],
+            "outputs": [
+              {
+                "name": "child-notes",
+                "path": "docs/child-notes.md",
+                "mediaType": "text/markdown"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "transactionHash": "0xe380aa35aa06f4a5bdffc531abc75529a52e51f7de9a585374ad142d8ce9323f",
+      "payer": "0x1c8d7d133c0c4AC780Fc1a4f71913FB6625F7De5",
+      "action": "0x6a6f622e636f6e74696e7565406a6f622d310000000000000000000000000000",
+      "amount": "500000000000000000",
+      "bodyHash": "0x9653737d63f1990f742f461ce0403b8ac1cdc364e3e1f3985ce536384f72c272",
+      "body": {
+        "parentJobId": "child-open",
+        "objective": "Public project goal: Local website project\nPreserve real files and historical origins.\nBranch direction: Develop independently from historical HTML R1\nRequested change: Continue child work\nRestore the selected target from .imd/reads/artifacts/<as>; that authenticated file is the update baseline, even if the workspace is newer. Preserve existing content except the requested changes. Write a UTF-8 Markdown document, at most 65536 bytes. Read only the explicit inputs at .imd/reads/artifacts/<as>. No website or IPFS publishing.\nProduce exactly the declared named output. Do not delete or claim to have read unselected assets. No paid child jobs, autonomous spending, contract deployment or token launches.",
+        "github": true,
+        "ipfs": false,
+        "steps": [
+          {
+            "skill": "build-document",
+            "inputs": [
+              {
+                "name": "child-notes",
+                "path": "docs/child-notes.md",
+                "hash": "7d24b9d03008f79dbc1ee5a86dd8b75fc0b69c321f1ba5380fd4b43cb50fcf72",
+                "mediaType": "text/markdown",
+                "bytes": 24,
+                "submissionHash": "8cc4369d8c09dee3d3ada75d89f0ad5db51f389d160e1fd902e7bbdd62ec168a",
+                "as": "asset-0"
+              }
+            ],
+            "outputs": [
+              {
+                "name": "child-notes",
+                "path": "docs/child-notes.md",
+                "mediaType": "text/markdown"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "transactionHash": "0x993d342e45353f70b19f8ab591cacf5b6d83a42932cbddfaeeba08594e49d57e",
+      "payer": "0x7fc1375aA5d360Ca90cc443B5c3d3919aA8B9208",
+      "action": "0x6a6f622e6f70656e406a6f622d31000000000000000000000000000000000000",
+      "amount": "500000000000000000",
+      "bodyHash": "0xb4cf6fe88a28e850d9336a041769cc9c225125e18a5797898572e85afe78548a",
+      "body": {
+        "objective": "Public project goal: Recovery and refusal tests\nPreserve real files and historical origins.\nBranch direction: \nRequested change: Earlier proposal remains eligible\nCreate a new asset without replacing another slot. Write a UTF-8 Markdown document, at most 65536 bytes. Read only the explicit inputs at .imd/reads/artifacts/<as>. No website or IPFS publishing.\nProduce exactly the declared named output. Do not delete or claim to have read unselected assets. No paid child jobs, autonomous spending, contract deployment or token launches.",
+        "github": true,
+        "ipfs": false,
+        "steps": [
+          {
+            "skill": "build-document",
+            "inputs": [],
+            "outputs": [
+              {
+                "name": "first",
+                "path": "docs/first.md",
+                "mediaType": "text/markdown"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "transactionHash": "0xc3695e6315f1201572371965e591c7e6f1d433e27014bba2395053a876a84858",
+      "payer": "0x7fc1375aA5d360Ca90cc443B5c3d3919aA8B9208",
+      "action": "0x6a6f622e6f70656e406a6f622d31000000000000000000000000000000000000",
+      "amount": "500000000000000000",
+      "bodyHash": "0xb4cf6fe88a28e850d9336a041769cc9c225125e18a5797898572e85afe78548a",
+      "body": {
+        "objective": "Public project goal: Recovery and refusal tests\nPreserve real files and historical origins.\nBranch direction: \nRequested change: Earlier proposal remains eligible\nCreate a new asset without replacing another slot. Write a UTF-8 Markdown document, at most 65536 bytes. Read only the explicit inputs at .imd/reads/artifacts/<as>. No website or IPFS publishing.\nProduce exactly the declared named output. Do not delete or claim to have read unselected assets. No paid child jobs, autonomous spending, contract deployment or token launches.",
+        "github": true,
+        "ipfs": false,
+        "steps": [
+          {
+            "skill": "build-document",
+            "inputs": [],
+            "outputs": [
+              {
+                "name": "first",
+                "path": "docs/first.md",
+                "mediaType": "text/markdown"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "transactionHash": "0x84910fb32710a1f1a46ad50604792f7fc5984f573ebeb82c5ad7ecb21b4eac78",
+      "payer": "0xD7D8EA09CA464fbcC358CE39117dbFd05753dCA1",
+      "action": "0x6a6f622e6f70656e406a6f622d31000000000000000000000000000000000000",
+      "amount": "500000000000000000",
+      "bodyHash": "0xcac6e35ffe9c69194a1246f7a78de4a03f0c3afeb1f52e4c5ed7bd0f73ee149d",
+      "body": {
+        "objective": "Public project goal: Purchase rejection and double click\nPreserve real files and historical origins.\nBranch direction: \nRequested change: Only one explicit purchase\nCreate a new asset without replacing another slot. Write a UTF-8 Markdown document, at most 65536 bytes. Read only the explicit inputs at .imd/reads/artifacts/<as>. No website or IPFS publishing.\nProduce exactly the declared named output. Do not delete or claim to have read unselected assets. No paid child jobs, autonomous spending, contract deployment or token launches.",
+        "github": true,
+        "ipfs": false,
+        "steps": [
+          {
+            "skill": "build-document",
+            "inputs": [],
+            "outputs": [
+              {
+                "name": "single",
+                "path": "docs/single.md",
+                "mediaType": "text/markdown"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "transactionHash": "0xd9bfb50034f005d333a6010f94473be245244aa68cae25e37a1b449668e6e030",
+      "payer": "0x7fFAcD7f90cc330FfD99dbF6c88673F0727ec79b",
+      "action": "0x6a6f622e6f70656e406a6f622d31000000000000000000000000000000000000",
+      "amount": "500000000000000000",
+      "bodyHash": "0x57909be212d0421c73bc41bc6f545d3dd6b9e75e4b6bd448616f7739ffc57bdb",
+      "body": {
+        "objective": "Public project goal: Frozen status 2\nPreserve real files and historical origins.\nBranch direction: \nRequested change: Freeze test\nCreate a new asset without replacing another slot. Write a UTF-8 Markdown document, at most 65536 bytes. Read only the explicit inputs at .imd/reads/artifacts/<as>. No website or IPFS publishing.\nProduce exactly the declared named output. Do not delete or claim to have read unselected assets. No paid child jobs, autonomous spending, contract deployment or token launches.",
+        "github": true,
+        "ipfs": false,
+        "steps": [
+          {
+            "skill": "build-document",
+            "inputs": [],
+            "outputs": [
+              {
+                "name": "frozen",
+                "path": "docs/frozen.md",
+                "mediaType": "text/markdown"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "transactionHash": "0x0fdac7ae028f372ca9e0537bdd03b39da5c4a21f9692840659c9462e0b6664de",
+      "payer": "0x043422e15067E8BEC0854728Aff17932e7982Ba8",
+      "action": "0x6a6f622e6f70656e406a6f622d31000000000000000000000000000000000000",
+      "amount": "500000000000000000",
+      "bodyHash": "0x9562ca4ec03fa57b496f70eaac0c6c1e266f113a74aefa41b7caa0cb7ee063bb",
+      "body": {
+        "objective": "Public project goal: Frozen status 7\nPreserve real files and historical origins.\nBranch direction: \nRequested change: Freeze test\nCreate a new asset without replacing another slot. Write a UTF-8 Markdown document, at most 65536 bytes. Read only the explicit inputs at .imd/reads/artifacts/<as>. No website or IPFS publishing.\nProduce exactly the declared named output. Do not delete or claim to have read unselected assets. No paid child jobs, autonomous spending, contract deployment or token launches.",
+        "github": true,
+        "ipfs": false,
+        "steps": [
+          {
+            "skill": "build-document",
+            "inputs": [],
+            "outputs": [
+              {
+                "name": "frozen",
+                "path": "docs/frozen.md",
+                "mediaType": "text/markdown"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "transactionHash": "0x4381c95e0eebfc7f4b1773e1f186c67f6c8c2de30a0bd26caa5741ff4d1d7096",
+      "payer": "0xe994a15087d98970F7027d22F1bAe0Ee5dCFB2A0",
+      "action": "0x6a6f622e6f70656e406a6f622d31000000000000000000000000000000000000",
+      "amount": "500000000000000000",
+      "bodyHash": "0x904770ba7867159caa91db0a25ed1ab7845baa4b6f0c3dd0ecab2631ed295c56",
+      "body": {
+        "objective": "Public project goal: Frozen status 0\nPreserve real files and historical origins.\nBranch direction: \nRequested change: Freeze test\nCreate a new asset without replacing another slot. Write a UTF-8 Markdown document, at most 65536 bytes. Read only the explicit inputs at .imd/reads/artifacts/<as>. No website or IPFS publishing.\nProduce exactly the declared named output. Do not delete or claim to have read unselected assets. No paid child jobs, autonomous spending, contract deployment or token launches.",
+        "github": true,
+        "ipfs": false,
+        "steps": [
+          {
+            "skill": "build-document",
+            "inputs": [],
+            "outputs": [
+              {
+                "name": "frozen",
+                "path": "docs/frozen.md",
+                "mediaType": "text/markdown"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "transactionHash": "0x6eba079e6966bbe980b4547b524b505ead6ac152e4fed34dbbdf102fdcef7f1b",
+      "payer": "0xCD2a5abcF58518eB401C2e103E0Fc89970D19bD7",
+      "action": "0x6a6f622e6f70656e406a6f622d31000000000000000000000000000000000000",
+      "amount": "500000000000000000",
+      "bodyHash": "0x60176f8ae982371ae25355a79857e0616cd6cdb578d82e9519013e066f8d71af",
+      "body": {
+        "objective": "Public project goal: Same call replacement test\nPreserve real files and historical origins.\nBranch direction: \nRequested change: Same call transaction replacement\nCreate a new asset without replacing another slot. Write a UTF-8 Markdown document, at most 65536 bytes. Read only the explicit inputs at .imd/reads/artifacts/<as>. No website or IPFS publishing.\nProduce exactly the declared named output. Do not delete or claim to have read unselected assets. No paid child jobs, autonomous spending, contract deployment or token launches.",
+        "github": true,
+        "ipfs": false,
+        "steps": [
+          {
+            "skill": "build-document",
+            "inputs": [],
+            "outputs": [
+              {
+                "name": "same-call",
+                "path": "docs/same-call.md",
+                "mediaType": "text/markdown"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "transactionHash": "0x97a281098a3d4972a1a6d6ba7f388622f049bc6bbee1e26e866eb0d539b16a63",
+      "payer": "0x87aBA3c698988d84b71401124502297B47E7cFb3",
+      "action": "0x6a6f622e6f70656e406a6f622d31000000000000000000000000000000000000",
+      "amount": "500000000000000000",
+      "bodyHash": "0x02ea37d6124896f861957ae8a40a33150131b9eb528ced095c89d2219a7fd48a",
+      "body": {
+        "objective": "Public project goal: Preview isolation test\nPreserve real files and historical origins.\nBranch direction: \nRequested change: Hostile HTML fixture\nCreate a new asset without replacing another slot. Write self-contained UTF-8 HTML. The named accepted HTML must be the exact dist/index.html bytes. dist must contain only index.html, no symlinks. Inline all CSS and JS. Inline selected images byte-for-byte as PNG/JPEG/WebP data URIs; do not transcode or fetch remote resources. Each image at most 262144 bytes, images total at most 524288 bytes, final HTML including Base64 overhead at most 2097152 bytes. Retain old markers on updates. No website or IPFS publishing.\nProduce exactly the declared named output. Do not delete or claim to have read unselected assets. No paid child jobs, autonomous spending, contract deployment or token launches.",
+        "github": true,
+        "ipfs": false,
+        "steps": [
+          {
+            "skill": "build-website",
+            "inputs": [],
+            "outputs": [
+              {
+                "name": "evil",
+                "path": "dist/index.html",
+                "mediaType": "text/html"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "transactionHash": "0x6d23f0566dfad4d6577086be0a8d754f41f1d9fe495e0533c76bab516e20e3bc",
+      "payer": "0xc1B3E2C5a352Fa015722c8dC6E840ff68955593d",
+      "action": "0x6a6f622e6f70656e406a6f622d31000000000000000000000000000000000000",
+      "amount": "500000000000000000",
+      "bodyHash": "0xfdc446ae86dca787421cdfb27959f0c934177bd1e44f6b37da04bed5d8bb5f4c",
+      "body": {
+        "objective": "Public project goal: Markdown isolation test\nPreserve real files and historical origins.\nBranch direction: \nRequested change: Sanitize Markdown\nCreate a new asset without replacing another slot. Write a UTF-8 Markdown document, at most 65536 bytes. Read only the explicit inputs at .imd/reads/artifacts/<as>. No website or IPFS publishing.\nProduce exactly the declared named output. Do not delete or claim to have read unselected assets. No paid child jobs, autonomous spending, contract deployment or token launches.",
+        "github": true,
+        "ipfs": false,
+        "steps": [
+          {
+            "skill": "build-document",
+            "inputs": [],
+            "outputs": [
+              {
+                "name": "notes",
+                "path": "docs/notes.md",
+                "mediaType": "text/markdown"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "transactionHash": "0x986457ca7dc32e5952b3b9f9076045404f5ac5ba72c568cce64e79e4d210ad1a",
+      "payer": "0x72ea5a9f0cC5CEe7eB9A9f97Df94253CF09607cA",
+      "action": "0x6a6f622e6f70656e406a6f622d31000000000000000000000000000000000000",
+      "amount": "500000000000000000",
+      "bodyHash": "0x0652e950b177692a4af8fb8fd2ce54594a19cafb024668d165722e8fbe715dd6",
+      "body": {
+        "objective": "Public project goal: Wide image verification\nPreserve real files and historical origins.\nBranch direction: \nRequested change: A deterministic non-square PNG\nGenerate one PNG image from text, at most 262144 bytes. No reference images, editing, variations or remote fetches. No website or IPFS publishing. Return the actual PNG as the declared output.\nProduce exactly the declared named output. Do not delete or claim to have read unselected assets. No paid child jobs, autonomous spending, contract deployment or token launches.",
+        "github": true,
+        "ipfs": false,
+        "steps": [
+          {
+            "skill": "imagegen",
+            "inputs": [],
+            "outputs": [
+              {
+                "name": "wide",
+                "path": "images/wide.png",
+                "mediaType": "image/png"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "droppedOriginals": [
+    "0x781c06f8739ad83b3066c269e72041dce901e04267a74310dba5f5ab8d66a874",
+    "0x6d20a80506f4cfdb21f0c5fc4439502090fbb01400519000463629b74f789209"
+  ],
+  "receipts": 85,
+  "checks": [
+    "Every browser calldata equals Node SDK re-encoding",
+    "Temporary accounts, local chain, zero native value",
+    "Successful original receipts; explicitly dropped originals retained",
+    "No request on create/propose/fork/bind/approve",
+    "Nonzero selected proposals",
+    "Actual R3 request continues R2 with R1 HTML/R2 PNG hashes",
+    "Untouched PNG provenance retained"
+  ]
+}

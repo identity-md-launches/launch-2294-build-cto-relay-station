@@ -1,0 +1,155 @@
+{
+  "status": "PASS_WITH_EXPLICIT_PRODUCTION_LIMITS",
+  "workerEvidenceOnly": true,
+  "productionDeployment": null,
+  "liveCompatibility": "NOT_RUN",
+  "productionReady": false,
+  "requestedPredecessor": "d29eedf8e7d6608ed109972c179b367ac07ce91f",
+  "acceptedStartingHead": "acbc8bec5765d7434c6ee831a2c51d03fc6003b5",
+  "checks": {
+    "typecheck": "PASS",
+    "productionBuild": "PASS",
+    "byteIdenticalRebuild": "PASS",
+    "frontendUnits": {
+      "passed": 47,
+      "failed": 0,
+      "skipped": 0
+    },
+    "configuredBrowserMatrix": {
+      "status": "PASS",
+      "stats": {
+        "startTime": "2026-10-21T17:50:23.128Z",
+        "duration": 312090.66099999996,
+        "expected": 182,
+        "skipped": 3,
+        "unexpected": 0,
+        "flaky": 0
+      },
+      "projects": {
+        "webkit-desktop": {
+          "passed": 37,
+          "skipped": 0,
+          "failed": 0,
+          "pageErrors": 0,
+          "consoleErrors": 0,
+          "httpErrors": 0,
+          "externalAttempts": 0,
+          "expectedSecurityDenials": 6
+        },
+        "webkit-mobile": {
+          "passed": 36,
+          "skipped": 1,
+          "failed": 0,
+          "pageErrors": 0,
+          "consoleErrors": 0,
+          "httpErrors": 0,
+          "externalAttempts": 0,
+          "expectedSecurityDenials": 6
+        },
+        "chromium-narrow": {
+          "passed": 36,
+          "skipped": 1,
+          "failed": 0,
+          "pageErrors": 0,
+          "consoleErrors": 0,
+          "httpErrors": 0,
+          "externalAttempts": 0,
+          "expectedSecurityDenials": 0
+        },
+        "chromium-desktop": {
+          "passed": 37,
+          "skipped": 0,
+          "failed": 0,
+          "pageErrors": 0,
+          "consoleErrors": 0,
+          "httpErrors": 0,
+          "externalAttempts": 0,
+          "expectedSecurityDenials": 0
+        },
+        "chromium-mobile": {
+          "passed": 36,
+          "skipped": 1,
+          "failed": 0,
+          "pageErrors": 0,
+          "consoleErrors": 0,
+          "httpErrors": 0,
+          "externalAttempts": 0,
+          "expectedSecurityDenials": 0
+        }
+      },
+      "assertions": "unchanged; existing three desktop-only skips retained; all configured projects run; final worker count1",
+      "auditFiles": 185,
+      "networkAuditNote": "Page/console/HTTP errors recorded for all 185 entries; explicit off-origin attempt lists apply to the 130 shared-harness entries. The 55 platform cases abort off-origin requests and record HTTP responses."
+    },
+    "actualLocalContracts": {
+      "passedScenarios": 64,
+      "failed": 0,
+      "runs": 4,
+      "separateRuntimeStatus": "PASS",
+      "pageErrors": 0,
+      "unexpectedConsoleErrors": 0,
+      "rawReceiptsAuditedPerRun": 85
+    },
+    "supplementalActualContracts": [
+      {
+        "engine": "chromium",
+        "passed": 8,
+        "pageErrors": 0,
+        "consoleErrors": 0,
+        "failedRequests": 0
+      },
+      {
+        "engine": "webkit",
+        "passed": 8,
+        "pageErrors": 0,
+        "consoleErrors": 0,
+        "failedRequests": 0
+      }
+    ],
+    "solidity": {
+      "passed": 125,
+      "failed": 0,
+      "skipped": 0
+    },
+    "sdk": {
+      "passed": 39,
+      "failed": 0,
+      "skipped": 0
+    },
+    "forgeFmt": "PASS",
+    "fixtureIntegrity": "PASS",
+    "releaseABIAndCodeHashes": "PASS",
+    "protectedPredecessorFiles": 94,
+    "dependencyIntegrity": "PASS: description-only frontend package metadata change; no lock changes",
+    "brandAssets": "PASS: 11 SVG / 6 PNG; both browser engines",
+    "taste": {
+      "passed": 16,
+      "total": 16
+    },
+    "responsiveAndKeyboard": "PASS: 320/390/1440 supplemental; four routes at 320/390/768/1440",
+    "retainedDownloadedBytes": {
+      "status": "PASS",
+      "files": 44
+    },
+    "historicalRecovery": {
+      "status": "PASS",
+      "files": 1309,
+      "bytes": 12523951
+    },
+    "sourceSnapshotSize": "PASS; exact measurement in size-final.json"
+  },
+  "manifests": {
+    "dist-sha256.json": "1efb827fc72958a4169ea65c3117f8dc09a8403308eba7da14fedb3d40ea8af8",
+    "test-source-sha256.json": "21ca6158cf461eee5c75027555cf2bf65fd1c3aecd7fceaf29a9025404e1e660",
+    "runtime-source-sha256.json": "727a02adeedc4bf175c1d392b26ee622f5863a1ad7f2f49f7e1929a813217290",
+    "assets-sha256.json": "9e3149efdd03376b2cb3131aaf5e39c37a931f496e64957a33537bffdc1e010f",
+    "protected-core-sha256.json": "6e357bdbe5670f45f3c9ea95d270905f90a55104b914730d023dbb968c08b7f4"
+  },
+  "limitations": [
+    "No public deployment, hosting, live IMD or real AI worker compatibility",
+    "No physical Safari/iOS, wallet-app/passkey or screen-reader certification",
+    "No independent final-frontend audit; worker evidence only",
+    "Relative social image URLs require a known host where absolute URLs are mandatory"
+  ],
+  "priorFailures": "All failed attempts retained under attempts/. Final evidence does not reuse their passes."
+}

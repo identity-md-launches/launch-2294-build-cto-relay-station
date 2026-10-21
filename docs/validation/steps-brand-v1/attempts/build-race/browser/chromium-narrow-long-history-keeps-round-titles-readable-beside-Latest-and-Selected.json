@@ -1,0 +1,16 @@
+{
+  "test": "long history keeps round titles readable beside Latest and Selected",
+  "engine": "chromium-narrow",
+  "viewport": {
+    "width": 320,
+    "height": 844
+  },
+  "status": "skipped",
+  "horizontalOverflow": 0,
+  "pageErrors": [],
+  "externalAttempts": [],
+  "httpErrors": [],
+  "unexpectedConsoleErrors": [],
+  "expectedSecurityBlocks": [],
+  "console": []
+}

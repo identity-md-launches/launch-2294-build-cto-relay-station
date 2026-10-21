@@ -1,6 +1,6 @@
 # Fixed resource envelope
 
-This is the local policy A1/2 repair candidate atop the original IMD delivery at `9b0294e7ab19060bd00c489fbe032cf248528e0d`. All sizes are bytes, including UTF-8 and JSON escapes. Current results and source-specific measurements are in [review-fixes](validation/review-fixes/README.md); original validation logs are preserved as historical evidence.
+This is the local policy A1/2 repair candidate atop the original IMD delivery at `9b0294e7ab19060bd00c489fbe032cf248528e0d`. All sizes are bytes, including UTF-8 and JSON escapes. Current results and source-specific measurements are in [review-fixes](https://github.com/identity-md-launches/launch-2294-build-cto-relay-station/blob/d29eedf8e7d6608ed109972c179b367ac07ce91f/docs/validation/review-fixes/README.md); original validation logs are preserved as historical evidence.
 
 | Resource | Candidate limit |
 | --- | ---: |
@@ -50,7 +50,7 @@ Only one `files[]` entry is accepted. File `bytes` must be a nonzero unsigned in
 
 ## Measurement and remaining trust boundaries
 
-The original implementation reduced a fully retained parser's manifest cap from 16 KiB to 8 KiB after a maximum-witness gas failure. Those old measurements remain under `evidence/` and `docs/validation/`; they do not measure the revised metadata-aware parser. Current test counts, complete binding gas and production contract sizes must come from [review-fixes](validation/review-fixes/README.md). The existing 14,000,000 execution-gas assertions for the maximum-witness binding fixtures remain acceptance checks; they are not a universal upper-bound proof for every possible JSON document.
+The original implementation reduced a fully retained parser's manifest cap from 16 KiB to 8 KiB after a maximum-witness gas failure. Those old measurements remain under `evidence/` and `docs/validation/`; they do not measure the revised metadata-aware parser. Current test counts, complete binding gas and production contract sizes must come from [review-fixes](https://github.com/identity-md-launches/launch-2294-build-cto-relay-station/blob/d29eedf8e7d6608ed109972c179b367ac07ce91f/docs/validation/review-fixes/README.md). The existing 14,000,000 execution-gas assertions for the maximum-witness binding fixtures remain acceptance checks; they are not a universal upper-bound proof for every possible JSON document.
 
 Execution-call gas excludes calldata/intrinsic transaction costs and external protocol work. Whole-test gas also includes constructing prior revisions, so it is not the gas of one production transaction. Re-running an aggregation tool over saved traces is not a new gas experiment.
 

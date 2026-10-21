@@ -1,0 +1,1 @@
+PASS: frontend package.json differs only in description; lockfiles and protected build/dependency files match pinned predecessor.

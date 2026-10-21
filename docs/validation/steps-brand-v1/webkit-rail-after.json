@@ -1,0 +1,208 @@
+{
+  "v": {
+    "ratio": 1,
+    "bounds": {
+      "x": 1020,
+      "y": 654.078125,
+      "width": 300,
+      "height": 116.140625,
+      "top": 654.078125,
+      "right": 1320,
+      "bottom": 770.21875,
+      "left": 1020
+    },
+    "intersection": {
+      "x": 1020,
+      "y": 654.078125,
+      "width": 300,
+      "height": 116.140625,
+      "top": 654.078125,
+      "right": 1320,
+      "bottom": 770.21875,
+      "left": 1020
+    },
+    "root": {
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 900,
+      "top": 0,
+      "right": 1440,
+      "bottom": 900,
+      "left": 0
+    }
+  },
+  "chain": [
+    {
+      "tag": "BUTTON",
+      "cls": "round-button",
+      "rect": {
+        "x": 1020,
+        "y": 654.078125,
+        "width": 300,
+        "height": 116.140625,
+        "top": 654.078125,
+        "right": 1320,
+        "bottom": 770.21875,
+        "left": 1020
+      },
+      "overflowX": "visible",
+      "overflowY": "visible",
+      "height": "116.140625px",
+      "padding": "16px",
+      "border": "0px"
+    },
+    {
+      "tag": "LI",
+      "cls": "round-item selected",
+      "rect": {
+        "x": 1020,
+        "y": 654.078125,
+        "width": 300,
+        "height": 116.140625,
+        "top": 654.078125,
+        "right": 1320,
+        "bottom": 770.21875,
+        "left": 1020
+      },
+      "overflowX": "visible",
+      "overflowY": "visible",
+      "height": "116.140625px",
+      "padding": "0px",
+      "border": "0px"
+    },
+    {
+      "tag": "OL",
+      "cls": "sequence-rail",
+      "rect": {
+        "x": 120,
+        "y": 653.078125,
+        "width": 1200,
+        "height": 119.140625,
+        "top": 653.078125,
+        "right": 1320,
+        "bottom": 772.21875,
+        "left": 120
+      },
+      "overflowX": "auto",
+      "overflowY": "auto",
+      "height": "119.140625px",
+      "padding": "0px 0px 1px",
+      "border": "1px 0px"
+    },
+    {
+      "tag": "SECTION",
+      "cls": "sequence",
+      "rect": {
+        "x": 120,
+        "y": 607.078125,
+        "width": 1200,
+        "height": 197.140625,
+        "top": 607.078125,
+        "right": 1320,
+        "bottom": 804.21875,
+        "left": 120
+      },
+      "overflowX": "visible",
+      "overflowY": "visible",
+      "height": "197.140625px",
+      "padding": "0px 0px 32px",
+      "border": "0px"
+    },
+    {
+      "tag": "DIV",
+      "cls": "ws",
+      "rect": {
+        "x": 120,
+        "y": 425.6875,
+        "width": 1200,
+        "height": 2047.640625,
+        "top": 425.6875,
+        "right": 1320,
+        "bottom": 2473.328125,
+        "left": 120
+      },
+      "overflowX": "visible",
+      "overflowY": "visible",
+      "height": "2047.640625px",
+      "padding": "0px",
+      "border": "0px"
+    },
+    {
+      "tag": "MAIN",
+      "cls": "page",
+      "rect": {
+        "x": 96,
+        "y": 409.6875,
+        "width": 1248,
+        "height": 2127.640625,
+        "top": 409.6875,
+        "right": 1344,
+        "bottom": 2537.328125,
+        "left": 96
+      },
+      "overflowX": "visible",
+      "overflowY": "visible",
+      "height": "2127.640625px",
+      "padding": "16px 24px 64px",
+      "border": "0px"
+    },
+    {
+      "tag": "DIV",
+      "cls": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 2630.328125,
+        "top": 0,
+        "right": 1440,
+        "bottom": 2630.328125,
+        "left": 0
+      },
+      "overflowX": "visible",
+      "overflowY": "visible",
+      "height": "2630.328125px",
+      "padding": "0px",
+      "border": "0px"
+    },
+    {
+      "tag": "BODY",
+      "cls": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 2630.328125,
+        "top": 0,
+        "right": 1440,
+        "bottom": 2630.328125,
+        "left": 0
+      },
+      "overflowX": "visible",
+      "overflowY": "visible",
+      "height": "2630.328125px",
+      "padding": "0px",
+      "border": "0px"
+    },
+    {
+      "tag": "HTML",
+      "cls": "",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 2630.328125,
+        "top": 0,
+        "right": 1440,
+        "bottom": 2630.328125,
+        "left": 0
+      },
+      "overflowX": "visible",
+      "overflowY": "visible",
+      "height": "2630.328125px",
+      "padding": "0px",
+      "border": "0px"
+    }
+  ]
+}

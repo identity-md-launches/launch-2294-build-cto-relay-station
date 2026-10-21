@@ -1,4 +1,4 @@
-# CTO Relay frontend
+# STEPS frontend
 
 The delivered English Open Workshop frontend supports six A1 operations through the browser SDK. **Public deployment is closed; demo signatures and worker results are simulated, local contracts use MockToken/MockIntake, and real funds are not accepted by a configured public product.** `productionDeployment:null`, `liveCompatibility:NOT_RUN`, `productionReady:false`.
 
@@ -46,18 +46,18 @@ One WalletButton supports named EIP-6963 extensions, mobile **Open in** links an
 
 ## Tests and evidence
 
-The suite is configured for **every `tests/e2e/*.spec.ts`**: 35 cases in five browser projects. The recorded 175-pass run is historical; the current checkout differs from its source/export hashes, and the full suite has not been rerun against these exact bytes. The full actual-chain runner is **`browser-chain.mjs`**. The narrower `platform-chain.mjs` remains available but does not replace it.
+The suite runs **every `tests/e2e/*.spec.ts`**: 37 cases in five browser projects. Current branded-source results, three existing desktop-rail-only viewport skips, separate page/console diagnostics and exact byte manifests are in [STEPS final acceptance](validation/steps-brand-v1/README.md). Earlier 175-pass evidence is historical. The full actual-chain runner is **`browser-chain.mjs`**. The narrower `platform-chain.mjs` remains available but does not replace it.
 
 ```sh
 npm run test:e2e:install --prefix frontend
 npm run test:e2e --prefix frontend
 forge build
-node frontend/tests/integration/browser-chain.mjs --browser chromium --group all
-node frontend/tests/integration/browser-chain.mjs --browser webkit --group all
-node frontend/tests/integration/browser-chain.mjs --browser chromium --group all --mobile
-node frontend/tests/integration/browser-chain.mjs --browser webkit --group all --mobile
+node frontend/tests/integration/browser-chain.mjs --browser chromium --group all --out docs/validation/steps-brand-v1/local/chromium
+node frontend/tests/integration/browser-chain.mjs --browser webkit --group all --out docs/validation/steps-brand-v1/local/webkit
+node frontend/tests/integration/browser-chain.mjs --browser chromium --group all --mobile --out docs/validation/steps-brand-v1/local/chromium-mobile
+node frontend/tests/integration/browser-chain.mjs --browser webkit --group all --mobile --out docs/validation/steps-brand-v1/local/webkit-mobile
 ```
 
 Run the local-chain commands sequentially; they own ports and regenerate local config/export config. The Playwright fixture suite checks `/preview/` at Chromium 1440/390/320 and WebKit 1440/390. Optional browser executable/runtime settings and exact environments are in [BUILD.md](BUILD.md). Tests write reports; archive prior evidence or use a disposable checkout when reproducing.
 
-[Design system](DESIGN.md) · [states and provenance](FRONTEND.md) · [developer/Agent guide](AGENT-GUIDE.md) · [final requirement matrix](validation/platform-ux-v1/documentation/README.md). Prior local counts are evidence for the hashed delivered source, not a new run or independent approval.
+[Design system](DESIGN.md) · [states and provenance](FRONTEND.md) · [developer/Agent guide](AGENT-GUIDE.md) · [final requirement matrix](validation/steps-brand-v1/README.md). These are worker observations, not independent approval.

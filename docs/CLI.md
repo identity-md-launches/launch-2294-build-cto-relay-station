@@ -1,6 +1,6 @@
 # Unsigned CLI and Node SDK
 
-This describes the local policy A1/2 repair candidate atop original IMD commit `9b0294e7ab19060bd00c489fbe032cf248528e0d`. See [current repair evidence](validation/review-fixes/README.md). The walkthrough below deliberately reads historical local fixtures; its sample addresses are not deployed services.
+This describes the local policy A1/2 repair candidate atop original IMD commit `9b0294e7ab19060bd00c489fbe032cf248528e0d`. See [current repair evidence](https://github.com/identity-md-launches/launch-2294-build-cto-relay-station/blob/d29eedf8e7d6608ed109972c179b367ac07ce91f/docs/validation/review-fixes/README.md). The walkthrough below deliberately reads historical local fixtures; its sample addresses are not deployed services.
 
 Use Node ≥22 from the repository root. `node cli/relay.mjs help` lists every CLI command. No npm installation, RPC, wallet, signer, server or indexer is required for preparation. Only the optional `fetch-check` command performs an artifact download. There is no send, deploy, approve, browser-preview or automatic retry command.
 

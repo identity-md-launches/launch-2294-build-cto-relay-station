@@ -1,0 +1,58 @@
+[
+  {
+    "pair": "text/canvas",
+    "foreground": "#22231F",
+    "background": "#F6F5F1",
+    "ratio": 14.493,
+    "scope": "solid source token pair, not arbitrary artifact or disabled-state contrast"
+  },
+  {
+    "pair": "secondary/canvas",
+    "foreground": "#666961",
+    "background": "#F6F5F1",
+    "ratio": 5.122,
+    "scope": "solid source token pair, not arbitrary artifact or disabled-state contrast"
+  },
+  {
+    "pair": "white/action",
+    "foreground": "#FFFFFF",
+    "background": "#C1452A",
+    "ratio": 5.058,
+    "scope": "solid source token pair, not arbitrary artifact or disabled-state contrast"
+  },
+  {
+    "pair": "control-border/surface",
+    "foreground": "#878A80",
+    "background": "#FFFFFF",
+    "ratio": 3.513,
+    "scope": "solid source token pair, not arbitrary artifact or disabled-state contrast"
+  },
+  {
+    "pair": "focus/canvas",
+    "foreground": "#A83721",
+    "background": "#F6F5F1",
+    "ratio": 5.953,
+    "scope": "solid source token pair, not arbitrary artifact or disabled-state contrast"
+  },
+  {
+    "pair": "success/success-bg",
+    "foreground": "#326044",
+    "background": "#EDF4EC",
+    "ratio": 6.484,
+    "scope": "solid source token pair, not arbitrary artifact or disabled-state contrast"
+  },
+  {
+    "pair": "warning/warning-bg",
+    "foreground": "#795019",
+    "background": "#FFF5DF",
+    "ratio": 6.515,
+    "scope": "solid source token pair, not arbitrary artifact or disabled-state contrast"
+  },
+  {
+    "pair": "error/selected",
+    "foreground": "#9D3028",
+    "background": "#FFF1E8",
+    "ratio": 6.581,
+    "scope": "solid source token pair, not arbitrary artifact or disabled-state contrast"
+  }
+]

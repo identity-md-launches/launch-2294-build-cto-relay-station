@@ -495,10 +495,52 @@ try {
     await page.getByRole('button', { name: 'Connect wallet', exact: true }).click(); await page.getByRole('button', { name: 'Relay Local Test Wallet', exact: true }).click();
     await tx('mock status1 after same-call replacement', local.release.intake, local.intakeI.encodeFunctionData('fail', [first.requestId, 1, `0x${'11'.repeat(32)}`]));
     await refresh();
+    // Targeted regression: actual reverted/replaced journal pseudo-rows must not hide this
+    // authenticated refusal. Test-controlled invalid calls never invoke an Intake purchase.
+    const recoveryRows = [];
+    const remember = async row => page.evaluate(row => {
+      const rows = JSON.parse(localStorage.getItem('relay.local.transactions.v1') ?? '[]');
+      localStorage.setItem('relay.local.transactions.v1', JSON.stringify([...rows.filter(r => r.hash !== row.hash), row]));
+    }, row);
+    const journal = (hash, nonce) => ({ ...original, hash, nonce, operation: 'retry', data: '0x', to: branch,
+      proposalId: `${branch}:${first.proposalId}`, state: 'SUBMITTED', at: new Date().toISOString() });
+    const revertedNonce = Number(BigInt(await local.provider.request({ method: 'eth_getTransactionCount', params: [original.account, 'latest'] })));
+    const revertedHash = await local.provider.request({ method: 'eth_sendTransaction', params: [{ from: original.account, to: branch, data: '0x', gas: '0x100000' }] });
+    await expect.poll(async () => {
+      const receipt = await local.provider.request({ method: 'eth_getTransactionReceipt', params: [revertedHash] });
+      return receipt ? Number(BigInt(receipt.status)) : null;
+    }).toBe(0);
+    await remember(journal(revertedHash, revertedNonce)); await page.reload();
+    await expect(page.locator('#progress')).toContainText('REVERTED');
+    await expect(page.getByRole('button', { name: 'Review identical paid retry', exact: true })).toBeVisible();
+    assert.equal(await countPurchases(), spent + 1);
+    recoveryRows.push({ status: 'REVERTED', hash: revertedHash, nonce: revertedNonce });
+    await local.provider.request({ method: 'evm_setAutomine', params: [false] });
+    const unknownNonce = Number(BigInt(await local.provider.request({ method: 'eth_getTransactionCount', params: [original.account, 'latest'] })));
+    const unknownHash = await local.provider.request({ method: 'eth_sendTransaction', params: [{ from: original.account, to: branch, data: '0x', gas: '0x100000' }] });
+    await remember(journal(unknownHash, unknownNonce)); await page.reload();
+    await expect(page.locator('#progress')).toContainText('PENDING');
+    await expect(page.getByRole('button', { name: 'Review identical paid retry', exact: true })).toHaveCount(0);
+    assert.equal(await countPurchases(), spent + 1);
+    await local.provider.request({ method: 'anvil_dropTransaction', params: [unknownHash] });
+    const otherHash = await local.provider.request({ method: 'eth_sendTransaction', params: [{ from: original.account, to: original.account, value: '0x0', nonce: `0x${unknownNonce.toString(16)}`, gas: '0x5208' }] });
+    await local.provider.request({ method: 'evm_setAutomine', params: [true] }); await local.provider.request({ method: 'evm_mine', params: [] });
+    await page.reload(); await expect(page.locator('#progress')).toContainText('REPLACED_OTHER');
+    await expect(page.getByRole('button', { name: 'Review identical paid retry', exact: true })).toBeVisible();
+    assert.equal(await countPurchases(), spent + 1);
+    recoveryRows.push({ status: 'REPLACED_OTHER', originalHash: unknownHash, replacementHash: otherHash, nonce: unknownNonce });
+    const retained = await page.evaluate(() => JSON.parse(localStorage.getItem('relay.local.transactions.v1')));
+    assert.ok(retained.some(r => r.hash === original.hash)); assert.ok(retained.some(r => r.hash === revertedHash)); assert.ok(retained.some(r => r.hash === unknownHash));
+    evidence.failedJournalRetryRegression = { recoveryRows, purchasesBeforeConsent: await countPurchases(), retainedHashes: retained.map(r => r.hash) };
+    await page.getByRole('button', { name: 'Connect wallet', exact: true }).click();
+    await page.getByRole('button', { name: 'Relay Local Test Wallet', exact: true }).click();
     await page.getByRole('button', { name: 'Review identical paid retry', exact: true }).click();
     const panel = funding();
+    await expect(panel.getByRole('button', { name: '2. Purchase identical retry', exact: true })).toBeDisabled();
+    assert.equal(await countPurchases(), spent + 1);
     await panel.getByRole('button', { name: '1. Approve exact amount', exact: true }).click();
     await expect(panel.getByRole('button', { name: '1. Approval confirmed' })).toBeVisible();
+    assert.equal(await countPurchases(), spent + 1);
     await panel.getByRole('button', { name: '2. Purchase identical retry', exact: true }).click();
     await expect.poll(() => read(branch, 'attemptCount').then(Number)).toBe(2);
     const retried = await read(branch, 'attempt', [2]); assert.equal(retried.bodyHash, first.bodyHash);

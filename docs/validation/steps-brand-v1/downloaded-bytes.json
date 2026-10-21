@@ -1,0 +1,271 @@
+{
+  "status": "PASS",
+  "scope": "retained exact local artifact bytes versus their original result.json descriptors; browser download assertions additionally run in each journey",
+  "verifiedFiles": 44,
+  "files": [
+    {
+      "path": "local/chromium/files/child-continue/docs/child-notes.md",
+      "bytes": 28,
+      "sha256": "b0db30a6a4ac88018a6ee707b24b303d64bc57a138aaff9265a8d1657c4b4b94",
+      "descriptorMatch": true
+    },
+    {
+      "path": "local/chromium/files/child-open/docs/child-notes.md",
+      "bytes": 24,
+      "sha256": "7d24b9d03008f79dbc1ee5a86dd8b75fc0b69c321f1ba5380fd4b43cb50fcf72",
+      "descriptorMatch": true
+    },
+    {
+      "path": "local/chromium/files/html-r1/dist/index.html",
+      "bytes": 63,
+      "sha256": "0758192e6b0dd1b2b83ac38879981feea78b8f8c18c63f036a82b55062b24cf4",
+      "descriptorMatch": true
+    },
+    {
+      "path": "local/chromium/files/html-r3/dist/index.html",
+      "bytes": 226,
+      "sha256": "dedf38f81a48d532800089a6d0d729ca046a87e70c7db6f6037f036b708e88c9",
+      "descriptorMatch": true
+    },
+    {
+      "path": "local/chromium/files/malicious-markdown/docs/notes.md",
+      "bytes": 178,
+      "sha256": "881e8d0d80ad5b3d0d6d52fd05d536bdbf29c98658caec4d3a64581a990e0c13",
+      "descriptorMatch": true
+    },
+    {
+      "path": "local/chromium/files/malicious-preview/dist/index.html",
+      "bytes": 372,
+      "sha256": "feafa28119d0ba02008be771ba62a239c2b545538f1c57ec3ab83bdd78df14e1",
+      "descriptorMatch": true
+    },
+    {
+      "path": "local/chromium/files/markdown-create/docs/main.md",
+      "bytes": 29,
+      "sha256": "fe65d5239c52be4aacace4a20fe797d471e52b416b69a3355afb004a93aa0c1b",
+      "descriptorMatch": true
+    },
+    {
+      "path": "local/chromium/files/markdown-update/docs/main.md",
+      "bytes": 29,
+      "sha256": "4f2f49c723f4933a1c0a2934212a4f56f94ba42a781c444d3536a7ac8951c922",
+      "descriptorMatch": true
+    },
+    {
+      "path": "local/chromium/files/png-r2/images/cover.png",
+      "bytes": 70,
+      "sha256": "6f35a9bb5217bc3a09f2e1547b5a95983c3ae6cfa8087ee3bf9cdc3542cb4e7e",
+      "descriptorMatch": true
+    },
+    {
+      "path": "local/chromium/files/refused-retried/docs/first.md",
+      "bytes": 29,
+      "sha256": "47ceacf61a2aca79082ae3118667b9cfedeafdfdf8694e722d03d4c4f8ee5e93",
+      "descriptorMatch": true
+    },
+    {
+      "path": "local/chromium/files/wide-image/images/wide.png",
+      "bytes": 101,
+      "sha256": "8b63958ad4c026fd27f4219e16cebfefaa93191d3f139850997a28d7870398bb",
+      "descriptorMatch": true
+    },
+    {
+      "path": "local/chromium-mobile/files/child-continue/docs/child-notes.md",
+      "bytes": 28,
+      "sha256": "b0db30a6a4ac88018a6ee707b24b303d64bc57a138aaff9265a8d1657c4b4b94",
+      "descriptorMatch": true
+    },
+    {
+      "path": "local/chromium-mobile/files/child-open/docs/child-notes.md",
+      "bytes": 24,
+      "sha256": "7d24b9d03008f79dbc1ee5a86dd8b75fc0b69c321f1ba5380fd4b43cb50fcf72",
+      "descriptorMatch": true
+    },
+    {
+      "path": "local/chromium-mobile/files/html-r1/dist/index.html",
+      "bytes": 63,
+      "sha256": "0758192e6b0dd1b2b83ac38879981feea78b8f8c18c63f036a82b55062b24cf4",
+      "descriptorMatch": true
+    },
+    {
+      "path": "local/chromium-mobile/files/html-r3/dist/index.html",
+      "bytes": 226,
+      "sha256": "dedf38f81a48d532800089a6d0d729ca046a87e70c7db6f6037f036b708e88c9",
+      "descriptorMatch": true
+    },
+    {
+      "path": "local/chromium-mobile/files/malicious-markdown/docs/notes.md",
+      "bytes": 178,
+      "sha256": "881e8d0d80ad5b3d0d6d52fd05d536bdbf29c98658caec4d3a64581a990e0c13",
+      "descriptorMatch": true
+    },
+    {
+      "path": "local/chromium-mobile/files/malicious-preview/dist/index.html",
+      "bytes": 372,
+      "sha256": "feafa28119d0ba02008be771ba62a239c2b545538f1c57ec3ab83bdd78df14e1",
+      "descriptorMatch": true
+    },
+    {
+      "path": "local/chromium-mobile/files/markdown-create/docs/main.md",
+      "bytes": 29,
+      "sha256": "fe65d5239c52be4aacace4a20fe797d471e52b416b69a3355afb004a93aa0c1b",
+      "descriptorMatch": true
+    },
+    {
+      "path": "local/chromium-mobile/files/markdown-update/docs/main.md",
+      "bytes": 29,
+      "sha256": "4f2f49c723f4933a1c0a2934212a4f56f94ba42a781c444d3536a7ac8951c922",
+      "descriptorMatch": true
+    },
+    {
+      "path": "local/chromium-mobile/files/png-r2/images/cover.png",
+      "bytes": 70,
+      "sha256": "6f35a9bb5217bc3a09f2e1547b5a95983c3ae6cfa8087ee3bf9cdc3542cb4e7e",
+      "descriptorMatch": true
+    },
+    {
+      "path": "local/chromium-mobile/files/refused-retried/docs/first.md",
+      "bytes": 29,
+      "sha256": "47ceacf61a2aca79082ae3118667b9cfedeafdfdf8694e722d03d4c4f8ee5e93",
+      "descriptorMatch": true
+    },
+    {
+      "path": "local/chromium-mobile/files/wide-image/images/wide.png",
+      "bytes": 101,
+      "sha256": "8b63958ad4c026fd27f4219e16cebfefaa93191d3f139850997a28d7870398bb",
+      "descriptorMatch": true
+    },
+    {
+      "path": "local/webkit/files/child-continue/docs/child-notes.md",
+      "bytes": 28,
+      "sha256": "b0db30a6a4ac88018a6ee707b24b303d64bc57a138aaff9265a8d1657c4b4b94",
+      "descriptorMatch": true
+    },
+    {
+      "path": "local/webkit/files/child-open/docs/child-notes.md",
+      "bytes": 24,
+      "sha256": "7d24b9d03008f79dbc1ee5a86dd8b75fc0b69c321f1ba5380fd4b43cb50fcf72",
+      "descriptorMatch": true
+    },
+    {
+      "path": "local/webkit/files/html-r1/dist/index.html",
+      "bytes": 63,
+      "sha256": "0758192e6b0dd1b2b83ac38879981feea78b8f8c18c63f036a82b55062b24cf4",
+      "descriptorMatch": true
+    },
+    {
+      "path": "local/webkit/files/html-r3/dist/index.html",
+      "bytes": 226,
+      "sha256": "dedf38f81a48d532800089a6d0d729ca046a87e70c7db6f6037f036b708e88c9",
+      "descriptorMatch": true
+    },
+    {
+      "path": "local/webkit/files/malicious-markdown/docs/notes.md",
+      "bytes": 178,
+      "sha256": "881e8d0d80ad5b3d0d6d52fd05d536bdbf29c98658caec4d3a64581a990e0c13",
+      "descriptorMatch": true
+    },
+    {
+      "path": "local/webkit/files/malicious-preview/dist/index.html",
+      "bytes": 372,
+      "sha256": "feafa28119d0ba02008be771ba62a239c2b545538f1c57ec3ab83bdd78df14e1",
+      "descriptorMatch": true
+    },
+    {
+      "path": "local/webkit/files/markdown-create/docs/main.md",
+      "bytes": 29,
+      "sha256": "fe65d5239c52be4aacace4a20fe797d471e52b416b69a3355afb004a93aa0c1b",
+      "descriptorMatch": true
+    },
+    {
+      "path": "local/webkit/files/markdown-update/docs/main.md",
+      "bytes": 29,
+      "sha256": "4f2f49c723f4933a1c0a2934212a4f56f94ba42a781c444d3536a7ac8951c922",
+      "descriptorMatch": true
+    },
+    {
+      "path": "local/webkit/files/png-r2/images/cover.png",
+      "bytes": 70,
+      "sha256": "6f35a9bb5217bc3a09f2e1547b5a95983c3ae6cfa8087ee3bf9cdc3542cb4e7e",
+      "descriptorMatch": true
+    },
+    {
+      "path": "local/webkit/files/refused-retried/docs/first.md",
+      "bytes": 29,
+      "sha256": "47ceacf61a2aca79082ae3118667b9cfedeafdfdf8694e722d03d4c4f8ee5e93",
+      "descriptorMatch": true
+    },
+    {
+      "path": "local/webkit/files/wide-image/images/wide.png",
+      "bytes": 101,
+      "sha256": "8b63958ad4c026fd27f4219e16cebfefaa93191d3f139850997a28d7870398bb",
+      "descriptorMatch": true
+    },
+    {
+      "path": "local/webkit-mobile/files/child-continue/docs/child-notes.md",
+      "bytes": 28,
+      "sha256": "b0db30a6a4ac88018a6ee707b24b303d64bc57a138aaff9265a8d1657c4b4b94",
+      "descriptorMatch": true
+    },
+    {
+      "path": "local/webkit-mobile/files/child-open/docs/child-notes.md",
+      "bytes": 24,
+      "sha256": "7d24b9d03008f79dbc1ee5a86dd8b75fc0b69c321f1ba5380fd4b43cb50fcf72",
+      "descriptorMatch": true
+    },
+    {
+      "path": "local/webkit-mobile/files/html-r1/dist/index.html",
+      "bytes": 63,
+      "sha256": "0758192e6b0dd1b2b83ac38879981feea78b8f8c18c63f036a82b55062b24cf4",
+      "descriptorMatch": true
+    },
+    {
+      "path": "local/webkit-mobile/files/html-r3/dist/index.html",
+      "bytes": 226,
+      "sha256": "dedf38f81a48d532800089a6d0d729ca046a87e70c7db6f6037f036b708e88c9",
+      "descriptorMatch": true
+    },
+    {
+      "path": "local/webkit-mobile/files/malicious-markdown/docs/notes.md",
+      "bytes": 178,
+      "sha256": "881e8d0d80ad5b3d0d6d52fd05d536bdbf29c98658caec4d3a64581a990e0c13",
+      "descriptorMatch": true
+    },
+    {
+      "path": "local/webkit-mobile/files/malicious-preview/dist/index.html",
+      "bytes": 372,
+      "sha256": "feafa28119d0ba02008be771ba62a239c2b545538f1c57ec3ab83bdd78df14e1",
+      "descriptorMatch": true
+    },
+    {
+      "path": "local/webkit-mobile/files/markdown-create/docs/main.md",
+      "bytes": 29,
+      "sha256": "fe65d5239c52be4aacace4a20fe797d471e52b416b69a3355afb004a93aa0c1b",
+      "descriptorMatch": true
+    },
+    {
+      "path": "local/webkit-mobile/files/markdown-update/docs/main.md",
+      "bytes": 29,
+      "sha256": "4f2f49c723f4933a1c0a2934212a4f56f94ba42a781c444d3536a7ac8951c922",
+      "descriptorMatch": true
+    },
+    {
+      "path": "local/webkit-mobile/files/png-r2/images/cover.png",
+      "bytes": 70,
+      "sha256": "6f35a9bb5217bc3a09f2e1547b5a95983c3ae6cfa8087ee3bf9cdc3542cb4e7e",
+      "descriptorMatch": true
+    },
+    {
+      "path": "local/webkit-mobile/files/refused-retried/docs/first.md",
+      "bytes": 29,
+      "sha256": "47ceacf61a2aca79082ae3118667b9cfedeafdfdf8694e722d03d4c4f8ee5e93",
+      "descriptorMatch": true
+    },
+    {
+      "path": "local/webkit-mobile/files/wide-image/images/wide.png",
+      "bytes": 101,
+      "sha256": "8b63958ad4c026fd27f4219e16cebfefaa93191d3f139850997a28d7870398bb",
+      "descriptorMatch": true
+    }
+  ]
+}

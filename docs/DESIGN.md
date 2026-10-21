@@ -1,8 +1,8 @@
-# CTO Relay: Open Workshop
+# STEPS: Open Workshop
 
 ## Overview
 
-CTO Relay is a workspace for public projects: propose work, fund one execution, inspect accepted output, then continue or fork history. The platform uses a warm, precise light interface, independent of project artwork. This system changes platform chrome, not authenticated artifacts or Second Life artwork.
+STEPS is a workspace for public projects: propose work, fund one execution, inspect accepted output, then continue or fork history. The platform uses a warm, precise light interface, independent of project artwork. This system changes platform chrome, not authenticated artifacts or Second Life artwork.
 
 The source of truth is `frontend/src/styles.css`. Three surfaces share one hierarchy: a compact fixed goal, the ordered checkpoint sequence, the selected complete output, then the next action. Details and provenance use native disclosures. The project list uses the same header, rows, actions and form primitives. The funding surface separates proposal review, token approval and purchase. `#/showcase` composes the production components using labelled demo data.
 
@@ -25,7 +25,7 @@ All component CSS references semantic tokens in `:root`; there is no dark theme.
 | `--color-warning` / `--color-warning-bg` | `#795019` / `#FFF5DF` | Pending, unknown and refusal context |
 | `--color-error` | `#9D3028` | Failures and frozen state |
 
-State always has a text label. Retained measurement results are in `validation/platform-ux-v1/contrast.json`: body/canvas 14.493:1, secondary/canvas 5.122:1, white/action 5.058:1, control edge/surface 3.513:1. They describe the earlier reviewed tree; because current frontend source hashes differ from that review, do not treat those ratios as remeasured for the exact current tree or as a claim about arbitrary artifact content.
+State always has a text label. Measurement results are in `docs/validation/steps-brand-v1/contrast.json`: body/canvas 14.493:1, secondary/canvas 5.122:1, white/action 5.058:1, control edge/surface 3.513:1. These are solid token pairs, not a claim about arbitrary artifact content.
 
 ## Typography
 
@@ -37,7 +37,7 @@ The scale is 13px metadata, 16px body and controls, 20px subheadings, 24px secti
 
 Spacing tokens: 4, 8, 12, 16, 24, 32, 48 and 64px (`--space-1` through `--space-16`). The content is at most 1200px inside a 1248px padded container. Desktop gutters are 24px; at 640px and below they are 16px. Reading order stays the same across widths.
 
-The sequence is a flexible ordered row on desktop. On phones it becomes a two-column grid, with the same numeric chain order and explicit Latest and Selected labels. Inherited/genesis checkpoints are labelled as having no paid round. The result stays full width. Its tabs wrap, complete tables scroll inside a named keyboard-focusable region, and long evidence wraps. Images use natural aspect ratio (`width:auto; height:auto; max-width:100%`). HTML has a 420px minimum preview on desktop and 340px on mobile. The next-action block stacks below 1000px. Forms switch from two columns to one below 640px.
+The sequence is a horizontal CSS grid on desktop with minimum 196px columns and local horizontal scrolling for long history. The one-pixel bottom inset prevents WebKit from clipping fractional-height buttons. The number, round title and labels occupy separate rows when needed. On phones it becomes a two-column grid, with the same numeric chain order and explicit Latest and Selected labels. Inherited/genesis checkpoints are labelled as having no paid round. The result stays full width. Its tabs wrap, complete tables scroll inside a named keyboard-focusable region, and long evidence wraps. Images use natural aspect ratio (`width:auto; height:auto; max-width:100%`). HTML has a 420px minimum preview on desktop and 340px on mobile. The next-action block stacks below 1000px. Forms switch from two columns to one below 640px.
 
 ## Elevation & Depth
 
@@ -45,7 +45,7 @@ The layout uses whitespace and thin rules; only the selected output is a princip
 
 ## Shapes
 
-Controls use 6px radii, previews/sheets 8px, badges 4px. The app favicon is a local vector relay mark, with a locally rendered English Open Graph PNG. Controls have at least 44px targets. Status badges are labels, not controls. Interactive transitions name color/background/border properties and last 160ms. Reduced motion removes transitions and animations.
+Controls use 6px radii, previews/sheets 8px, badges 4px. The app favicon is the optical STEPS symbol, with an outlined English 1200×630 Open Graph SVG and local PNG. Portable primary, monochrome and reversed vectors are in `brand/svg/`; the site stays light. See [brand guide](../brand/README.md). Controls have at least 44px targets. Status badges are labels, not controls. Interactive transitions name color/background/border properties and last 160ms. Reduced motion removes transitions and animations.
 
 ## Components
 
@@ -72,20 +72,20 @@ Controls use 6px radii, previews/sheets 8px, badges 4px. The app favicon is a lo
 - Keep original file producer branch/job/checkpoint and exact chain IDs. Latest is not every file's origin; attempts are not completed rounds.
 - Do not translate authenticated outputs, infer relationships, simulate live projects, change protocol limits, introduce a dark theme, or execute artifact scripts.
 
-Rendered coverage, fixes, screenshots and limitations are recorded in `validation/platform-ux-v1/design-review.md`. Better Interface guidance is adapted from Jakub Krehel (MIT); documentation method from Paul Bakaus / Impeccable (Apache-2.0). Retained notices are in `frontend/docs/licenses/`.
+Rendered coverage, fixes, screenshots and limitations are recorded in `docs/validation/steps-brand-v1/design-review.md`. Better Interface guidance is adapted from Jakub Krehel (MIT); documentation method from Paul Bakaus / Impeccable (Apache-2.0). Retained notices are in `frontend/docs/licenses/`.
 
 ## Final integration refinements
 
-At 320px, the brand uses the 16px body step with a 24px mark so the wallet control remains beside it. Closed demo settings share a compact row with the mode label, with the fixture explanation beneath. This keeps the whole sequence reachable on the first phone screen without clipping text or hiding controls. Open settings remain in normal flow.
+At 320px, the outlined STEPS header lockup is 101×24px so the wallet control remains beside it; above 360px it is about 117×28px. The link has the accessible name “STEPS home”. Closed demo settings share a compact row with the mode label, with the fixture explanation beneath. This keeps the whole sequence reachable on the first phone screen without clipping text or hiding controls. Open settings remain in normal flow.
 
 Unbroken project names and goals wrap with `overflow-wrap:anywhere`; flex heading children allow shrinking. Failed verification checks also wrap long actual digests. Wide Markdown/provenance tables scroll in their own named, keyboard-focusable regions while the host document reflows.
 
 The funding sheet shows both approval and purchase controls throughout. Purchase is disabled before confirmed approval; approval is disabled after confirmation. Only the available next action has the primary fill. A price change returns to exact approval. Closing any preparation restores its opener's focus and invalidates delayed signing work.
 
-Final rendered observations, contrast measurements, six-domain coverage and browser limits: [integration review](validation/platform-ux-v1/final/design-review.md).
+Final rendered observations, contrast measurements, six-domain coverage and browser limits: [integration review](validation/steps-brand-v1/design-review.md).
 
 Inputs, selects and textareas use the 16px body token even inside 13px metadata containers. Main navigation links have minimum 44px width and height. These values are verified by the final rendered review.
 
-## Documentation authority
+## Brand integration
 
-This English guide records the delivered source, with final review results in [the acceptance matrix](validation/platform-ux-v1/documentation/README.md). The root DESIGN.md is retained unchanged as a source record. No frontend design file is modified by this documentation pass. License notices remain at [Better Interface](../frontend/docs/licenses/better-interface-LICENSE.txt) and in the frontend license directory. Sample contrast ratios cover platform chrome only; arbitrary authenticated project artwork has no platform contrast guarantee.
+The selected Joined Steps S and custom outlined STEPS wordmark derive from `frontend/src/brand/geometry.json`. `BrandLockup` and `BrandSymbol` in `frontend/src/brand/Logo.tsx` are decorative SVGs accompanied by semantic UI names. The slogan “Build on every step.” appears at entry, not above project workspaces. The footer names Stepstoke and links to the confirmed official X destination, `https://x.com/stepstoke`. Social, favicon, avatar and transparent variants share the same geometry and palette. Share-card text outlines use local Liberation Sans under SIL OFL 1.1; the UI retains system fonts. Font hashes, license, regeneration commands and clear-space rules are in `brand/README.md`.

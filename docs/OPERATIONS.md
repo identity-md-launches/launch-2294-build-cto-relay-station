@@ -39,7 +39,7 @@ This work contains no public-chain deployment, live paid run, credentials, token
 
 ## Current browser operations
 
-The English platform maps these same fixed operations onto preparation, explicit signing and independent result stages. Continue opens preparation only. Funding requires a fresh quote, exact confirmed approval and a separate purchase. Historical Fork sits beside the selected accepted output. When branch/history disagree, Retry reads both without signing. See [the current interface guide](FRONTEND.md), [authoring guide](PLATFORM-AUTHORING.md) and [current acceptance matrix](validation/platform-ux-v1/documentation/README.md). These do not change live acceptance or authorize public deployment.
+The English platform maps these same fixed operations onto preparation, explicit signing and independent result stages. Continue opens preparation only. Funding requires a fresh quote, exact confirmed approval and a separate purchase. Historical Fork sits beside the selected accepted output. When branch/history disagree, Retry reads both without signing. See [the current interface guide](FRONTEND.md), [authoring guide](PLATFORM-AUTHORING.md) and [current acceptance matrix](https://github.com/identity-md-launches/launch-2294-build-cto-relay-station/blob/d29eedf8e7d6608ed109972c179b367ac07ce91f/docs/validation/platform-ux-v1/documentation/README.md). These do not change live acceptance or authorize public deployment.
 
 ## Run and use the delivered local product
 

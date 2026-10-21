@@ -1,0 +1,261 @@
+{
+  "algorithm": "SHA-256",
+  "files": {
+    "abi/IIntake.json": {
+      "bytes": 1607,
+      "sha256": "5b229bcd1a0e3cbcaf2f5a692b1b9bc899fa89ac67724ea4009580c5a694e5d6"
+    },
+    "abi/RelayBranch.json": {
+      "bytes": 30697,
+      "sha256": "0af0418a66347339164aa4abe872ab4f14090f1a1a2a5f8eeb77c21b79b15f80"
+    },
+    "abi/RelayEncoder.json": {
+      "bytes": 7927,
+      "sha256": "7f7cc7133fb159f4ae248c9c903855ea506cf154e8e6017680075e3c50d9153a"
+    },
+    "abi/RelayFactory.json": {
+      "bytes": 5852,
+      "sha256": "5262e223a80ee89b432c95e18c8a73aec1f907e18449bcc2d16e834ef32d7dc6"
+    },
+    "abi/RelayVerifier.json": {
+      "bytes": 5356,
+      "sha256": "943d11cab4f5fc08d887485037642d6d02c1974bb909cbc4037dd6c5230bfc6d"
+    },
+    "config/release.json": {
+      "bytes": 3658,
+      "sha256": "2dbb1eb0cc5c6c8d7773e4871cfc71857421d0d3c19aa3e14a0ae5c6d3bc9343"
+    },
+    "frontend/index.html": {
+      "bytes": 1949,
+      "sha256": "df119c365dfb821c6d58230fe69c6774287d0275608b033eaea161b82a00343f"
+    },
+    "frontend/package-lock.json": {
+      "bytes": 90501,
+      "sha256": "9ebd51773f6770f6560fa308ee94fd2a42d233d6df4bf7b847bbf27fd8db8d8c"
+    },
+    "frontend/package.json": {
+      "bytes": 1531,
+      "sha256": "cd371e4ee345b1a0a67904396c4a00c25959c36f7ecdade87b1aedb3df117096"
+    },
+    "frontend/public/apple-touch-icon.png": {
+      "bytes": 2842,
+      "sha256": "a00d8ff12f6f41d59314b036258b868569c4bc630fe3a505429798a31074dd16"
+    },
+    "frontend/public/favicon-16.png": {
+      "bytes": 293,
+      "sha256": "8b41d111b8e0d5da2a4c6da8986c3d3d83699b915e5e1a9de3e870b0177a44a2"
+    },
+    "frontend/public/favicon-32.png": {
+      "bytes": 495,
+      "sha256": "9cae5baf49272002f99f76088b4c89dca8ab5187b05d5188b100df0ab19e719e"
+    },
+    "frontend/public/favicon.svg": {
+      "bytes": 374,
+      "sha256": "272911dfd664759ba5b4119bab027ee2b58de89f239f51fc57a67a052d65be3a"
+    },
+    "frontend/public/local-config.json": {
+      "bytes": 3527,
+      "sha256": "260ac4a7231a260c303fb4b7a4259dc43b3085df5753175b133b42e314f262ec"
+    },
+    "frontend/public/og.png": {
+      "bytes": 18537,
+      "sha256": "59d35760d7f491988d818a211520ed745d76e960f3f6983ff5bfb5829a5ec0df"
+    },
+    "frontend/public/og.svg": {
+      "bytes": 48154,
+      "sha256": "c23e32977150299a1176831b2142fcd7ae7e042ea8c27e5a9ce4bfda68a515b0"
+    },
+    "frontend/src/App.tsx": {
+      "bytes": 6982,
+      "sha256": "d5d236a0dd36556203c777f00f822ac6cb9533df3ccdae5a31ee50d6fd5c49ca"
+    },
+    "frontend/src/brand/Logo.tsx": {
+      "bytes": 1422,
+      "sha256": "eeab2de6bdb402aa0db4bf984fa5929c6df1c9a1443da0846f7a2a349e407b93"
+    },
+    "frontend/src/brand/geometry.json": {
+      "bytes": 1485,
+      "sha256": "bd0b27b1a870130891eaba0407a25fcdc26edd5df1a1b9c6c26a6bee86785dd0"
+    },
+    "frontend/src/components/ArtifactViewer.tsx": {
+      "bytes": 4044,
+      "sha256": "cca5b9c8b74f2f5400cf322e7dec658e95c231696a9154c9387731988c30ab23"
+    },
+    "frontend/src/components/FundingSheet.tsx": {
+      "bytes": 397,
+      "sha256": "36c5c0e42de1ede74cc80c8ee55b805bd5ff4669577a3cde3bdeb98b65cdf855"
+    },
+    "frontend/src/components/Sheet.tsx": {
+      "bytes": 2015,
+      "sha256": "94e61bd13b19d651ee47454dcd9cc094e609bcce9431c4e7066cf6e03d3316b2"
+    },
+    "frontend/src/components/VerifiedThumbnail.tsx": {
+      "bytes": 2011,
+      "sha256": "d6f3b85ced1a5f91b4aab623e74d7ef087bb887a8df70e94dabf92dbe654f62e"
+    },
+    "frontend/src/components/WalletButton.tsx": {
+      "bytes": 209,
+      "sha256": "f19e51e0e90cdbb9acc2c43d21884462132118197630be7646eb3f4487241e9e"
+    },
+    "frontend/src/components/platform.tsx": {
+      "bytes": 7238,
+      "sha256": "f2127d30e80af7725e863b4bbdae464fa5d8f30e649a5d3593d2f2ba1922ea9c"
+    },
+    "frontend/src/config.ts": {
+      "bytes": 1444,
+      "sha256": "afb695fc97a753018ba917ebe923c005d7a553b2eb8b8795129fcb59615b8480"
+    },
+    "frontend/src/domain/adapter.ts": {
+      "bytes": 2410,
+      "sha256": "f8c539f3d8d8c29cb43f4c88428584022f3973a522ba84d6a13d3cbea0a29632"
+    },
+    "frontend/src/domain/chainAdapter.ts": {
+      "bytes": 32178,
+      "sha256": "f0f5fb4d38479cecbac0637a8ea5e7ce8de6f2d23bb1cfc145c842ebe9ca510b"
+    },
+    "frontend/src/domain/files.ts": {
+      "bytes": 5635,
+      "sha256": "a0da56c23c89ff5ac0aa4a1d03214ce937e6141d7372b7192d0412f0b12c74ca"
+    },
+    "frontend/src/domain/fixtureAdapter.ts": {
+      "bytes": 29259,
+      "sha256": "67934370d19fc24f965be90bccbc098a3e4e458110c47d0c9fe38fecd0231b79"
+    },
+    "frontend/src/domain/fixtures.ts": {
+      "bytes": 3155,
+      "sha256": "c6e722d15a02e829e10541dd81ac32af4ef728e4b038e09fc95d098052f7be7a"
+    },
+    "frontend/src/domain/liveAdapter.ts": {
+      "bytes": 1890,
+      "sha256": "bf8430084085079f7340b6059f053bf72de3b3d1916f239de6fd33e4365f30d2"
+    },
+    "frontend/src/domain/sdk.ts": {
+      "bytes": 523,
+      "sha256": "034a11dd9ac2a482bc4d36f6a4fb9cc1d1bfdeea98c714e2340f7a31b09793a1"
+    },
+    "frontend/src/domain/types.ts": {
+      "bytes": 5750,
+      "sha256": "89632058fa8dc246655d36ef2d53da86634f10bb86cb3adb5692678b0f4373a0"
+    },
+    "frontend/src/main.tsx": {
+      "bytes": 978,
+      "sha256": "afe7e91568096f2eada716aeb82e6f985d252f9580adb0d3e94015d665c75619"
+    },
+    "frontend/src/preview/FilePreview.tsx": {
+      "bytes": 5725,
+      "sha256": "3f6b47da2cbefc40d0df65a4970bba920de8483cb08dd9de9e3b8de9b1e33117"
+    },
+    "frontend/src/preview/sanitize.ts": {
+      "bytes": 4219,
+      "sha256": "14d0bbe35c8a7daa5a78304ee563e9aa9bf09b210baac1bc2805fdc60f202677"
+    },
+    "frontend/src/styles.css": {
+      "bytes": 21108,
+      "sha256": "7b2670fd807d2d30fef4290a039b452d9f726fe2ed8a52d4f68c1f890ba01cc4"
+    },
+    "frontend/src/ui/ErrorBoundary.tsx": {
+      "bytes": 738,
+      "sha256": "c4abbd8965e4766bd0d042c454d54e55ade1b54d4d4d736ad50613ebc09da77d"
+    },
+    "frontend/src/ui/LocalApp.tsx": {
+      "bytes": 3739,
+      "sha256": "6760bfb5b37897d7afd5e16392ebffa5afb2815609eb416d84e1a772dc7fe145"
+    },
+    "frontend/src/ui/ProjectList.tsx": {
+      "bytes": 6953,
+      "sha256": "eeb33a054865586397262144b8b098d7ac7923b99750b4e4cba97bba5cee5771"
+    },
+    "frontend/src/ui/ProposeForm.tsx": {
+      "bytes": 14824,
+      "sha256": "cca867d755ac8b391be8fc7edbb8746c85634cc090b9d63d3c8860f371cf6a85"
+    },
+    "frontend/src/ui/Showcase.tsx": {
+      "bytes": 3837,
+      "sha256": "2e135387080cf9e6ed30b52f3c5c2e41be5784fef564a5426fe931a3ca8c8011"
+    },
+    "frontend/src/ui/SponsorPanel.tsx": {
+      "bytes": 7325,
+      "sha256": "103471f92dc98cca73d9ee54d7415fd8d0cbb107a0ac02d1e23e2f8d7975c737"
+    },
+    "frontend/src/ui/Workspace.tsx": {
+      "bytes": 20576,
+      "sha256": "4c9a33b1feb9095ba01eb4177c488d7a96bed3b4f880b7fd6d8b5b06ed683dc8"
+    },
+    "frontend/src/ui/actionScope.ts": {
+      "bytes": 652,
+      "sha256": "fbda128014500ac4718fadbcb178f208904ffcc8296c2ebbe5ef150ce76681fd"
+    },
+    "frontend/src/ui/format.tsx": {
+      "bytes": 2323,
+      "sha256": "051dc19e2c4d3c40d1629ab0a5cfb7c3417f0dc2fb6322fb81297395a5d0c846"
+    },
+    "frontend/src/ui/recovery.ts": {
+      "bytes": 2046,
+      "sha256": "df93444fcd297cc4c793a0c1d943f7da89ec6c701ab49a60eb3031c105095df5"
+    },
+    "frontend/src/ui/snapshot.ts": {
+      "bytes": 760,
+      "sha256": "66af4c1fc988b5a3ee6c76f28b0954fe65a04a1d05cb00e37b558ac69c6121de"
+    },
+    "frontend/src/ui/verification.ts": {
+      "bytes": 1529,
+      "sha256": "dbf848d177bade7d95ae59a84ab8f466a7df29759ab542f0c47f57b66be2752e"
+    },
+    "frontend/src/wallet/ConnectSheet.tsx": {
+      "bytes": 5039,
+      "sha256": "2ad91638d470d88a45c6f63342643969a48be52d50636eec12461e10fd8eb80a"
+    },
+    "frontend/src/wallet/icons.ts": {
+      "bytes": 2501,
+      "sha256": "ce3d4cb0d72155fff7aa8125711e4a613c44e30452d42dd08d4337ae335b2fd8"
+    },
+    "frontend/src/wallet/open-in.ts": {
+      "bytes": 1406,
+      "sha256": "6d3d8a950271c9320b0dc8d84f6c68f9e3196871c8da6bbc49681fca948ec1e6"
+    },
+    "frontend/src/wallet/wagmi.ts": {
+      "bytes": 727,
+      "sha256": "2d997424d7691e57f529cc5573644da58628d7cfbdd201dbafc3e7ae0d53d96b"
+    },
+    "frontend/tsconfig.json": {
+      "bytes": 576,
+      "sha256": "c47d55d63cb7986cdc7aff1e091a2b997bf7a91f76dc186cd169b71ce7ab8b91"
+    },
+    "frontend/vite.config.ts": {
+      "bytes": 397,
+      "sha256": "9ac3e1cd7f1cd771632e206b7fa3830e80656e8fe32840f675b0526bc63370d6"
+    },
+    "sdk/abi.mjs": {
+      "bytes": 29124,
+      "sha256": "085905bad78e446b714786732ffc3b5ff656f701ae83bd8cf40833ca9f1f3040"
+    },
+    "sdk/browser.mjs": {
+      "bytes": 1316,
+      "sha256": "d83c19eeb0f3b9a8d9b252070aa9b1c9f856850ebfda559f7fd78439e45a9f34"
+    },
+    "sdk/config.mjs": {
+      "bytes": 6411,
+      "sha256": "2fe2e34d84eadb4d628596431f9eb689837fb6fd55860ff4c367395764c6079e"
+    },
+    "sdk/core.mjs": {
+      "bytes": 22319,
+      "sha256": "56f0dfc1ee06eddf6893712df773960e89ff7bd1b4a0f84d6297e303b7b5ad67"
+    },
+    "sdk/files-browser.mjs": {
+      "bytes": 10680,
+      "sha256": "f585b5aed4901f8df8adc2000f3764a9f4131e9ffc360d88e0f1095036fafbfa"
+    },
+    "sdk/files.mjs": {
+      "bytes": 9649,
+      "sha256": "26d5da8fbfb8c6a289a218188e9f38da2a3d3e59a299c1ca7b61cf934c8625a2"
+    },
+    "sdk/index.mjs": {
+      "bytes": 590,
+      "sha256": "ef476c2b1633a9da6506e3c969698f356f44155347852493416c095334c75a92"
+    },
+    "sdk/strict-json.mjs": {
+      "bytes": 6341,
+      "sha256": "860c78ec4e2ec872564a40e2e011085a1a783ec659af300b04dabcc14bc17636"
+    }
+  }
+}

@@ -94,7 +94,7 @@ fieldset { border: 0; padding: 0; margin: 0; min-width: 0; }
 .mode-bar:has(.demo-controls[open]) { flex-wrap:wrap; }
 .sequence { padding-bottom:var(--space-8); }
 .section-heading { margin-bottom:var(--space-4); }
-.sequence-rail { position:relative; display:grid; grid-auto-flow:column; grid-auto-columns:minmax(196px,1fr); overflow-x:auto; overscroll-behavior-x:contain; list-style:none; padding:0; border-block:1px solid var(--color-border); }
+.sequence-rail { position:relative; display:grid; grid-auto-flow:column; grid-auto-columns:minmax(196px,1fr); overflow-x:auto; overscroll-behavior-x:contain; list-style:none; padding:0 0 1px; border-block:1px solid var(--color-border); }
 .sequence-rail.scrolls { scrollbar-width:thin; scrollbar-color:var(--color-secondary) var(--color-border); }
 .rail-controls { display:flex; align-items:center; justify-content:space-between; gap:var(--space-3); margin-bottom:var(--space-2); }
 .rail-controls .actions { gap:var(--space-1); }

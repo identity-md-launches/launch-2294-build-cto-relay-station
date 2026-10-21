@@ -1,0 +1,233 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: w1.spec.ts >> missing callback stays pending; refused retry; bad binding resubmits without repurchase; status 2 freezes
+- Location: tests/e2e/w1.spec.ts:131:1
+
+# Error details
+
+```
+Test timeout of 45000ms exceeded.
+```
+
+# Page snapshot
+
+```yaml
+- generic [ref=f4e2]:
+  - link "Skip to main content" [ref=f4e3]:
+    - /url: "#main"
+  - banner [ref=f4e4]:
+    - link "STEPS home" [ref=f4e5]:
+      - /url: "#/"
+    - navigation "Platform" [ref=f4e11]:
+      - link "Projects" [ref=f4e12]:
+        - /url: "#/"
+      - link "Demo" [ref=f4e13]:
+        - /url: "#/demo"
+      - link "Components" [ref=f4e14]:
+        - /url: "#/showcase"
+    - button "Connect wallet" [ref=f4e16] [cursor=pointer]
+  - generic [ref=f4e17]:
+    - generic [ref=f4e18]: Demo mode
+    - generic [ref=f4e19]: Deterministic local fixtures. Simulated signatures only.
+    - group [ref=f4e20]:
+      - generic "Demo settings" [ref=f4e21] [cursor=pointer]
+      - option "Demo account A" [selected]
+      - option "Demo account B"
+  - main [ref=f4e22]:
+    - generic [ref=f4e23]:
+      - region [ref=f4e24]:
+        - link "← All projects" [ref=f4e25]:
+          - /url: "#/demo"
+        - heading "Relay introduction" [level=1] [ref=f4e27]
+        - paragraph [ref=f4e28]: Build a public introduction to the relay, with a cover image and project notes.
+      - region [ref=f4e29]:
+        - generic [ref=f4e30]:
+          - heading "Sequence" [level=2] [ref=f4e31]
+          - generic [ref=f4e32]: 5 accepted checkpoints in chain order
+        - list [ref=f4e33]:
+          - listitem [ref=f4e34]:
+            - button "Select Project created" [ref=f4e35] [cursor=pointer]:
+              - generic [ref=f4e36]:
+                - strong [ref=f4e37]: Project created
+                - generic [ref=f4e38]: Fixed goal; no paid round
+          - listitem [ref=f4e40]:
+            - button "Select Round 1" [ref=f4e41] [cursor=pointer]:
+              - generic [ref=f4e42]:
+                - strong [ref=f4e43]: Round 1
+                - generic [ref=f4e44]: HTML page + Markdown
+          - listitem [ref=f4e46]:
+            - button "Select Round 2" [ref=f4e47] [cursor=pointer]:
+              - generic "Verified local thumbnail" [ref=f4e48]:
+                - img "Verified PNG thumbnail" [ref=f4e49]
+              - generic [ref=f4e50]:
+                - strong [ref=f4e51]: Round 2
+                - generic [ref=f4e52]: PNG image
+          - listitem [ref=f4e54]:
+            - button "Select Round 3" [ref=f4e55] [cursor=pointer]:
+              - generic [ref=f4e56]:
+                - strong [ref=f4e57]: Round 3
+                - generic [ref=f4e58]: HTML page
+          - listitem [ref=f4e60]:
+            - button "Select Round 4, Latest, Selected" [ref=f4e61] [cursor=pointer]:
+              - generic [ref=f4e62]:
+                - strong [ref=f4e63]: Round 4
+                - generic [ref=f4e64]: Markdown
+              - generic [ref=f4e65]:
+                - generic [ref=f4e66]: Latest
+                - generic [ref=f4e67]: Selected
+      - region [ref=f4e68]:
+        - generic [ref=f4e69]:
+          - generic [ref=f4e70]:
+            - heading "Round 4 output" [level=2] [ref=f4e71]
+            - paragraph [ref=f4e72]: Selected checkpoint · Accepted execution
+          - button "Historical Fork" [ref=f4e73] [cursor=pointer]
+        - group "Files in selected snapshot" [ref=f4e74]:
+          - button "assets/cover.png PNG image" [ref=f4e75] [cursor=pointer]:
+            - text: assets/cover.png
+            - generic [ref=f4e76]: PNG image
+          - button "assets/notes.md Markdown" [pressed] [ref=f4e77] [cursor=pointer]:
+            - text: assets/notes.md
+            - generic [ref=f4e78]: Markdown
+          - button "assets/site.html HTML page" [ref=f4e79] [cursor=pointer]:
+            - text: assets/site.html
+            - generic [ref=f4e80]: HTML page
+        - generic [ref=f4e81]:
+          - generic [ref=f4e82]:
+            - generic [ref=f4e83]: Verified locally · SHA-256, length, media
+            - link "Download verified file" [ref=f4e84]:
+              - /url: blob:http://127.0.0.1:4175/69cb9480-63fd-4d3e-90c7-1dfa69afa9f5
+          - generic [ref=f4e85]:
+            - heading "notes" [level=1] [ref=f4e86]
+            - paragraph [ref=f4e87]: Expand the notes with the project goal, how to fund work and how to fork.
+            - paragraph [ref=f4e88]: "Inputs: notes@R1"
+          - group [ref=f4e89]:
+            - generic "File verification details" [ref=f4e90] [cursor=pointer]
+        - paragraph [ref=f4e91]: "File origin: fx-branch-1 · checkpoint fx-branch-1:4 · producer job fx-job-fx-branch-1-4. Changed in this checkpoint."
+        - group [ref=f4e92]:
+          - generic "Complete asset table (3) and checkpoint evidence" [ref=f4e93] [cursor=pointer]
+      - region [ref=f4e94]:
+        - generic [ref=f4e95]:
+          - heading "What comes next?" [level=2] [ref=f4e96]
+          - paragraph [ref=f4e97]: Prepare work at the current checkpoint, or fund an eligible contribution.
+          - paragraph [ref=f4e98]: Continue opens preparation only. Proposal, approval and payment stay separate.
+        - generic [ref=f4e99]:
+          - button "Continue" [ref=f4e100] [cursor=pointer]
+          - link "View contributions (1)" [ref=f4e101]:
+            - /url: "#proposals"
+      - region [ref=f4e102]:
+        - generic [ref=f4e103]:
+          - heading "Contributions" [level=2] [ref=f4e104]
+          - generic [ref=f4e105]: Every eligible proposal can be funded
+        - list [ref=f4e106]:
+          - listitem [ref=f4e107]:
+            - article [ref=f4e108]:
+              - generic [ref=f4e109]:
+                - heading "Create Markdown · faq" [level=3] [ref=f4e110]:
+                  - text: Create Markdown
+                  - generic [ref=f4e111]: · faq
+                - generic [ref=f4e112]: Eligible
+              - paragraph [ref=f4e113]: Frequently asked questions
+              - group [ref=f4e114]:
+                - generic "Proposal details" [ref=f4e115] [cursor=pointer]
+              - button "Review funding" [ref=f4e116] [cursor=pointer]
+          - listitem [ref=f4e117]:
+            - article [ref=f4e118]:
+              - generic [ref=f4e119]:
+                - heading "Update Markdown · notes" [level=3] [ref=f4e120]:
+                  - text: Update Markdown
+                  - generic [ref=f4e121]: · notes
+                - generic [ref=f4e122]: Funded
+              - paragraph [ref=f4e123]: Expand the notes with the project goal, how to fund work and how to fork.
+              - group [ref=f4e124]:
+                - generic "Proposal details" [ref=f4e125] [cursor=pointer]
+          - listitem [ref=f4e126]:
+            - article [ref=f4e127]:
+              - generic [ref=f4e128]:
+                - heading "Update HTML page · site" [level=3] [ref=f4e129]:
+                  - text: Update HTML page
+                  - generic [ref=f4e130]: · site
+                - generic [ref=f4e131]: Stale anchor
+              - paragraph [ref=f4e132]: Improve the introduction while keeping the cover and the original round marker.
+              - group [ref=f4e133]:
+                - generic "Proposal details" [ref=f4e134] [cursor=pointer]
+              - button "Prepare at current checkpoint" [ref=f4e135] [cursor=pointer]
+          - listitem [ref=f4e136]:
+            - article [ref=f4e137]:
+              - generic [ref=f4e138]:
+                - heading "Create PNG image · banner" [level=3] [ref=f4e139]:
+                  - text: Create PNG image
+                  - generic [ref=f4e140]: · banner
+                - generic [ref=f4e141]: Stale anchor
+              - paragraph [ref=f4e142]: Create a banner image.
+              - group [ref=f4e143]:
+                - generic "Proposal details" [ref=f4e144] [cursor=pointer]
+              - button "Prepare at current checkpoint" [ref=f4e145] [cursor=pointer]
+      - region [ref=f4e146]:
+        - generic [ref=f4e147]:
+          - heading "Funding and build status" [level=2] [ref=f4e148]
+          - button "Refresh chain state" [ref=f4e149] [cursor=pointer]
+        - status [ref=f4e150]: "Original transaction 0x6308…329a / nonce 2: purchase Confirmed, callback Pending."
+        - list [ref=f4e151]:
+          - listitem [ref=f4e152]:
+            - heading "Attempt 1 · Bound to checkpoint" [level=3] [ref=f4e153]:
+              - text: Attempt 1
+              - generic [ref=f4e154]: · Bound to checkpoint
+            - list "Independent execution stages" [ref=f4e155]:
+              - listitem [ref=f4e156]:
+                - generic [ref=f4e157]: Token approval
+                - strong [ref=f4e158]: Confirmed
+              - listitem [ref=f4e159]:
+                - generic [ref=f4e160]: Purchase
+                - strong [ref=f4e161]: Confirmed
+              - listitem [ref=f4e162]:
+                - generic [ref=f4e163]: Admission
+                - strong [ref=f4e164]: Confirmed
+              - listitem [ref=f4e165]:
+                - generic [ref=f4e166]: Execution
+                - strong [ref=f4e167]: Confirmed
+              - listitem [ref=f4e168]:
+                - generic [ref=f4e169]: Callback
+                - strong [ref=f4e170]: Confirmed
+              - listitem [ref=f4e171]:
+                - generic [ref=f4e172]: Binding
+                - strong [ref=f4e173]: Confirmed
+              - listitem [ref=f4e174]:
+                - generic [ref=f4e175]: File verification
+                - strong [ref=f4e176]: Verified locally
+              - listitem [ref=f4e177]:
+                - generic [ref=f4e178]: Git
+                - strong [ref=f4e179]: Pending
+              - listitem [ref=f4e180]:
+                - generic [ref=f4e181]: Publication
+                - strong [ref=f4e182]: Not applicable
+            - paragraph [ref=f4e183]: Checkpoint bound. File verification updates after the actual output bytes are verified locally
+            - paragraph [ref=f4e184]: SHA-256, length and media checked in this page. This is a local observation; reload requires verification again.
+            - group [ref=f4e185]:
+              - generic "Transaction and attempt identity" [ref=f4e186] [cursor=pointer]
+      - group [ref=f4e187]:
+        - generic "Branch, network and execution identity" [ref=f4e188] [cursor=pointer]
+      - group [ref=f4e189]:
+        - generic "Demo failure controls (next attempt only)" [active] [ref=f4e190] [cursor=pointer]
+        - option "Accept and bind" [selected]
+        - option "Missing; remain pending"
+        - option "Refused; status 1"
+        - option "Frozen; status 2"
+        - option "Accepted; invalid binding"
+        - option "Confirmed" [selected]
+        - option "Unknown; reconcile"
+  - contentinfo [ref=f4e191]:
+    - generic [ref=f4e192]: STEPS by Stepstoke
+    - navigation "Footer" [ref=f4e197]:
+      - link "Platform components" [ref=f4e198]:
+        - /url: "#/showcase"
+      - link "@stepstoke on X (opens in a new tab)" [ref=f4e199]:
+        - /url: https://x.com/stepstoke
+        - text: "@stepstoke on X"
+    - generic [ref=f4e200]: Local acceptance only · No public deployment
+```

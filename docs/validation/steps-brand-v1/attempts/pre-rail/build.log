@@ -1,0 +1,20 @@
+
+> cto-relay-station-w1@0.1.0 build
+> tsc --noEmit -p tsconfig.json && vite build
+
+vite v8.3.4 building client environment for production...
+transforming...
+✓ 2003 modules transformed.
+rendering chunks...
+computing gzip size...
+../dist/index.html                   2.05 kB │ gzip:   0.67 kB
+../dist/assets/index-D6O89qsl.css   19.09 kB │ gzip:   4.24 kB
+../dist/assets/dist-i6y9Pcfr.js    102.69 kB │ gzip:  33.79 kB
+../dist/assets/index-D8MLvmhR.js   709.67 kB │ gzip: 222.31 kB
+
+✓ built in 581ms
+npm notice
+npm notice New major version of npm available! 11.19.0 -> 12.2.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.0
+npm notice To update run: npm install -g npm@12.2.0
+npm notice

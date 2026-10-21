@@ -284,6 +284,8 @@ test("malicious files stay isolated and broken files never get a verified badge"
 
 test("keyboard: skip link, focus ring, connect sheet traps and restores focus", async ({ page }) => {
   await page.goto("./");
+  // Static navigation may finish before React mounts the keyboard entry point.
+  await expect(page.getByRole("link", { name: "Skip to main content" })).toBeAttached();
   await page.keyboard.press("Tab");
   await expect(page.getByRole("link", { name: "Skip to main content" })).toBeFocused();
   const connect = page.getByRole("button", { name: "Connect wallet" });

@@ -1,0 +1,16 @@
+{
+  "test": "STEPS identity is integrated with relative assets and accessible names",
+  "engine": "chromium-desktop",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "status": "passed",
+  "horizontalOverflow": 0,
+  "pageErrors": [],
+  "externalAttempts": [],
+  "httpErrors": [],
+  "unexpectedConsoleErrors": [],
+  "expectedSecurityBlocks": [],
+  "console": []
+}

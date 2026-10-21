@@ -1,8 +1,8 @@
-# CTO Relay
+# STEPS · Stepstoke
 
-CTO Relay is an English workspace for public projects: create a fixed goal, propose work, explicitly fund execution, read accepted files, continue, or fork accepted history. Its Open Workshop interface puts the checkpoint sequence and complete selected output before the next action.
+**Build on every step.** STEPS is an English workspace for public projects: create a fixed goal, propose work, explicitly fund execution, read accepted files, continue, or fork accepted history. Its Open Workshop interface puts the checkpoint sequence and complete selected output before the next action.
 
-**Local product only; not ready for real funds.** Public create/funding is disabled. Demo results/signatures are simulated; disposable local contracts use MockToken and MockIntake, with manually delivered callbacks rather than a real AI worker. `productionDeployment:null`, `liveCompatibility:NOT_RUN`, `productionReady:false`. External manifest/callback liveness, live execution and independent frontend review remain unaccepted. See [acceptance and open gates](docs/validation/platform-ux-v1/documentation/README.md).
+**Local product only; not ready for real funds.** Public create/funding is disabled. Demo results/signatures are simulated; disposable local contracts use MockToken and MockIntake, with manually delivered callbacks rather than a real AI worker. `productionDeployment:null`, `liveCompatibility:NOT_RUN`, `productionReady:false`. External manifest/callback liveness, live execution and independent frontend review remain unaccepted. See [final acceptance and open gates](docs/validation/steps-brand-v1/README.md).
 
 ## Build and test
 
@@ -69,9 +69,12 @@ Artifact checks authenticate exact bytes/provenance, not quality or availability
 
 ## Documentation and evidence
 
-- [Current frontend README](docs/frontend-README.md), [design system](docs/DESIGN.md), [interface/state guide](docs/FRONTEND.md).
+- [Brand guide and asset use](brand/README.md), [final design system](DESIGN.md), [interface/state guide](docs/FRONTEND.md).
 - [Build/test](docs/BUILD.md), [operations](docs/OPERATIONS.md), [developer/Agent guide](docs/AGENT-GUIDE.md), [future brief language policy](docs/PLATFORM-AUTHORING.md).
 - [CLI/SDK reference](docs/CLI.md), [browser SDK](docs/SDK-BROWSER.md), [limits](docs/LIMITS.md), [handoff/readiness](docs/HANDOFF.md).
-- [Requirement matrix and documentation checks](docs/validation/platform-ux-v1/documentation/README.md), [prior final local results](docs/validation/platform-ux-v1/final/README.md), [raw logs/screenshots/receipts](docs/validation/platform-ux-v1/final/), [read-only baseline/hash audit](docs/validation/platform-ux-v1/documentation/byte-audit.json).
+- [Current brand acceptance, raw logs and exact manifests](docs/validation/steps-brand-v1/README.md).
+- [Historical evidence and byte-exact recovery](docs/validation/historical/README.md).
 
-Protected A1 sources, root build/dependencies and the existing frontend/export are unchanged by this documentation assignment. The pinned A1 baseline is `878ba4ba1cf7c601656f3a25d17546a425ba1207`; the starting checkout also includes accepted platform work. The retained final frontend/browser/local-chain results are historical: current frontend hashes and four export paths differ from their recorded manifests. Pinned A1/core/build/dependency hashes still match. See the [current hash comparison](docs/validation/platform-ux-v1/documentation/current-tree-hashes.json); exact-current-source frontend and local-chain acceptance is **NOT_RUN**. Current frontend/design guides live in `docs/` because this assignment permits only `README.md` and `docs/**`; contradictory earlier prose in `frontend/README.md` is superseded here.
+The official X account is [@stepstoke](https://x.com/stepstoke); this delivery does not publish to it. STEPS is the platform display name; Stepstoke is the expanded brand. Protocol, package and contract identifiers stay unchanged, as do authenticated demo outputs and project artwork.
+
+The requested predecessor is `d29eedf8e7d6608ed109972c179b367ac07ce91f`; the accepted starting checkout is `acbc8bec5765d7434c6ee831a2c51d03fc6003b5` and already includes the STEPS direction. Protected core/build/dependency files are byte-identical to the pinned predecessor. Final manifests and acceptance results are in the current evidence directory; historical results are explicitly separate. No hosting or public deployment was performed.

@@ -1,0 +1,10 @@
+file:///root/.identitymd/work/fe90f2eb-4a46-4847-8dea-c53e78664e28/c9143ec8-ffc0-4bc8-8a45-b142c4122c94/docs/validation/steps-brand-v1/probes/extended-layout.mjs:2
+import { chromium, webkit, expect } from '../../../../frontend/node_modules/playwright/index.mjs';
+                           ^^^^^^
+SyntaxError: The requested module '../../../../frontend/node_modules/playwright/index.mjs' does not provide an export named 'expect'
+    at #asyncInstantiate (node:internal/modules/esm/module_job:455:21)
+    at async ModuleJob.run (node:internal/modules/esm/module_job:553:5)
+    at async node:internal/modules/esm/loader:647:26
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)
+
+Node.js v24.21.0

@@ -1,3 +1,5 @@
+> Historical W1 review, preserved verbatim below. Current English STEPS review: [steps-brand-v1](../docs/validation/steps-brand-v1/design-review.md).
+
 # Contributor review and independent measurements
 
 | Area | Final observation |

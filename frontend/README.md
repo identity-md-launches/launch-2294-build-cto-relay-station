@@ -1,8 +1,6 @@
-# CTO Relay frontend
+# STEPS frontend
 
-The English Open Workshop platform preserves A1 operations and uses the delivered browser SDK. Public operations fail closed while `productionDeployment` is null. `#/local` reads disposable local contracts. `#/demo` uses explicitly labelled deterministic fixtures; real routes never fall back to fixtures. `#/showcase` reuses production components.
-
-From the repository root:
+STEPS by Stepstoke uses the English Open Workshop interface and the delivered A1 browser SDK. See the root [README](../README.md) for installation, preview, rebuild and local-contract commands; [DESIGN.md](../DESIGN.md) for the eight component families; [brand guide](../brand/README.md) for portable assets.
 
 ```sh
 npm ci --prefix frontend
@@ -12,22 +10,10 @@ npm run build --prefix frontend
 npm run preview --prefix frontend
 ```
 
-Open `http://localhost:4173/`. The build writes the repository-root `dist/` with relative assets and hash routes. To preview a gateway-like subpath, run `node frontend/scripts/static-preview.mjs` and open `http://127.0.0.1:4175/preview/`.
+Run from the repository root. The build emits `dist/` with relative assets and hash routes. `node frontend/scripts/static-preview.mjs` serves `/preview/` as a gateway subpath. The committed export needs only a static server.
 
-Browser checks:
+All `tests/e2e/*.spec.ts` assertions run in the configured Chromium desktop/mobile/320 and WebKit desktop/mobile matrix. `tests/integration/browser-chain.mjs --browser chromium|webkit [--mobile] --out docs/validation/steps-brand-v1/local/<engine>` runs the complete two-account actual local-contract journeys. Run local suites sequentially because they use fixed loopback ports. `tests/integration/platform-chain.mjs [--webkit]` checks supplemental production component flows. Install locked Playwright Chromium and WebKit externally; optional `W1_CHROMIUM_EXECUTABLE`, `W1_WEBKIT_EXECUTABLE`, `PLAYWRIGHT_BROWSERS_PATH` select test runtimes. The Ubuntu helper `scripts/prepare-webkit.sh /tmp/steps-webkit` extracts missing system libraries outside the repository without system installation.
 
-```sh
-npx --prefix frontend playwright install chromium webkit
-npm run test:e2e --prefix frontend
-forge build
-node frontend/tests/integration/platform-chain.mjs
-node frontend/tests/integration/platform-chain.mjs --webkit
-```
+For current raw results and exact bytes, see [STEPS acceptance](../docs/validation/steps-brand-v1/README.md). Earlier W1/PLATFORM-UX-V1 results are [historical](../docs/validation/historical/README.md), not final acceptance. System Arial/Helvetica and Courier New are the disclosed local fallbacks; no runtime fonts or CDN are requested.
 
-`W1_CHROMIUM_EXECUTABLE`, `W1_WEBKIT_EXECUTABLE` and `PLAYWRIGHT_BROWSERS_PATH` may select externally installed test runtimes. The current Playwright configuration runs `platform.spec.ts` at desktop/mobile/narrow Chromium and desktop/mobile WebKit widths. Original W1 test files and the older `browser-chain.mjs` are retained historical selector coverage, not the active English acceptance suite.
-
-The local-chain runner starts and closes its own disposable Anvil and artifact/static servers. It records actual wallet submissions and receipts under `docs/validation/platform-ux-v1/receipts/`. No key or public RPC is required. See the root [README](../README.md), [interface guide](../docs/FRONTEND.md), [authoring guide](../docs/PLATFORM-AUTHORING.md) and [current validation](../docs/validation/platform-ux-v1/README.md).
-
-System Arial/Helvetica and Courier New are the disclosed local font fallbacks. The old Noto subset/license remains in source for historical continuity; the current bundle does not load it.
-
-Final integration uses every `tests/e2e/*.spec.ts` file and the full English `tests/integration/browser-chain.mjs` runner. See [final results](../docs/validation/platform-ux-v1/final/README.md) for commands, separate functional/runtime outcomes, actual receipts, and limits. `--browser chromium|webkit --group all --mobile` runs the local signing suite at 390px; omit `--mobile` for desktop. Run these suites sequentially.
+Public operations remain disabled: `productionDeployment:null`, `liveCompatibility:NOT_RUN`, `productionReady:false`. Demo signatures are simulated; actual local tests use disposable Anvil, MockToken and MockIntake. No funded public wallet or key is required.

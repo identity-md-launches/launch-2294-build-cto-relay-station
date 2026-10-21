@@ -1,0 +1,98 @@
+{
+  "rows": [
+    {
+      "engine": "chromium",
+      "width": 320,
+      "entryAction": {
+        "x": 33,
+        "y": 626.1875,
+        "width": 254,
+        "height": 44
+      },
+      "longRail": "13 checkpoints; historical selection retained",
+      "wallet": "open/Escape",
+      "preparation": "16px focused input/Escape",
+      "funding": "purchase disabled until explicit approval",
+      "overflow": 0
+    },
+    {
+      "engine": "chromium",
+      "width": 390,
+      "entryAction": {
+        "x": 33,
+        "y": 516.6875,
+        "width": 324,
+        "height": 44
+      },
+      "longRail": "13 checkpoints; historical selection retained",
+      "wallet": "open/Escape",
+      "preparation": "16px focused input/Escape",
+      "funding": "purchase disabled until explicit approval",
+      "overflow": 0
+    },
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "entryAction": {
+        "x": 353,
+        "y": 491.390625,
+        "width": 221.59375,
+        "height": 44
+      },
+      "longRail": "13 checkpoints; historical selection retained",
+      "wallet": "open/Escape",
+      "preparation": "16px focused input/Escape",
+      "funding": "purchase disabled until explicit approval",
+      "overflow": 0
+    },
+    {
+      "engine": "webkit",
+      "width": 320,
+      "entryAction": {
+        "x": 33,
+        "y": 626.1875,
+        "width": 254,
+        "height": 44
+      },
+      "longRail": "13 checkpoints; historical selection retained",
+      "wallet": "open/Escape",
+      "preparation": "16px focused input/Escape",
+      "funding": "purchase disabled until explicit approval",
+      "overflow": 0
+    },
+    {
+      "engine": "webkit",
+      "width": 390,
+      "entryAction": {
+        "x": 33,
+        "y": 516.6875,
+        "width": 324,
+        "height": 44
+      },
+      "longRail": "13 checkpoints; historical selection retained",
+      "wallet": "open/Escape",
+      "preparation": "16px focused input/Escape",
+      "funding": "purchase disabled until explicit approval",
+      "overflow": 0
+    },
+    {
+      "engine": "webkit",
+      "width": 1440,
+      "entryAction": {
+        "x": 353,
+        "y": 491.390625,
+        "width": 221.59375,
+        "height": 44
+      },
+      "longRail": "13 checkpoints; historical selection retained",
+      "wallet": "open/Escape",
+      "preparation": "16px focused input/Escape",
+      "funding": "purchase disabled until explicit approval",
+      "overflow": 0
+    }
+  ],
+  "pageErrors": [],
+  "consoleErrors": [],
+  "failedRequests": [],
+  "status": "PASS"
+}

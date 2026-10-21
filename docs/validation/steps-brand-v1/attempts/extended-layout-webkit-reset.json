@@ -1,0 +1,54 @@
+{
+  "rows": [
+    {
+      "engine": "chromium",
+      "width": 320,
+      "entryAction": {
+        "x": 33,
+        "y": 626.1875,
+        "width": 254,
+        "height": 44
+      },
+      "longRail": "13 checkpoints; historical selection retained",
+      "wallet": "open/Escape",
+      "preparation": "16px focused input/Escape",
+      "funding": "purchase disabled until explicit approval",
+      "overflow": 0
+    },
+    {
+      "engine": "chromium",
+      "width": 390,
+      "entryAction": {
+        "x": 33,
+        "y": 516.6875,
+        "width": 324,
+        "height": 44
+      },
+      "longRail": "13 checkpoints; historical selection retained",
+      "wallet": "open/Escape",
+      "preparation": "16px focused input/Escape",
+      "funding": "purchase disabled until explicit approval",
+      "overflow": 0
+    },
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "entryAction": {
+        "x": 353,
+        "y": 491.390625,
+        "width": 221.59375,
+        "height": 44
+      },
+      "longRail": "13 checkpoints; historical selection retained",
+      "wallet": "open/Escape",
+      "preparation": "16px focused input/Escape",
+      "funding": "purchase disabled until explicit approval",
+      "overflow": 0
+    }
+  ],
+  "pageErrors": [],
+  "consoleErrors": [],
+  "failedRequests": [],
+  "status": "FAIL",
+  "error": "locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('dialog', { name: 'Fund a contribution' }) to be visible\u001b[22m\n\n    at /root/.identitymd/work/fe90f2eb-4a46-4847-8dea-c53e78664e28/c9143ec8-ffc0-4bc8-8a45-b142c4122c94/docs/validation/steps-brand-v1/probes/extended-layout.mjs:45:94"
+}

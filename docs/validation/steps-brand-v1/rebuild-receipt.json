@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "command": "npm run build --prefix frontend",
+  "completedAtUTC": "2026-10-21T17:58:30.766384+00:00",
+  "sourceAndTestManifests": {
+    "runtime-source": "727a02adeedc4bf175c1d392b26ee622f5863a1ad7f2f49f7e1929a813217290",
+    "test-source": "21ca6158cf461eee5c75027555cf2bf65fd1c3aecd7fceaf29a9025404e1e660",
+    "assets": "9e3149efdd03376b2cb3131aaf5e39c37a931f496e64957a33537bffdc1e010f",
+    "dist": "1efb827fc72958a4169ea65c3117f8dc09a8403308eba7da14fedb3d40ea8af8"
+  },
+  "distFiles": 11,
+  "reproducedByteForByte": true,
+  "verification": "pre-rebuild-verify.log and seal-final.log compare runtime, test, asset and dist bytes with the captured tested tree; no manifest was overwritten for the rebuild",
+  "productionDeployment": null,
+  "liveCompatibility": "NOT_RUN",
+  "productionReady": false
+}

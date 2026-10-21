@@ -1,0 +1,154 @@
+{
+  "status": "PASS",
+  "assets": [
+    {
+      "path": "brand/svg/steps-avatar.svg",
+      "bytes": 376,
+      "sha256": "036b1145c12fb1c0efdad95f0b555acf4b5dec98fb4c06cd03c4aa31391f2dc9",
+      "portable": true
+    },
+    {
+      "path": "brand/svg/steps-favicon.svg",
+      "bytes": 374,
+      "sha256": "272911dfd664759ba5b4119bab027ee2b58de89f239f51fc57a67a052d65be3a",
+      "portable": true
+    },
+    {
+      "path": "brand/svg/steps-lockup-mono.svg",
+      "bytes": 722,
+      "sha256": "b25be895ec438c71e86035ff1d368175cb2091d7756ede0411be930851ca25f9",
+      "portable": true
+    },
+    {
+      "path": "brand/svg/steps-lockup-reversed.svg",
+      "bytes": 722,
+      "sha256": "15f87989ffeeffceb9ff5f7c9f7e01d134ba6b98dfd6cdb4ac40df2b492dd9a5",
+      "portable": true
+    },
+    {
+      "path": "brand/svg/steps-lockup.svg",
+      "bytes": 722,
+      "sha256": "a5aab54b4ccafa0efaaa6ae9b0e288dc219a94488815264ebe020c6d68cc2bee",
+      "portable": true
+    },
+    {
+      "path": "brand/svg/steps-social.svg",
+      "bytes": 48154,
+      "sha256": "c23e32977150299a1176831b2142fcd7ae7e042ea8c27e5a9ce4bfda68a515b0",
+      "portable": true
+    },
+    {
+      "path": "brand/svg/steps-symbol-mono.svg",
+      "bytes": 317,
+      "sha256": "52f293b69ffb45df5bce0f9a8856cfe02bc56f3cb65ed1e9c932739f8d3df379",
+      "portable": true
+    },
+    {
+      "path": "brand/svg/steps-symbol-reversed.svg",
+      "bytes": 313,
+      "sha256": "07b7dc46367cdbcfbe52d39fa965fc81bdefa66b6b9e26578797330b2c52486b",
+      "portable": true
+    },
+    {
+      "path": "brand/svg/steps-symbol.svg",
+      "bytes": 293,
+      "sha256": "0acda896663d08ed01a97e3f388fd9c5d86b2e5c778d7e5cf3fe2a39e9f440c5",
+      "portable": true
+    },
+    {
+      "path": "brand/svg/steps-wordmark-reversed.svg",
+      "bytes": 499,
+      "sha256": "cf955410c06bdfffa39388ad7ad3b218438ca6fe735167302614c6fb1173c0ca",
+      "portable": true
+    },
+    {
+      "path": "brand/svg/steps-wordmark.svg",
+      "bytes": 499,
+      "sha256": "96c7cd205e496bdec1ff0530ecac75244d0344d06b1a84b41fbdc9ea13470c96",
+      "portable": true
+    },
+    {
+      "path": "brand/png/favicon-16.png",
+      "width": 16,
+      "height": 16,
+      "bytes": 293,
+      "sha256": "8b41d111b8e0d5da2a4c6da8986c3d3d83699b915e5e1a9de3e870b0177a44a2"
+    },
+    {
+      "path": "brand/png/favicon-32.png",
+      "width": 32,
+      "height": 32,
+      "bytes": 495,
+      "sha256": "9cae5baf49272002f99f76088b4c89dca8ab5187b05d5188b100df0ab19e719e"
+    },
+    {
+      "path": "brand/png/apple-touch-icon.png",
+      "width": 180,
+      "height": 180,
+      "bytes": 2842,
+      "sha256": "a00d8ff12f6f41d59314b036258b868569c4bc630fe3a505429798a31074dd16"
+    },
+    {
+      "path": "brand/png/steps-avatar-512.png",
+      "width": 512,
+      "height": 512,
+      "bytes": 2497,
+      "sha256": "cc9f32fbbf947558b4077de9e581c753685ff86b111031ec6121e8a8ce28b35c"
+    },
+    {
+      "path": "brand/png/steps-lockup-604.png",
+      "width": 604,
+      "height": 144,
+      "bytes": 2752,
+      "sha256": "5512c4894afe3e2035f82f8619f6c2d38259d6d430c0a939dac99bd113894c47"
+    },
+    {
+      "path": "brand/png/og.png",
+      "width": 1200,
+      "height": 630,
+      "bytes": 18537,
+      "sha256": "59d35760d7f491988d818a211520ed745d76e960f3f6983ff5bfb5829a5ec0df"
+    }
+  ],
+  "browserErrors": [],
+  "consoleErrors": [],
+  "externalRequests": [],
+  "engines": [
+    {
+      "engine": "chromium",
+      "status": "PASS",
+      "renderedVariants": [
+        "steps-lockup.svg",
+        "steps-lockup-mono.svg",
+        "steps-lockup-reversed.svg"
+      ],
+      "smallSymbolSizes": [
+        16,
+        24,
+        32
+      ],
+      "faviconSizes": [
+        16,
+        32
+      ]
+    },
+    {
+      "engine": "webkit",
+      "status": "PASS",
+      "renderedVariants": [
+        "steps-lockup.svg",
+        "steps-lockup-mono.svg",
+        "steps-lockup-reversed.svg"
+      ],
+      "smallSymbolSizes": [
+        16,
+        24,
+        32
+      ],
+      "faviconSizes": [
+        16,
+        32
+      ]
+    }
+  ]
+}

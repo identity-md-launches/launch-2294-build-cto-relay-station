@@ -1,0 +1,354 @@
+{
+  "algorithm": "SHA-256",
+  "scope": "Current delivered Markdown documentation, independent of runtime/test/assets/export and raw evidence manifests",
+  "files": {
+    "DESIGN.md": {
+      "bytes": 10496,
+      "sha256": "de1acb366783afea596dbbdcc831a41acc1c8d050d648879a552a5a11fa9d9f9"
+    },
+    "README.md": {
+      "bytes": 6412,
+      "sha256": "daa7e523d5877635e88ab93a136b6a3eece73557ad9409cc9c790296b9a2d476"
+    },
+    "brand/README.md": {
+      "bytes": 6214,
+      "sha256": "4ab50ae250f4ff0deb6c72de2291ee298ad63c30c51c4986d53b0f200401e61f"
+    },
+    "docs/ACCEPTANCE.md": {
+      "bytes": 2733,
+      "sha256": "720e4bb8e55505c3401d076ca6e883d96f6ab993df06458e7fba0ee9fc9304f3"
+    },
+    "docs/AGENT-GUIDE.md": {
+      "bytes": 6664,
+      "sha256": "0373d0f249cb3ae7774a462c894090177c70a73e0641e6542d46d6735907e654"
+    },
+    "docs/BUILD.md": {
+      "bytes": 15671,
+      "sha256": "1ded0f117c07e82f16797077b4aa77e50682706e15cde11c27a1f1f80877533e"
+    },
+    "docs/CLI.md": {
+      "bytes": 22308,
+      "sha256": "c1e4c57c5d16e1e4ef97b6b26b05c2a774d942fd84235c1d868b689c86288291"
+    },
+    "docs/CONTRACTS.md": {
+      "bytes": 16909,
+      "sha256": "93862059e7e055c3c6dde8860755e2bfd64ba88c9f122cb5dceef999cd2edda8"
+    },
+    "docs/DESIGN.md": {
+      "bytes": 10494,
+      "sha256": "9fd1ea86f0e8f25e8ed5816c88ed87ede92276151b789583e98915417d90ae6f"
+    },
+    "docs/FRONTEND.md": {
+      "bytes": 5624,
+      "sha256": "0032bd6ed63b373bfa56f4ccd6f05dcc457d45e86dee875453bd2d7de77a80fb"
+    },
+    "docs/HANDOFF.md": {
+      "bytes": 4252,
+      "sha256": "deff6122a90e154acbd7e225ebd95b78e7f580ed0c7549f565f0be36de0247e4"
+    },
+    "docs/LIMITS.md": {
+      "bytes": 6339,
+      "sha256": "263567fe79365dd0515fcb0cf4c1a83b1819db2e807d89c74543b7cf60068b21"
+    },
+    "docs/LIVE-VALIDATION.md": {
+      "bytes": 16272,
+      "sha256": "72536075b2e50fbc60b4fac4343c33eccec55590a71a9d02bcbc7af18037606a"
+    },
+    "docs/OPERATIONS.md": {
+      "bytes": 10707,
+      "sha256": "d5819d36e73db3c137b7c8fe332eb4dfb12e135d80e2470f3425b80533c01642"
+    },
+    "docs/PLATFORM-AUTHORING.md": {
+      "bytes": 5316,
+      "sha256": "fe5b79f3ed137184c2f748232c7e48bf7328dda65db0e16d7d059dbcc4d592ba"
+    },
+    "docs/PROTOCOL-OVERVIEW.md": {
+      "bytes": 26176,
+      "sha256": "d88a4820b37b8e81a795949d61865a04528bd76a6f5b1f94b12e79345d26ae6f"
+    },
+    "docs/REVIEW.md": {
+      "bytes": 8241,
+      "sha256": "be8fb4425ad3bff702b91561e3b55354315cf454a7eddf4c85d4accad57d8d40"
+    },
+    "docs/SDK-BROWSER.md": {
+      "bytes": 4973,
+      "sha256": "09f8f376cb5f3dd4716d3812a4ade0ec72a1ae76da205a0d4509c95f3ce2de81"
+    },
+    "docs/agent/SDK-CLI-A1.md": {
+      "bytes": 5087,
+      "sha256": "217797cafd27eeea596dec1f7527d8d8c646584b94258658247f7f16ddb3b29c"
+    },
+    "docs/agent/sdk-cli-checks.md": {
+      "bytes": 3435,
+      "sha256": "372ba738681f69b136fc6c7ad27c0e3a93ffe757a3ba43a4da0998fd274003e4"
+    },
+    "docs/frontend-README.md": {
+      "bytes": 6281,
+      "sha256": "2d47c3c5f81eb3f5533756e4acd9a71804d72b04427270956445555cd550954b"
+    },
+    "docs/validation/README.md": {
+      "bytes": 503,
+      "sha256": "b2608a8c84387e5ddce6cbb443aceb9ad514db843bdebf4b8e1f40f960b0b0bd"
+    },
+    "docs/validation/historical/README.md": {
+      "bytes": 2016,
+      "sha256": "77b8876f027f31bf1812949c1f7ac186cca350f71e90fb76d8a657ae30ffee85"
+    },
+    "docs/validation/platform-ux-v1/final/fixtures/files/chromium-desktop-guide-r4.md": {
+      "bytes": 50,
+      "sha256": "5948b0abd321d30c1ba11c0fb465edff487600cc56fd445911e4fe17fa642450"
+    },
+    "docs/validation/platform-ux-v1/final/fixtures/files/chromium-mobile-guide-r4.md": {
+      "bytes": 50,
+      "sha256": "5948b0abd321d30c1ba11c0fb465edff487600cc56fd445911e4fe17fa642450"
+    },
+    "docs/validation/platform-ux-v1/final/fixtures/files/chromium-narrow-guide-r4.md": {
+      "bytes": 50,
+      "sha256": "5948b0abd321d30c1ba11c0fb465edff487600cc56fd445911e4fe17fa642450"
+    },
+    "docs/validation/platform-ux-v1/final/fixtures/files/webkit-desktop-guide-r4.md": {
+      "bytes": 50,
+      "sha256": "5948b0abd321d30c1ba11c0fb465edff487600cc56fd445911e4fe17fa642450"
+    },
+    "docs/validation/platform-ux-v1/final/fixtures/files/webkit-mobile-guide-r4.md": {
+      "bytes": 50,
+      "sha256": "5948b0abd321d30c1ba11c0fb465edff487600cc56fd445911e4fe17fa642450"
+    },
+    "docs/validation/steps-brand-v1/README.md": {
+      "bytes": 8418,
+      "sha256": "cab79e9da4f00c1053aa604305447adf7c3bfbbbec1ecf5e74dc31383f4bd401"
+    },
+    "docs/validation/steps-brand-v1/attempts/build-race/platform-browser-extra/final/fixtures/files/chromium-desktop-guide-r4.md": {
+      "bytes": 50,
+      "sha256": "5948b0abd321d30c1ba11c0fb465edff487600cc56fd445911e4fe17fa642450"
+    },
+    "docs/validation/steps-brand-v1/attempts/build-race/platform-browser-extra/final/fixtures/files/chromium-mobile-guide-r4.md": {
+      "bytes": 50,
+      "sha256": "5948b0abd321d30c1ba11c0fb465edff487600cc56fd445911e4fe17fa642450"
+    },
+    "docs/validation/steps-brand-v1/attempts/build-race/platform-browser-extra/final/fixtures/files/chromium-narrow-guide-r4.md": {
+      "bytes": 50,
+      "sha256": "5948b0abd321d30c1ba11c0fb465edff487600cc56fd445911e4fe17fa642450"
+    },
+    "docs/validation/steps-brand-v1/attempts/build-race/platform-browser-extra/final/fixtures/files/webkit-desktop-guide-r4.md": {
+      "bytes": 50,
+      "sha256": "5948b0abd321d30c1ba11c0fb465edff487600cc56fd445911e4fe17fa642450"
+    },
+    "docs/validation/steps-brand-v1/attempts/build-race/platform-browser-extra/final/fixtures/files/webkit-mobile-guide-r4.md": {
+      "bytes": 50,
+      "sha256": "5948b0abd321d30c1ba11c0fb465edff487600cc56fd445911e4fe17fa642450"
+    },
+    "docs/validation/steps-brand-v1/attempts/chromium-receipt-race/files/child-continue/docs/child-notes.md": {
+      "bytes": 28,
+      "sha256": "b0db30a6a4ac88018a6ee707b24b303d64bc57a138aaff9265a8d1657c4b4b94"
+    },
+    "docs/validation/steps-brand-v1/attempts/chromium-receipt-race/files/child-open/docs/child-notes.md": {
+      "bytes": 24,
+      "sha256": "7d24b9d03008f79dbc1ee5a86dd8b75fc0b69c321f1ba5380fd4b43cb50fcf72"
+    },
+    "docs/validation/steps-brand-v1/attempts/chromium-receipt-race/files/markdown-create/docs/main.md": {
+      "bytes": 29,
+      "sha256": "fe65d5239c52be4aacace4a20fe797d471e52b416b69a3355afb004a93aa0c1b"
+    },
+    "docs/validation/steps-brand-v1/attempts/chromium-receipt-race/files/markdown-update/docs/main.md": {
+      "bytes": 29,
+      "sha256": "4f2f49c723f4933a1c0a2934212a4f56f94ba42a781c444d3536a7ac8951c922"
+    },
+    "docs/validation/steps-brand-v1/attempts/chromium-receipt-race/files/refused-retried/docs/first.md": {
+      "bytes": 29,
+      "sha256": "47ceacf61a2aca79082ae3118667b9cfedeafdfdf8694e722d03d4c4f8ee5e93"
+    },
+    "docs/validation/steps-brand-v1/attempts/chromium-reconnect/files/child-continue/docs/child-notes.md": {
+      "bytes": 28,
+      "sha256": "b0db30a6a4ac88018a6ee707b24b303d64bc57a138aaff9265a8d1657c4b4b94"
+    },
+    "docs/validation/steps-brand-v1/attempts/chromium-reconnect/files/child-open/docs/child-notes.md": {
+      "bytes": 24,
+      "sha256": "7d24b9d03008f79dbc1ee5a86dd8b75fc0b69c321f1ba5380fd4b43cb50fcf72"
+    },
+    "docs/validation/steps-brand-v1/attempts/chromium-reconnect/files/markdown-create/docs/main.md": {
+      "bytes": 29,
+      "sha256": "fe65d5239c52be4aacace4a20fe797d471e52b416b69a3355afb004a93aa0c1b"
+    },
+    "docs/validation/steps-brand-v1/attempts/chromium-reconnect/files/markdown-update/docs/main.md": {
+      "bytes": 29,
+      "sha256": "4f2f49c723f4933a1c0a2934212a4f56f94ba42a781c444d3536a7ac8951c922"
+    },
+    "docs/validation/steps-brand-v1/attempts/chromium-reconnect/files/refused-retried/docs/first.md": {
+      "bytes": 29,
+      "sha256": "47ceacf61a2aca79082ae3118667b9cfedeafdfdf8694e722d03d4c4f8ee5e93"
+    },
+    "docs/validation/steps-brand-v1/attempts/pre-rail/local-chromium/files/child-continue/docs/child-notes.md": {
+      "bytes": 28,
+      "sha256": "b0db30a6a4ac88018a6ee707b24b303d64bc57a138aaff9265a8d1657c4b4b94"
+    },
+    "docs/validation/steps-brand-v1/attempts/pre-rail/local-chromium/files/child-open/docs/child-notes.md": {
+      "bytes": 24,
+      "sha256": "7d24b9d03008f79dbc1ee5a86dd8b75fc0b69c321f1ba5380fd4b43cb50fcf72"
+    },
+    "docs/validation/steps-brand-v1/attempts/pre-rail/local-chromium/files/malicious-markdown/docs/notes.md": {
+      "bytes": 178,
+      "sha256": "881e8d0d80ad5b3d0d6d52fd05d536bdbf29c98658caec4d3a64581a990e0c13"
+    },
+    "docs/validation/steps-brand-v1/attempts/pre-rail/local-chromium/files/markdown-create/docs/main.md": {
+      "bytes": 29,
+      "sha256": "fe65d5239c52be4aacace4a20fe797d471e52b416b69a3355afb004a93aa0c1b"
+    },
+    "docs/validation/steps-brand-v1/attempts/pre-rail/local-chromium/files/markdown-update/docs/main.md": {
+      "bytes": 29,
+      "sha256": "4f2f49c723f4933a1c0a2934212a4f56f94ba42a781c444d3536a7ac8951c922"
+    },
+    "docs/validation/steps-brand-v1/attempts/pre-rail/local-chromium/files/refused-retried/docs/first.md": {
+      "bytes": 29,
+      "sha256": "47ceacf61a2aca79082ae3118667b9cfedeafdfdf8694e722d03d4c4f8ee5e93"
+    },
+    "docs/validation/steps-brand-v1/attempts/webkit-timeouts/desktop-context.md": {
+      "bytes": 5926,
+      "sha256": "ca8630c087c7afca123fedfa9002c64f6a307b5838ef947940de3c918564c4a6"
+    },
+    "docs/validation/steps-brand-v1/attempts/webkit-timeouts/mobile-context.md": {
+      "bytes": 11321,
+      "sha256": "9a0d6a5dfd8cd2564074d20308b9deef797833992453ce5d2a3f9b35ebe5a160"
+    },
+    "docs/validation/steps-brand-v1/attempts/webkit-timeouts/platform-browser-extra/final/fixtures/files/chromium-desktop-guide-r4.md": {
+      "bytes": 50,
+      "sha256": "5948b0abd321d30c1ba11c0fb465edff487600cc56fd445911e4fe17fa642450"
+    },
+    "docs/validation/steps-brand-v1/attempts/webkit-timeouts/platform-browser-extra/final/fixtures/files/chromium-mobile-guide-r4.md": {
+      "bytes": 50,
+      "sha256": "5948b0abd321d30c1ba11c0fb465edff487600cc56fd445911e4fe17fa642450"
+    },
+    "docs/validation/steps-brand-v1/attempts/webkit-timeouts/platform-browser-extra/final/fixtures/files/chromium-narrow-guide-r4.md": {
+      "bytes": 50,
+      "sha256": "5948b0abd321d30c1ba11c0fb465edff487600cc56fd445911e4fe17fa642450"
+    },
+    "docs/validation/steps-brand-v1/attempts/webkit-timeouts/platform-browser-extra/final/fixtures/files/webkit-desktop-guide-r4.md": {
+      "bytes": 50,
+      "sha256": "5948b0abd321d30c1ba11c0fb465edff487600cc56fd445911e4fe17fa642450"
+    },
+    "docs/validation/steps-brand-v1/attempts/webkit-timeouts/platform-browser-extra/final/fixtures/files/webkit-mobile-guide-r4.md": {
+      "bytes": 50,
+      "sha256": "5948b0abd321d30c1ba11c0fb465edff487600cc56fd445911e4fe17fa642450"
+    },
+    "docs/validation/steps-brand-v1/design-review.md": {
+      "bytes": 6482,
+      "sha256": "5fbd6ee19ef481980875dc4d9ba9a8aea4cc7995dc26775f04e0d26762339cf5"
+    },
+    "docs/validation/steps-brand-v1/local/chromium/files/child-continue/docs/child-notes.md": {
+      "bytes": 28,
+      "sha256": "b0db30a6a4ac88018a6ee707b24b303d64bc57a138aaff9265a8d1657c4b4b94"
+    },
+    "docs/validation/steps-brand-v1/local/chromium/files/child-open/docs/child-notes.md": {
+      "bytes": 24,
+      "sha256": "7d24b9d03008f79dbc1ee5a86dd8b75fc0b69c321f1ba5380fd4b43cb50fcf72"
+    },
+    "docs/validation/steps-brand-v1/local/chromium/files/malicious-markdown/docs/notes.md": {
+      "bytes": 178,
+      "sha256": "881e8d0d80ad5b3d0d6d52fd05d536bdbf29c98658caec4d3a64581a990e0c13"
+    },
+    "docs/validation/steps-brand-v1/local/chromium/files/markdown-create/docs/main.md": {
+      "bytes": 29,
+      "sha256": "fe65d5239c52be4aacace4a20fe797d471e52b416b69a3355afb004a93aa0c1b"
+    },
+    "docs/validation/steps-brand-v1/local/chromium/files/markdown-update/docs/main.md": {
+      "bytes": 29,
+      "sha256": "4f2f49c723f4933a1c0a2934212a4f56f94ba42a781c444d3536a7ac8951c922"
+    },
+    "docs/validation/steps-brand-v1/local/chromium/files/refused-retried/docs/first.md": {
+      "bytes": 29,
+      "sha256": "47ceacf61a2aca79082ae3118667b9cfedeafdfdf8694e722d03d4c4f8ee5e93"
+    },
+    "docs/validation/steps-brand-v1/local/chromium-mobile/files/child-continue/docs/child-notes.md": {
+      "bytes": 28,
+      "sha256": "b0db30a6a4ac88018a6ee707b24b303d64bc57a138aaff9265a8d1657c4b4b94"
+    },
+    "docs/validation/steps-brand-v1/local/chromium-mobile/files/child-open/docs/child-notes.md": {
+      "bytes": 24,
+      "sha256": "7d24b9d03008f79dbc1ee5a86dd8b75fc0b69c321f1ba5380fd4b43cb50fcf72"
+    },
+    "docs/validation/steps-brand-v1/local/chromium-mobile/files/malicious-markdown/docs/notes.md": {
+      "bytes": 178,
+      "sha256": "881e8d0d80ad5b3d0d6d52fd05d536bdbf29c98658caec4d3a64581a990e0c13"
+    },
+    "docs/validation/steps-brand-v1/local/chromium-mobile/files/markdown-create/docs/main.md": {
+      "bytes": 29,
+      "sha256": "fe65d5239c52be4aacace4a20fe797d471e52b416b69a3355afb004a93aa0c1b"
+    },
+    "docs/validation/steps-brand-v1/local/chromium-mobile/files/markdown-update/docs/main.md": {
+      "bytes": 29,
+      "sha256": "4f2f49c723f4933a1c0a2934212a4f56f94ba42a781c444d3536a7ac8951c922"
+    },
+    "docs/validation/steps-brand-v1/local/chromium-mobile/files/refused-retried/docs/first.md": {
+      "bytes": 29,
+      "sha256": "47ceacf61a2aca79082ae3118667b9cfedeafdfdf8694e722d03d4c4f8ee5e93"
+    },
+    "docs/validation/steps-brand-v1/local/webkit/files/child-continue/docs/child-notes.md": {
+      "bytes": 28,
+      "sha256": "b0db30a6a4ac88018a6ee707b24b303d64bc57a138aaff9265a8d1657c4b4b94"
+    },
+    "docs/validation/steps-brand-v1/local/webkit/files/child-open/docs/child-notes.md": {
+      "bytes": 24,
+      "sha256": "7d24b9d03008f79dbc1ee5a86dd8b75fc0b69c321f1ba5380fd4b43cb50fcf72"
+    },
+    "docs/validation/steps-brand-v1/local/webkit/files/malicious-markdown/docs/notes.md": {
+      "bytes": 178,
+      "sha256": "881e8d0d80ad5b3d0d6d52fd05d536bdbf29c98658caec4d3a64581a990e0c13"
+    },
+    "docs/validation/steps-brand-v1/local/webkit/files/markdown-create/docs/main.md": {
+      "bytes": 29,
+      "sha256": "fe65d5239c52be4aacace4a20fe797d471e52b416b69a3355afb004a93aa0c1b"
+    },
+    "docs/validation/steps-brand-v1/local/webkit/files/markdown-update/docs/main.md": {
+      "bytes": 29,
+      "sha256": "4f2f49c723f4933a1c0a2934212a4f56f94ba42a781c444d3536a7ac8951c922"
+    },
+    "docs/validation/steps-brand-v1/local/webkit/files/refused-retried/docs/first.md": {
+      "bytes": 29,
+      "sha256": "47ceacf61a2aca79082ae3118667b9cfedeafdfdf8694e722d03d4c4f8ee5e93"
+    },
+    "docs/validation/steps-brand-v1/local/webkit-mobile/files/child-continue/docs/child-notes.md": {
+      "bytes": 28,
+      "sha256": "b0db30a6a4ac88018a6ee707b24b303d64bc57a138aaff9265a8d1657c4b4b94"
+    },
+    "docs/validation/steps-brand-v1/local/webkit-mobile/files/child-open/docs/child-notes.md": {
+      "bytes": 24,
+      "sha256": "7d24b9d03008f79dbc1ee5a86dd8b75fc0b69c321f1ba5380fd4b43cb50fcf72"
+    },
+    "docs/validation/steps-brand-v1/local/webkit-mobile/files/malicious-markdown/docs/notes.md": {
+      "bytes": 178,
+      "sha256": "881e8d0d80ad5b3d0d6d52fd05d536bdbf29c98658caec4d3a64581a990e0c13"
+    },
+    "docs/validation/steps-brand-v1/local/webkit-mobile/files/markdown-create/docs/main.md": {
+      "bytes": 29,
+      "sha256": "fe65d5239c52be4aacace4a20fe797d471e52b416b69a3355afb004a93aa0c1b"
+    },
+    "docs/validation/steps-brand-v1/local/webkit-mobile/files/markdown-update/docs/main.md": {
+      "bytes": 29,
+      "sha256": "4f2f49c723f4933a1c0a2934212a4f56f94ba42a781c444d3536a7ac8951c922"
+    },
+    "docs/validation/steps-brand-v1/local/webkit-mobile/files/refused-retried/docs/first.md": {
+      "bytes": 29,
+      "sha256": "47ceacf61a2aca79082ae3118667b9cfedeafdfdf8694e722d03d4c4f8ee5e93"
+    },
+    "frontend/DESIGN.md": {
+      "bytes": 386,
+      "sha256": "99b7e9e1884282ba70378c446cc679c9d940e4db8c4f99a2b7f0229e15820b1b"
+    },
+    "frontend/README.md": {
+      "bytes": 2121,
+      "sha256": "34c9c8ce5c9cc4a7226fa4d0c96e7fbf936b75f258042cd4122061793ebe53dc"
+    },
+    "frontend/REVIEW.md": {
+      "bytes": 15634,
+      "sha256": "39f474062e8953e4f3e364c0c75554fb692622341f16ac61b9b2f39eaa82b780"
+    },
+    "frontend/docs/A1-HANDOFF.md": {
+      "bytes": 10429,
+      "sha256": "6fd22426943fe27513e621f4e73a4824c189d16ffb5e771b55dab7b72f4e321b"
+    },
+    "frontend/docs/W1-README.md": {
+      "bytes": 15167,
+      "sha256": "edf6e2a99a043394a4b91e9393d7bd5313eb350c6fdd69ddee6693da77265f2d"
+    }
+  }
+}

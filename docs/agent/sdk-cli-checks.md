@@ -2,7 +2,7 @@
 
 Date: 2026-10-20 (offline local run)
 
-Historical SDK contributor record: the 17 tests below predate the three network-guard regressions. The integrated suite has 20 tests; see [final validation](../validation/README.md) and [the documentation-pass replay](../validation/documentation-pass/README.md). These raw results are preserved as originally recorded, not relabelled as a newer run.
+Historical SDK contributor record: the 17 tests below predate the three network-guard regressions. The integrated suite has 20 tests; see [final validation](https://github.com/identity-md-launches/launch-2294-build-cto-relay-station/blob/d29eedf8e7d6608ed109972c179b367ac07ce91f/docs/validation/README.md) and [the documentation-pass replay](https://github.com/identity-md-launches/launch-2294-build-cto-relay-station/blob/d29eedf8e7d6608ed109972c179b367ac07ce91f/docs/validation/documentation-pass/README.md). These raw results are preserved as originally recorded, not relabelled as a newer run.
 
 Command:
 
